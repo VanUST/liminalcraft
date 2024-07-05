@@ -14,6 +14,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.vanust.liminalcraft.block.LiminalCraftBlocks;
+import net.vanust.liminalcraft.item.CreativeModTabs;
 import net.vanust.liminalcraft.item.LiminalCraftItems;
 import org.slf4j.Logger;
 
@@ -29,6 +31,10 @@ public class LiminalCraft
     public LiminalCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        CreativeModTabs.register(modEventBus);
+
+        LiminalCraftBlocks.register(modEventBus);
 
         LiminalCraftItems.register(modEventBus);
 
@@ -50,6 +56,7 @@ public class LiminalCraft
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER);
+            event.accept(LiminalCraftItems.LEVEL_0_SIGN);
         }
     }
 

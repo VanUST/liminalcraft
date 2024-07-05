@@ -1,4 +1,9 @@
 {
-  "item.liminalcraft.piece_of_yellow_wallpaper": "Piece of yellow wallpaper"
+  "item.liminalcraft.piece_of_yellow_wallpaper": "Piece of yellow wallpaper",
+  "item.liminalcraft.level_0_sign": "Level 0 sign",
+  "item.liminalcraft.flashlight_item": "Flashlight",
 
+  "block.liminalcraft.yellow_wallpaper": "Yellow wallpaper",
+  "creativetab.liminal_tab": "Liminal craft",
+  "block.liminalcraft.yellow_wallpaper_worse": "Dirty yellow wallpaper"
 }

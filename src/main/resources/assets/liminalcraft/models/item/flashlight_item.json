@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base" : {
+    "parent": "liminalcraft:item/flashlight_item_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "liminalcraft:item/flashlight_item_2d"
+    },
+    "ground": {
+      "parent": "liminalcraft:item/flashlight_item_2d"
+    },
+    "fixed": {
+      "parent": "liminalcraft:item/flashlight_item_2d"
+    }
+  }
+
+}
