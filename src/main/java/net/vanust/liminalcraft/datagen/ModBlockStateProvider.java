@@ -19,6 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels(){
         blockWithItem(LiminalCraftBlocks.YELLOW_WALLPAPER);
         blockWithItem(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE);
+        blockWithItem(LiminalCraftBlocks.LEVEL_0_PORTAL);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

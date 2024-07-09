@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_piece_of_yellow_wallpaper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "liminalcraft:piece_of_yellow_wallpaper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "liminalcraft:yellow_wallpaper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_piece_of_yellow_wallpaper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "liminalcraft:yellow_wallpaper"
+    ]
+  },
+  "sends_telemetry_event": false
+}

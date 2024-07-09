@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "K": {
+      "item": "minecraft:stone"
+    },
+    "S": {
+      "item": "liminalcraft:piece_of_yellow_wallpaper"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SKS",
+    "SSS"
+  ],
+  "result": {
+    "item": "liminalcraft:yellow_wallpaper"
+  },
+  "show_notification": true
+}

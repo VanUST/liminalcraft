@@ -33,13 +33,17 @@ public class FlashlightItem extends Item {
         ItemStack itemstack = pPlayer.getItemInHand(pUsedHand);
         if (!pLevel.isClientSide()){
             if (!is_on){
-                is_on = true;
+                BlockPos curr_pos = trace_light(pLevel,pPlayer);
+                if ((pLevel.getBlockState(curr_pos) == Blocks.AIR.defaultBlockState())){
+                    is_on = true;
 
 //                pPlayer.sendSystemMessage(Component.literal("FLASHLIGHT ON"));
 
 //                prev_pos = pPlayer.getOnPos().above().above();
-                prev_pos = trace_light(pLevel,pPlayer);
-                pLevel.setBlock(prev_pos,Blocks.LIGHT.defaultBlockState(),2);
+                    prev_pos = curr_pos;
+                    pLevel.setBlock(prev_pos,Blocks.LIGHT.defaultBlockState(),2);
+                }
+
             }
 
             else {
@@ -55,18 +59,30 @@ public class FlashlightItem extends Item {
     @Override
     public void inventoryTick(ItemStack pStack, Level pLevel, Entity pEntity, int pSlotId, boolean pIsSelected) {
 
-        if (!pLevel.isClientSide && is_on && pIsSelected && (pLevel.getBlockState(trace_light(pLevel,pEntity)) == Blocks.AIR.defaultBlockState())){
+        if (!pLevel.isClientSide && is_on ) {
 
-            pLevel.setBlock(prev_pos,Blocks.AIR.defaultBlockState(),2);
+            BlockPos curr_pos = trace_light(pLevel,pEntity);
+            BlockState curr_state = pLevel.getBlockState(curr_pos);
+            if (pIsSelected) {
+                if (( curr_state == Blocks.AIR.defaultBlockState())) {
+                    if (curr_pos != prev_pos) {
+
+
+                        pLevel.setBlock(prev_pos, Blocks.AIR.defaultBlockState(), 2);
 //            prev_pos = pEntity.getOnPos().above().above();
-            prev_pos = trace_light(pLevel,pEntity);
-            pLevel.setBlock(prev_pos,Blocks.LIGHT.defaultBlockState(),2);
+                        prev_pos = curr_pos;
+                        pLevel.setBlock(prev_pos, Blocks.LIGHT.defaultBlockState(), 2);
 //            pEntity.sendSystemMessage(Component.literal("FLASHLIGHT WORKS"));
+                    }
+                }
+                else if (curr_state == Blocks.WATER.defaultBlockState()){
+                    is_on = false;
+                    pLevel.setBlock(prev_pos,Blocks.AIR.defaultBlockState(),2);
+                }
+            }else {
+                pLevel.setBlock(prev_pos, Blocks.AIR.defaultBlockState(), 2);
+            }
         }
-        if (!pLevel.isClientSide && is_on && !pIsSelected){
-            pLevel.setBlock(prev_pos,Blocks.AIR.defaultBlockState(),2);
-        }
-
     }
 
     public BlockPos trace_light( Level pLevel, Entity pEntity){

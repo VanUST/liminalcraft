@@ -30,7 +30,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SKS")
                 .pattern("SSS")
                 .define('S', LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER.get())
-                .define('S', Blocks.STONE)
+                .define('K', Blocks.STONE)
                 .unlockedBy(getHasName(LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER.get()), has(LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER.get()))
                 .save(pWriter);
 

@@ -28,6 +28,7 @@ public class CreativeModTabs {
                                 pOutput.accept(LiminalCraftItems.FLASHLIGHT_ITEM.get());
                                 pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
                                 pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
+                                pOutput.accept(LiminalCraftBlocks.LEVEL_0_PORTAL.get());
                             })
                             .build());
 

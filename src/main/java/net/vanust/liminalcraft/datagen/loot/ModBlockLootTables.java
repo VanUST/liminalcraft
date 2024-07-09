@@ -9,7 +9,7 @@ import net.vanust.liminalcraft.block.LiminalCraftBlocks;
 import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
-    protected ModBlockLootTables() {
+    public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
