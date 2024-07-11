@@ -28,11 +28,20 @@ public class LiminalCraftBlocks {
     public static final RegistryObject<Block> YELLOW_WALLPAPER_WORSE = registerBlock("yellow_wallpaper_worse",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
+    public static final RegistryObject<Block> BASIC_FLOOR = registerBlock("basic_floor",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> BASIC_FLOOR_LIGHT = registerBlock("basic_floor_light",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
 
 
 
-//    SPECIAL BLOCKS
+
+
+
+
+    //    SPECIAL BLOCKS
     public static final RegistryObject<Block> LEVEL_0_PORTAL = registerBlock("level_0_portal",
             () -> new LiminalCraftLevelZeroPortal(BlockBehaviour.Properties.copy(Blocks.END_GATEWAY).strength(-1f,36f).noCollission().noOcclusion().noLootTable()));
 

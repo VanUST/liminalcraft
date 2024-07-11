@@ -22,5 +22,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(LiminalCraftTags.Blocks.IS_WALL)
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER.get())
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
+
+        this.tag(LiminalCraftTags.Blocks.IS_FLOOR).add(LiminalCraftBlocks.BASIC_FLOOR.get())
+                .add(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
     }
 }

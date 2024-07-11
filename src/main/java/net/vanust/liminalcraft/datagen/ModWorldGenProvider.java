@@ -6,8 +6,9 @@ import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.DatapackBuiltinEntriesProvider;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.vanust.liminalcraft.LiminalCraft;
+import net.vanust.liminalcraft.worldgen.LiminalCraftNoiseSettings;
+import net.vanust.liminalcraft.worldgen.biome.LiminalCraftBiomes;
 import net.vanust.liminalcraft.worldgen.dimension.LiminalCraftLevels;
 
 import java.util.Set;
@@ -19,7 +20,8 @@ public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
 //            .add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap)
 //            .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap)
 //            .add(ForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap)
-//            .add(Registries.BIOME, ModBiomes::boostrap)
+            .add(Registries.BIOME, LiminalCraftBiomes::boostrap)
+//            .add(Registries.NOISE_SETTINGS, LiminalCraftNoiseSettings::boostrap)
             .add(Registries.LEVEL_STEM, LiminalCraftLevels::bootstrapStem);
 
     public ModWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {

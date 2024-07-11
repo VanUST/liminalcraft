@@ -17,6 +17,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
 //        this.add(ModBlocks.SAPPHIRE_ORE.get(),
 //                block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
     }

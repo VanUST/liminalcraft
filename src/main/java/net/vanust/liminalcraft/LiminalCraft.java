@@ -8,15 +8,15 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.vanust.liminalcraft.block.LiminalCraftBlocks;
 import net.vanust.liminalcraft.item.CreativeModTabs;
 import net.vanust.liminalcraft.item.LiminalCraftItems;
+import net.vanust.liminalcraft.worldgen.LiminalCraftNoiseSettings;
+import net.vanust.liminalcraft.worldgen.biome.LiminalCraftTerraBlender;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -43,6 +43,10 @@ public class LiminalCraft
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
+
+        LiminalCraftTerraBlender.registerBiomes();
+
+//        LiminalCraftNoiseSettings.register(modEventBus);
 
     }
 
