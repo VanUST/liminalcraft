@@ -1,12 +1,15 @@
 {
   "item.liminalcraft.piece_of_yellow_wallpaper": "Piece of yellow wallpaper",
   "item.liminalcraft.level_0_sign": "Level 0 sign",
+  "item.liminalcraft.glass_shard": "Glass Shard",
   "item.liminalcraft.flashlight_item": "Flashlight",
 
   "block.liminalcraft.yellow_wallpaper": "Yellow wallpaper",
   "creativetab.liminal_tab": "Liminal craft",
   "block.liminalcraft.yellow_wallpaper_worse": "Dirty yellow wallpaper",
   "block.liminalcraft.level_0_portal": "Level 0 Portal",
+  "block.liminalcraft.level_1_portal": "Level 1 Portal",
   "block.liminalcraft.basic_floor": "Basic floor",
-  "block.liminalcraft.basic_floor_light": "Basic floor light"
+  "block.liminalcraft.basic_floor_light": "Basic floor light",
+  "block.liminalcraft.ceiling_light_1": "ceiling light"
 }

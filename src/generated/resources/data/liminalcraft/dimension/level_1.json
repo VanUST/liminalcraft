@@ -1,5 +1,5 @@
 {
-  "type": "liminalcraft:level_0_type",
+  "type": "liminalcraft:level_1_type",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {

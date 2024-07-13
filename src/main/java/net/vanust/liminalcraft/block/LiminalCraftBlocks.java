@@ -1,17 +1,22 @@
 package net.vanust.liminalcraft.block;
 
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vanust.liminalcraft.LiminalCraft;
+import net.vanust.liminalcraft.block.custom.LiminalCraftLevelOnePortal;
 import net.vanust.liminalcraft.block.custom.LiminalCraftLevelZeroPortal;
 import net.vanust.liminalcraft.item.LiminalCraftItems;
+import net.vanust.liminalcraft.worldgen.dimension.LiminalCraftLevels;
 
 import java.util.function.Supplier;
 
@@ -35,15 +40,19 @@ public class LiminalCraftBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
 
-
-
-
+    public static final RegistryObject<Block> CEILING_LIGHT_1 = registerBlock("ceiling_light_1",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().lightLevel(LightBlock.LIGHT_EMISSION).strength(1f,36f).sound(SoundType.GLASS)
+                    , BlockSetType.IRON)
+            );
 
 
 
     //    SPECIAL BLOCKS
     public static final RegistryObject<Block> LEVEL_0_PORTAL = registerBlock("level_0_portal",
-            () -> new LiminalCraftLevelZeroPortal(BlockBehaviour.Properties.copy(Blocks.END_GATEWAY).strength(-1f,36f).noCollission().noOcclusion().noLootTable()));
+            () -> new LiminalCraftLevelZeroPortal(BlockBehaviour.Properties.copy(Blocks.END_PORTAL).strength(-1f,36f).noCollission().noOcclusion().noLootTable()));
+
+    public static final RegistryObject<Block> LEVEL_1_PORTAL = registerBlock("level_1_portal",
+            () -> new LiminalCraftLevelOnePortal(BlockBehaviour.Properties.copy(Blocks.END_PORTAL).strength(-1f,36f).noCollission().noOcclusion().noLootTable()));
 
 
 
@@ -62,4 +71,12 @@ public class LiminalCraftBlocks {
     private static <T extends Block> RegistryObject<Item> registerBlockItem (String name, RegistryObject<T> block){
         return LiminalCraftItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
     }
+
+//    public static ResourceKey<Level> check_dimension(Entity pPlayer){
+//
+//        if (pPlayer.level().dimension() == Level.OVERWORLD){ return Level.OVERWORLD;}
+//        if (pPlayer.level().dimension() == LiminalCraftLevels.LEVEL_0_KEY){ return Le;}
+//        player.level().dimension() == LiminalCraftLevels.LEVEL_0_KEY ?
+//                Level.OVERWORLD : LiminalCraftLevels.LEVEL_0_KEY;
+//    }
 }

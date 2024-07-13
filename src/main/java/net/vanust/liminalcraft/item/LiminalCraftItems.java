@@ -1,6 +1,7 @@
 package net.vanust.liminalcraft.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,6 +21,9 @@ public class LiminalCraftItems {
 
     public static final RegistryObject<Item> FLASHLIGHT_ITEM =
             ITEMS.register("flashlight_item",() -> new FlashlightItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> GLASS_SHARD =
+            ITEMS.register("glass_shard",() -> new Item(new Item.Properties().stacksTo(64)));
 
 
     public static void register(IEventBus eventBus){

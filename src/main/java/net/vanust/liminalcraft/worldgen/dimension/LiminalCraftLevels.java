@@ -31,9 +31,32 @@ public class LiminalCraftLevels {
     public static final ResourceKey<DimensionType> LEVEL_0_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
             new ResourceLocation(LiminalCraft.MOD_ID, "level_0_type"));
 
+    public static final ResourceKey<LevelStem> LEVEL_1_STEM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
+            new ResourceLocation(LiminalCraft.MOD_ID, "level_1"));
+    public static final ResourceKey<Level> LEVEL_1_KEY = ResourceKey.create(Registries.DIMENSION,
+            new ResourceLocation(LiminalCraft.MOD_ID, "level_1"));
+    public static final ResourceKey<DimensionType> LEVEL_1_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
+            new ResourceLocation(LiminalCraft.MOD_ID, "level_1_type"));
+
 
     public static void bootstrapType(BootstapContext<DimensionType> context) {
         context.register(LEVEL_0_TYPE, new DimensionType(
+                OptionalLong.of(18000), // fixedTime
+                false, // hasSkylight
+                false, // hasCeiling
+                false, // ultraWarm
+                false, // natural
+                1.0, // coordinateScale
+                true, // bedWorks
+                false, // respawnAnchorWorks
+                0, // minY
+                512, // height
+                512, // logicalHeight
+                BlockTags.BASE_STONE_OVERWORLD, // infiniburn
+                BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
+                0.0f, // ambientLight
+                new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
+        context.register(LEVEL_1_TYPE, new DimensionType(
                 OptionalLong.of(18000), // fixedTime
                 false, // hasSkylight
                 false, // hasCeiling
@@ -60,7 +83,7 @@ public class LiminalCraftLevels {
                 new FixedBiomeSource(biomeRegistry.getOrThrow(Biomes.DARK_FOREST)),
                 noiseGenSettings.getOrThrow(NoiseGeneratorSettings.AMPLIFIED));
 
-        NoiseBasedChunkGenerator noiseBasedChunkGenerator = new NoiseBasedChunkGenerator(
+        NoiseBasedChunkGenerator noiseBasedChunkGenerator0 = new NoiseBasedChunkGenerator(
                 MultiNoiseBiomeSource.createFromList(
                         new Climate.ParameterList<>(List.of(Pair.of(
                                         Climate.parameters(0.3F, 0.0F, 0.3F, 0.0F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(LiminalCraftBiomes.LEVEL_0_CORRIDORS))
@@ -75,9 +98,25 @@ public class LiminalCraftLevels {
                 noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
         );
 
+        NoiseBasedChunkGenerator noiseBasedChunkGenerator1 = new NoiseBasedChunkGenerator(
+                MultiNoiseBiomeSource.createFromList(
+                        new Climate.ParameterList<>(List.of(Pair.of(
+                                        Climate.parameters(0.3F, 0.0F, 0.3F, 0.0F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(LiminalCraftBiomes.LEVEL_1_HALLS))
+//                                Pair.of(
+//                                        Climate.parameters(0.1F, 0.2F, 0.0F, 0.2F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.BIRCH_FOREST)),
+//                                Pair.of(
+//                                        Climate.parameters(0.3F, 0.6F, 0.1F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.OCEAN)),
+//                                Pair.of(
+//                                        Climate.parameters(0.4F, 0.3F, 0.2F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.DARK_FOREST))
 
-        LevelStem stem = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_0_TYPE), noiseBasedChunkGenerator);
+                        ))),
+                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
+        );
 
-        context.register(LEVEL_0_STEM_KEY, stem);
+        LevelStem stem1 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_1_TYPE), noiseBasedChunkGenerator0);
+        LevelStem stem0 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_0_TYPE), noiseBasedChunkGenerator0);
+
+        context.register(LEVEL_1_STEM_KEY, stem1);
+        context.register(LEVEL_0_STEM_KEY, stem0);
     }
 }
