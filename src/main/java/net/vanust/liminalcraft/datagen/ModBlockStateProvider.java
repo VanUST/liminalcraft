@@ -1,10 +1,13 @@
 package net.vanust.liminalcraft.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.vanust.liminalcraft.LiminalCraft;
@@ -30,10 +33,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType((TrapDoorBlock) LiminalCraftBlocks.CEILING_LIGHT_1.get(),
                 modLoc("block/ceiling_light_1"),
                 true,
-                "solid");
+                "cutoff");
+
+//        blockWithItem(LiminalCraftBlocks.METAL_LADDER);
+//        blockWithItem(LiminalCraftBlocks.CEILING_LIGHT_1);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+    
+
 }

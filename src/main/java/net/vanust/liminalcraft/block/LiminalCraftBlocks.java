@@ -41,11 +41,16 @@ public class LiminalCraftBlocks {
 
 
     public static final RegistryObject<Block> CEILING_LIGHT_1 = registerBlock("ceiling_light_1",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().lightLevel(LightBlock.LIGHT_EMISSION).strength(1f,36f).sound(SoundType.GLASS)
-                    , BlockSetType.IRON)
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().strength(1f,36f).sound(SoundType.GLASS)
+                    .lightLevel((p_152607_) -> {
+                        return 10;
+                    })
+                    , BlockSetType.GOLD)
             );
 
-
+//    public static final RegistryObject<Block> METAL_LADDER = registerBlock("metal_ladder",
+//            () -> new LadderBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).strength(1F,5F))
+//    );
 
     //    SPECIAL BLOCKS
     public static final RegistryObject<Block> LEVEL_0_PORTAL = registerBlock("level_0_portal",
