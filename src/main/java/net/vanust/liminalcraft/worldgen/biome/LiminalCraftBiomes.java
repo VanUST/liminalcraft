@@ -3,7 +3,10 @@ package net.vanust.liminalcraft.worldgen.biome;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.biome.EndBiomes;
+import net.minecraft.data.worldgen.biome.NetherBiomes;
 import net.minecraft.data.worldgen.biome.OverworldBiomes;
+import net.minecraft.data.worldgen.features.MiscOverworldFeatures;
 import net.minecraft.data.worldgen.placement.MiscOverworldPlacements;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
@@ -79,7 +82,7 @@ public class LiminalCraftBiomes {
                 new BiomeGenerationSettings.Builder(context.lookup(Registries.PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
         //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
 
-
+//        NetherBiomes
         biomeBuilder.addFeature(GenerationStep.Decoration.TOP_LAYER_MODIFICATION, MiscOverworldPlacements.VOID_START_PLATFORM);
 //        globalOverworldGeneration(biomeBuilder);
 //        BiomeDefaultFeatures.addMossyStoneBlock(biomeBuilder);
