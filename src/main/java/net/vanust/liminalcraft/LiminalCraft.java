@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.vanust.liminalcraft.block.LiminalCraftBlocks;
 import net.vanust.liminalcraft.item.CreativeModTabs;
 import net.vanust.liminalcraft.item.LiminalCraftItems;
+import net.vanust.liminalcraft.loot.LiminalCraftLootModifiers;
 import net.vanust.liminalcraft.worldgen.LiminalCraftNoiseSettings;
 import net.vanust.liminalcraft.worldgen.biome.LiminalCraftTerraBlender;
 import org.slf4j.Logger;
@@ -45,6 +46,9 @@ public class LiminalCraft
         modEventBus.addListener(this::addCreative);
 
         LiminalCraftTerraBlender.registerBiomes();
+
+
+        LiminalCraftLootModifiers.register(modEventBus);
 
 //        LiminalCraftNoiseSettings.register(modEventBus);
 

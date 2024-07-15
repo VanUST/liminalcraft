@@ -34,6 +34,7 @@ public class CreativeModTabs {
                                 pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
                                 pOutput.accept(LiminalCraftItems.GLASS_SHARD.get());
                                 pOutput.accept(LiminalCraftBlocks.CEILING_LIGHT_1.get());
+                                pOutput.accept(LiminalCraftItems.SMALL_BATTERY.get());
                             })
                             .build());
 

@@ -6,13 +6,13 @@
   },
   "perspectives": {
     "gui": {
-      "parent": "liminalcraft:item/flashlight_item_2d"
+      "parent": "liminalcraft:item/flashlight_item_3d"
     },
     "ground": {
-      "parent": "liminalcraft:item/flashlight_item_2d"
+      "parent": "liminalcraft:item/flashlight_item_3d"
     },
     "fixed": {
-      "parent": "liminalcraft:item/flashlight_item_2d"
+      "parent": "liminalcraft:item/flashlight_item_3d"
     }
   }
 

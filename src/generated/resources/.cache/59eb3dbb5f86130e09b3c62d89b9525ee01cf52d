@@ -1,6 +1,6 @@
-// 1.20.1	2024-07-14T00:04:13.728514157	Loot Tables
+// 1.20.1	2024-07-16T01:13:26.5146062	Loot Tables
 5108e2421745dba0f10f072640868ddd48f1af42 data/liminalcraft/loot_tables/blocks/basic_floor.json
 ac599a4d607bcb870239c06aa64404ab9847c1ea data/liminalcraft/loot_tables/blocks/basic_floor_light.json
-3bd9cf7a0e9219d8ce0e7aea86614e485051b3f1 data/liminalcraft/loot_tables/blocks/ceiling_light_1.json
+86fde1ae4b4cec2c36b62009506861eb64ba6472 data/liminalcraft/loot_tables/blocks/ceiling_light_1.json
 904a880f828097128424023ac69a786e6f131cc6 data/liminalcraft/loot_tables/blocks/yellow_wallpaper.json
 4465e7e0c719ed1773ba84fba9f23316ce391f05 data/liminalcraft/loot_tables/blocks/yellow_wallpaper_worse.json

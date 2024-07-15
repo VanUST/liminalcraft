@@ -3,6 +3,7 @@
   "item.liminalcraft.level_0_sign": "Level 0 sign",
   "item.liminalcraft.glass_shard": "Glass Shard",
   "item.liminalcraft.flashlight_item": "Flashlight",
+  "item.liminalcraft.small_battery": "Small battery",
 
   "block.liminalcraft.yellow_wallpaper": "Yellow wallpaper",
   "creativetab.liminal_tab": "Liminal craft",
@@ -11,5 +12,7 @@
   "block.liminalcraft.level_1_portal": "Level 1 Portal",
   "block.liminalcraft.basic_floor": "Basic floor",
   "block.liminalcraft.basic_floor_light": "Basic floor light",
-  "block.liminalcraft.ceiling_light_1": "ceiling light"
+  "block.liminalcraft.ceiling_light_1": "ceiling light",
+  "key.liminalcraft.recharge": "recharge item that can be powered",
+  "key.liminalcraft": "LiminalCraft"
 }

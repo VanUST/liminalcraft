@@ -25,6 +25,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(LiminalCraftItems.LEVEL_0_SIGN);
         simpleItem(LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER);
         simpleItem(LiminalCraftItems.GLASS_SHARD);
+        simpleItem(LiminalCraftItems.SMALL_BATTERY);
         trapdoorItem(LiminalCraftBlocks.CEILING_LIGHT_1);
 
     }

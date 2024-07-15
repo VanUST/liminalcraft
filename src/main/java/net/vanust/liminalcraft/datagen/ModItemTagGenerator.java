@@ -6,6 +6,8 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.vanust.liminalcraft.LiminalCraft;
+import net.vanust.liminalcraft.item.LiminalCraftItems;
+import net.vanust.liminalcraft.util.LiminalCraftTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -18,6 +20,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
 
+        this.tag(LiminalCraftTags.Items.ENERGY_SOURCE).add(LiminalCraftItems.SMALL_BATTERY.get());
     }
 }
 

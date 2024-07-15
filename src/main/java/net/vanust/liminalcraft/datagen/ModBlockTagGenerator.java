@@ -6,6 +6,7 @@ import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.vanust.liminalcraft.LiminalCraft;
 import net.vanust.liminalcraft.block.LiminalCraftBlocks;
+import net.vanust.liminalcraft.item.LiminalCraftItems;
 import net.vanust.liminalcraft.util.LiminalCraftTags;
 import org.jetbrains.annotations.Nullable;
 
@@ -25,5 +26,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(LiminalCraftTags.Blocks.IS_FLOOR).add(LiminalCraftBlocks.BASIC_FLOOR.get())
                 .add(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
+
     }
 }
