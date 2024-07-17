@@ -224,7 +224,7 @@ dependencies {
 //    implementation fg.deobf("curse.maven:modern-life-483050:4634116")
     implementation fg.deobf("curse.maven:furniture-expanded-550478:4759946")
     implementation fg.deobf("curse.maven:structure-gel-api-378802:5278429")
-
+//    implementation fg.deobf("curse.maven:simply-light-300331:4832944")
     implementation fg.deobf("maven.modrinth:bendy-lib:4.0.0-forge")
     implementation fg.deobf("maven.modrinth:midnightlib:1.4.2-forge")
     implementation fg.deobf("maven.modrinth:rubidium:0.7.1")

@@ -1,6 +1,8 @@
 package net.vanust.liminalcraft.worldgen.dimension;
 
 import com.mojang.datafixers.util.Pair;
+import net.minecraft.data.worldgen.DimensionTypes;
+import net.minecraft.world.level.levelgen.WorldDimensions;
 import net.vanust.liminalcraft.LiminalCraft;
 //import net.kaupenjoe.tutorialmod.worldgen.biome.ModBiomes;
 import net.minecraft.core.HolderGetter;
@@ -56,6 +58,7 @@ public class LiminalCraftLevels {
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
                 0.0f, // ambientLight
                 new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
+
         context.register(LEVEL_1_TYPE, new DimensionType(
                 OptionalLong.of(18000), // fixedTime
                 false, // hasSkylight
@@ -95,7 +98,7 @@ public class LiminalCraftLevels {
 //                                        Climate.parameters(0.4F, 0.3F, 0.2F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.DARK_FOREST))
 
                         ))),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
+                noiseGenSettings.getOrThrow(LiminalCraftNoiseSettings.VOID_WORLD)
         );
 
         NoiseBasedChunkGenerator noiseBasedChunkGenerator1 = new NoiseBasedChunkGenerator(
@@ -110,10 +113,10 @@ public class LiminalCraftLevels {
 //                                        Climate.parameters(0.4F, 0.3F, 0.2F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.DARK_FOREST))
 
                         ))),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
+                noiseGenSettings.getOrThrow(LiminalCraftNoiseSettings.VOID_WORLD)
         );
 
-        LevelStem stem1 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_1_TYPE), noiseBasedChunkGenerator0);
+        LevelStem stem1 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_1_TYPE), noiseBasedChunkGenerator1);
         LevelStem stem0 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_0_TYPE), noiseBasedChunkGenerator0);
 
         context.register(LEVEL_1_STEM_KEY, stem1);

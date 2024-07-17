@@ -1,10 +1,12 @@
 package net.vanust.liminalcraft.util;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.vanust.liminalcraft.LiminalCraft;
 
@@ -29,5 +31,13 @@ public class LiminalCraftTags {
             return ItemTags.create(new ResourceLocation(LiminalCraft.MOD_ID,name));
         }
     }
+
+//    public  static  class Biomes{
+//        public static final TagKey<Biome> LEVEL_0 = tag("level_0");
+//
+//        private static TagKey<Item> tag(String name){
+//            return BiomeTags.create(new ResourceLocation(LiminalCraft.MOD_ID,name));
+//        }
+//    }
 
 }

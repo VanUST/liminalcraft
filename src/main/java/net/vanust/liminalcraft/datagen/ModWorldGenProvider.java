@@ -14,17 +14,20 @@ import net.vanust.liminalcraft.worldgen.dimension.LiminalCraftLevels;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
+
 public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
     public static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
+            .add(Registries.NOISE_SETTINGS, LiminalCraftNoiseSettings::boostrap)
             .add(Registries.DIMENSION_TYPE, LiminalCraftLevels::bootstrapType)
 //            .add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap)
 //            .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap)
 //            .add(ForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap)
             .add(Registries.BIOME, LiminalCraftBiomes::boostrap)
-//            .add(Registries.NOISE_SETTINGS, LiminalCraftNoiseSettings::boostrap)
+
             .add(Registries.LEVEL_STEM, LiminalCraftLevels::bootstrapStem);
 
     public ModWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
+
         super(output, registries, BUILDER, Set.of(LiminalCraft.MOD_ID));
     }
 }

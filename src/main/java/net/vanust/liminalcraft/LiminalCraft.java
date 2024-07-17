@@ -2,6 +2,7 @@ package net.vanust.liminalcraft;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -19,6 +20,7 @@ import net.vanust.liminalcraft.loot.LiminalCraftLootModifiers;
 import net.vanust.liminalcraft.worldgen.LiminalCraftNoiseSettings;
 import net.vanust.liminalcraft.worldgen.biome.LiminalCraftTerraBlender;
 import org.slf4j.Logger;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LiminalCraft.MOD_ID)
@@ -50,6 +52,7 @@ public class LiminalCraft
 
         LiminalCraftLootModifiers.register(modEventBus);
 
+//        LiminalCraftStructureRegister.DEFERRED_REGISTRY_STRUCTURE.register(modEventBus);
 //        LiminalCraftNoiseSettings.register(modEventBus);
 
     }

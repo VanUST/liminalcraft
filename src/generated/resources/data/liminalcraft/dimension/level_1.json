@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "liminalcraft:level_0_corridors",
+          "biome": "liminalcraft:level_1_halls",
           "parameters": {
             "continentalness": 0.3,
             "depth": 0.0,
@@ -19,6 +19,6 @@
         }
       ]
     },
-    "settings": "minecraft:end"
+    "settings": "minecraft:void_world"
   }
 }

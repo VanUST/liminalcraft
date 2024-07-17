@@ -1,0 +1,44 @@
+{
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+
+    {
+      "weight": 100,
+      "element": {
+      "element_type": "minecraft:empty_pool_element"
+    }
+    },
+    {
+      "weight":3 ,
+      "element": {
+        "location": "liminalcraft:loot_box",
+        "processors":
+                      [{"processor_type": "minecraft:rule",
+                        "rules":  [
+                          {
+                            "input_predicate":  {
+                              "predicate_type": "block_match",
+                              "block": "furnitureexpanded:cardbox"
+                            },
+                            "location_predicate": {
+                              "predicate_type": "always_true"
+                            },
+                            "output_state": {
+                              "Name": "furnitureexpanded:cardbox"
+                            },
+                            "block_entity_modifier": {
+                              "type": "minecraft:append_loot",
+                              "loot_table": "liminalcraft:chests/level_0/basic_drop"
+                            }
+                          }
+                        ]
+                      }
+                      ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

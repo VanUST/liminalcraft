@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 5,
+        "p": 0.1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "liminalcraft:small_battery"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 1,
+        "p": 0.2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "liminalcraft:flashlight_item"
+        }
+      ]
+    }
+  ]
+}
