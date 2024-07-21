@@ -1,6 +1,7 @@
 package net.vanust.liminalcraft.worldgen.portal;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
@@ -33,7 +34,7 @@ public class LiminalCraftTeleports implements ITeleporter {
     @Override
     public Entity placeEntity(Entity entity, ServerLevel currentWorld, ServerLevel destinationWorld,
                               float yaw, Function<Boolean, Entity> repositionEntity) {
-        entity = repositionEntity.apply(false);
+        entity = repositionEntity.apply(true);
         int y = 150;
 
         if (!insideDimension) {
@@ -41,17 +42,18 @@ public class LiminalCraftTeleports implements ITeleporter {
         }
 
         BlockPos destinationPos = new BlockPos(
-                (int)(thisPos.getX()),  //+ normal_random.nextGaussian(0,10000)),
-                (int)(y),//+  normal_random.nextGaussian(0,100)),
-                (int)(thisPos.getZ()) //+ normal_random.nextGaussian(0,10000))
+                (int)(thisPos.getX()  + normal_random.nextGaussian(0,1000)),
+                (int)(100),
+                (int)(thisPos.getZ() + normal_random.nextGaussian(0,1000))
         );
+        entity.sendSystemMessage(Component.literal(destinationPos.toString()));
 
         int tries = 0;
         while ((destinationWorld.getBlockState(destinationPos).getBlock() != Blocks.AIR) &&
                 !destinationWorld.getBlockState(destinationPos).canBeReplaced(Fluids.WATER) &&
                 (destinationWorld.getBlockState(destinationPos.above()).getBlock()  != Blocks.AIR) &&
                 !destinationWorld.getBlockState(destinationPos.above()).canBeReplaced(Fluids.WATER) && (tries < 100)) {
-            destinationPos = destinationPos.above(2).east(2);
+            destinationPos = destinationPos.north(2).east(2);
             tries++;
         }
 

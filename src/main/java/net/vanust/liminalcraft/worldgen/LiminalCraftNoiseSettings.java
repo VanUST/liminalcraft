@@ -16,13 +16,13 @@ public class LiminalCraftNoiseSettings {
 //    public static final DeferredRegister<NoiseGeneratorSettings> LIMINAL_NOISE =
 //            DeferredRegister.create(Registries.NOISE_SETTINGS, LiminalCraft.MOD_ID);
 
-    public static final ResourceKey<NoiseGeneratorSettings> VOID_WORLD = ResourceKey.create(Registries.NOISE_SETTINGS, new ResourceLocation("void_world"));
+//    public static final ResourceKey<NoiseGeneratorSettings> VOID_WORLD = ResourceKey.create(Registries.NOISE_SETTINGS, new ResourceLocation("void_world"));
 
-    public static void boostrap(BootstapContext<NoiseGeneratorSettings> pContext) {
-        System.out.print("BUILDING NOISE SETTINGS LIMINAL CRAFT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        pContext.register(VOID_WORLD, NoiseGeneratorSettings.dummy());
-
-    }
+//    public static void boostrap(BootstapContext<NoiseGeneratorSettings> pContext) {
+//        System.out.print("BUILDING NOISE SETTINGS LIMINAL CRAFT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+//        pContext.register(VOID_WORLD, NoiseGeneratorSettings.dummy());
+//
+//    }
 
 //    public static void register(IEventBus eventBus){
 //

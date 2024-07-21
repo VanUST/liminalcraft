@@ -2,6 +2,7 @@ package net.vanust.liminalcraft.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.vanust.liminalcraft.LiminalCraft;
@@ -24,8 +25,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER.get())
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
 
-        this.tag(LiminalCraftTags.Blocks.IS_FLOOR).add(LiminalCraftBlocks.BASIC_FLOOR.get())
-                .add(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
+        this.tag(LiminalCraftTags.Blocks.IS_FLOOR).add(LiminalCraftBlocks.BASIC_FLOOR_0.get())
+                .add(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());
 
+        this.tag(LiminalCraftTags.Blocks.STRUCTURE_VOID).add(LiminalCraftBlocks.END_OF_STRUCTURE.get())
+                .add(LiminalCraftBlocks.STRUCTURE_AIR.get()).add(LiminalCraftBlocks.BASIC_STAIRS_0.get());
     }
 }

@@ -98,7 +98,7 @@ public class LiminalCraftLevels {
 //                                        Climate.parameters(0.4F, 0.3F, 0.2F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.DARK_FOREST))
 
                         ))),
-                noiseGenSettings.getOrThrow(LiminalCraftNoiseSettings.VOID_WORLD)
+                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
         );
 
         NoiseBasedChunkGenerator noiseBasedChunkGenerator1 = new NoiseBasedChunkGenerator(
@@ -113,7 +113,7 @@ public class LiminalCraftLevels {
 //                                        Climate.parameters(0.4F, 0.3F, 0.2F, 0.1F, 0.0F, 0.0F, 0.0F), biomeRegistry.getOrThrow(Biomes.DARK_FOREST))
 
                         ))),
-                noiseGenSettings.getOrThrow(LiminalCraftNoiseSettings.VOID_WORLD)
+                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.END)
         );
 
         LevelStem stem1 = new LevelStem(dimTypes.getOrThrow(LiminalCraftLevels.LEVEL_1_TYPE), noiseBasedChunkGenerator1);

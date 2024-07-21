@@ -30,11 +30,16 @@ public class CreativeModTabs {
                                 pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
                                 pOutput.accept(LiminalCraftBlocks.LEVEL_0_PORTAL.get());
                                 pOutput.accept(LiminalCraftBlocks.LEVEL_1_PORTAL.get());
-                                pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR.get());
-                                pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
+                                pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_0.get());
+                                pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());
+                                pOutput.accept(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get());
+                                pOutput.accept(LiminalCraftBlocks.BASIC_SLAB_0.get());
+                                pOutput.accept(LiminalCraftBlocks.BASIC_STAIRS_0.get());
                                 pOutput.accept(LiminalCraftItems.GLASS_SHARD.get());
                                 pOutput.accept(LiminalCraftBlocks.CEILING_LIGHT_1.get());
                                 pOutput.accept(LiminalCraftItems.SMALL_BATTERY.get());
+                                pOutput.accept(LiminalCraftBlocks.END_OF_STRUCTURE.get());
+                                pOutput.accept(LiminalCraftBlocks.STRUCTURE_AIR.get());
                             })
                             .build());
 

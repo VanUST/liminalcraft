@@ -7,6 +7,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.RelativeMovement;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +16,12 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.vanust.liminalcraft.worldgen.dimension.LiminalCraftLevels;
 import net.vanust.liminalcraft.worldgen.portal.LiminalCraftTeleports;
 
+import java.util.Random;
+
 public class LiminalCraftLevelOnePortal extends Block {
+
+    public static Random normal_random = new Random();
+
     public LiminalCraftLevelOnePortal(Properties pProperties) {
         super(pProperties);
     }
@@ -36,9 +42,11 @@ public class LiminalCraftLevelOnePortal extends Block {
             ResourceKey<Level> resourcekey = LiminalCraftLevels.LEVEL_1_KEY;
 //            player.sendSystemMessage(Component.literal(resourcekey.toString()));
             ServerLevel portalDimension = minecraftserver.getLevel(resourcekey);
-            if (portalDimension != null && !player.isPassenger()) {
-                player.changeDimension(portalDimension, new LiminalCraftTeleports(pPos, true, true, LiminalCraftLevelOnePortal.this));
-            }
+            player.teleportTo(portalDimension,(int)(player.getX()  + normal_random.nextGaussian(0,5000)),100,(int)(player.getZ() + normal_random.nextGaussian(0,5000)),
+                    RelativeMovement.ALL,0,0);
+//            if (portalDimension != null && !player.isPassenger()) {
+//                player.changeDimension(portalDimension, new LiminalCraftTeleports(pPos, true, true, LiminalCraftLevelOnePortal.this));
+//            }
         }
     }
 }

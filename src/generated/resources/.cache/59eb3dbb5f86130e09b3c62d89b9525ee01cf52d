@@ -1,6 +1,9 @@
-// 1.20.1	2024-07-16T01:13:26.5146062	Loot Tables
-5108e2421745dba0f10f072640868ddd48f1af42 data/liminalcraft/loot_tables/blocks/basic_floor.json
-ac599a4d607bcb870239c06aa64404ab9847c1ea data/liminalcraft/loot_tables/blocks/basic_floor_light.json
+// 1.20.1	2024-07-22T01:05:48.4427673	Loot Tables
+e2d9c986fc7f87fe75ed3b87c21cdf5bf64b5b78 data/liminalcraft/loot_tables/blocks/basic_floor_0.json
+5f60477b43e5cbc374031ea71d141876b960668f data/liminalcraft/loot_tables/blocks/basic_floor_light_0.json
+b6fe532bd916bae8d5463f767bce2d39b324b90e data/liminalcraft/loot_tables/blocks/basic_slab_0.json
+d38fa346dfc2c7d4ea0704a84f833235f6ecbbdf data/liminalcraft/loot_tables/blocks/basic_slab_light_0.json
+5ff7732799fdaaea6532689b343adaabd3f0ff00 data/liminalcraft/loot_tables/blocks/basic_stairs_light_0.json
 86fde1ae4b4cec2c36b62009506861eb64ba6472 data/liminalcraft/loot_tables/blocks/ceiling_light_1.json
 904a880f828097128424023ac69a786e6f131cc6 data/liminalcraft/loot_tables/blocks/yellow_wallpaper.json
 4465e7e0c719ed1773ba84fba9f23316ce391f05 data/liminalcraft/loot_tables/blocks/yellow_wallpaper_worse.json

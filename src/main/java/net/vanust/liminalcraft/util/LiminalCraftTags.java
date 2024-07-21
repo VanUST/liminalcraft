@@ -17,6 +17,7 @@ public class LiminalCraftTags {
 
         public static final TagKey<Block> IS_FLOOR = tag("is_floor");
 
+        public static final TagKey<Block> STRUCTURE_VOID = tag("structure_void");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(LiminalCraft.MOD_ID,name));

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "liminalcraft:block/basic_slab_light_0"
+    },
+    "type=double": {
+      "model": "liminalcraft:block/basic_floor_light_0"
+    },
+    "type=top": {
+      "model": "liminalcraft:block/basic_slab_light_0_top"
+    }
+  }
+}

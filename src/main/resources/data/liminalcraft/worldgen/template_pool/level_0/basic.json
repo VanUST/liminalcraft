@@ -3,14 +3,14 @@
   // Yes, worldgen json files can have comments. Minecraft does "lenient" parsing of these json files.
 
   // The template pool to refer to if the entries in 'elements' fails to generate.
-  "fallback": "minecraft:empty",
+  "fallback": "liminalcraft:level_0/fallback",
 
   // Here you can list as many nbt files or placed features to spawn.
   // Do note that placed features needs a special element entry stuff.
   "elements": [
     {
       // How likely out of all the element for this one to be chosen.
-      "weight": 1,
+      "weight": 4,
       "element": {
 
         // The Identifier of the nbt file itself of the structure piece.
@@ -20,7 +20,28 @@
         "location": "liminalcraft:level_0_basic_corridor",
 
         // Processor JSON files can be used to randomize or replace blocks dynamically. Here, we don't do any of that.
-        "processors": "minecraft:empty",
+        "processors":
+        [{
+          "processor_type": "minecraft:rule",
+          "rules":  [
+            {
+              "input_predicate":  {
+                "predicate_type": "block_match",
+                "block": "minecraft:air"
+              },
+              "location_predicate": {
+                "predicate_type": "always_true"
+              },
+              "output_state": {
+                "Name": "liminalcraft:structure_air"
+              }
+            }
+          ]
+        },
+          {"processor_type": "minecraft:protected_blocks",
+            "value": "#liminalcraft:structure_void"
+          }
+        ],
 
         // If set to 'terrain_matching', the house would be deformed to fit the change in land.
         // That's best for roads so lets stay 'rigid' for now.
@@ -37,7 +58,28 @@
       "weight": 1,
       "element": {
         "location": "liminalcraft:level_0_turn",
-        "processors": "minecraft:empty",
+        "processors":
+        [{
+          "processor_type": "minecraft:rule",
+          "rules":  [
+            {
+              "input_predicate":  {
+                "predicate_type": "block_match",
+                "block": "minecraft:air"
+              },
+              "location_predicate": {
+                "predicate_type": "always_true"
+              },
+              "output_state": {
+                "Name": "liminalcraft:structure_air"
+              }
+            }
+          ]
+        },
+          {"processor_type": "minecraft:protected_blocks",
+            "value": "#liminalcraft:structure_void"
+          }
+        ],
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

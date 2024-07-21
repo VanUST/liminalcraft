@@ -27,7 +27,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(LiminalCraftItems.GLASS_SHARD);
         simpleItem(LiminalCraftItems.SMALL_BATTERY);
         trapdoorItem(LiminalCraftBlocks.CEILING_LIGHT_1);
-
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -13,6 +13,10 @@
   "block.liminalcraft.basic_floor": "Basic floor",
   "block.liminalcraft.basic_floor_light": "Basic floor light",
   "block.liminalcraft.ceiling_light_1": "ceiling light",
+  "block.liminalcraft.basic_stairs_0": "level 0 stairs",
+  "block.liminalcraft.basic_slab_0": "level 0 slab",
+  "block.liminalcraft.basic_light_slab_0": "level 0 light slab",
+  "block.liminalcraft.end_of_structure": "end of structure void",
   "key.liminalcraft.recharge": "recharge item that can be powered",
   "key.liminalcraft": "LiminalCraft"
 }

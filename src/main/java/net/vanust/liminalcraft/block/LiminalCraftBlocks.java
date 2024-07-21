@@ -33,11 +33,25 @@ public class LiminalCraftBlocks {
     public static final RegistryObject<Block> YELLOW_WALLPAPER_WORSE = registerBlock("yellow_wallpaper_worse",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
-    public static final RegistryObject<Block> BASIC_FLOOR = registerBlock("basic_floor",
+    public static final RegistryObject<Block> BASIC_FLOOR_0 = registerBlock("basic_floor_0",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
-    public static final RegistryObject<Block> BASIC_FLOOR_LIGHT = registerBlock("basic_floor_light",
+    public static final RegistryObject<Block> BASIC_FLOOR_LIGHT_0 = registerBlock("basic_floor_light_0",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> BASIC_STAIRS_0 = registerBlock("basic_stairs_light_0",
+            () -> new StairBlock(() -> LiminalCraftBlocks.BASIC_FLOOR_0.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> BASIC_SLAB_0 = registerBlock("basic_slab_0",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> BASIC_LIGHT_SLAB_0 = registerBlock("basic_slab_light_0",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+
+    public static final RegistryObject<Block> END_OF_STRUCTURE = registerBlock("end_of_structure",() -> new AirBlock(BlockBehaviour.Properties.of().replaceable().noCollission().noLootTable().air()));
+
+    public static final RegistryObject<Block> STRUCTURE_AIR = registerBlock("structure_air", () -> new AirBlock(BlockBehaviour.Properties.of().replaceable().noCollission().noLootTable().air()));
 
 
     public static final RegistryObject<Block> CEILING_LIGHT_1 = registerBlock("ceiling_light_1",

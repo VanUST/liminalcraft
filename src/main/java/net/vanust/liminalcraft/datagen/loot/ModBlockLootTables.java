@@ -33,8 +33,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
-        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR.get());
-        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_LIGHT.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_0.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_STAIRS_0.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_SLAB_0.get());
+        this.dropSelf(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get());
+//        this.dropSelf(LiminalCraftBlocks.END_OF_STRUCTURE.get());
 //        this.dropSelf(LiminalCraftBlocks.METAL_LADDER.get());
 //        this.dropSelf(LiminalCraftBlocks.CEILING_LIGHT_1.get());
         this.add(LiminalCraftBlocks.CEILING_LIGHT_1.get(),block -> createProbDrop(LiminalCraftBlocks.CEILING_LIGHT_1.get(), LiminalCraftItems.GLASS_SHARD.get(),0.5F));
