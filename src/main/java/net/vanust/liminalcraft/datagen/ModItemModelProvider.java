@@ -27,17 +27,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(LiminalCraftItems.GLASS_SHARD);
         simpleItem(LiminalCraftItems.SMALL_BATTERY);
         trapdoorItem(LiminalCraftBlocks.CEILING_LIGHT_1);
+
+        evenSimplerBlockItem(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0);
+        evenSimplerBlockItem(LiminalCraftBlocks.BASIC_SLAB_0);
+        evenSimplerBlockItem(LiminalCraftBlocks.BASIC_STAIRS_0);
+    }
+
+    public void evenSimplerBlockItem(RegistryObject<Block> block) {
+        this.withExistingParent(LiminalCraft.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(LiminalCraft.MOD_ID,"item/" + item.getId().getPath()));
-    }
-
-    public void evenSimplerBlockItem(RegistryObject<Block> block) {
-        this.withExistingParent(LiminalCraft.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
-                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 
     public void trapdoorItem(RegistryObject<Block> block) {
