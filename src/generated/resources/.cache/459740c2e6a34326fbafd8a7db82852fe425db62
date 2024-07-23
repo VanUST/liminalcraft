@@ -1,6 +1,10 @@
-// 1.20.1	2024-07-15T21:14:16.7133853	Item Models: liminalcraft
+// 1.20.1	2024-07-23T12:14:52.8506985	Item Models: liminalcraft
+11a6178569ede748363e4ac04de03505a2554430 assets/liminalcraft/models/item/basic_slab_0.json
+01d81f6b962a4370d02a6e126654f0d5d1780d56 assets/liminalcraft/models/item/basic_slab_light_0.json
+3f9ec66f308560ab6943cca8f555d1fb5469636e assets/liminalcraft/models/item/basic_stairs_0.json
 3301354d2c3d3265fa7dcb1276d7ce0994c59c62 assets/liminalcraft/models/item/ceiling_light_1.json
 f0778806ba401d7b48353ae84e2a4854fd02e73b assets/liminalcraft/models/item/glass_shard.json
 c5a884e70864933c7ab76afe26073714e92e9492 assets/liminalcraft/models/item/level_0_sign.json
 96f72267d626e4baa384ff20ce2b75f97ac88c91 assets/liminalcraft/models/item/piece_of_yellow_wallpaper.json
 29d4ee8821aa550ba4a72073cfa727bbf1ead2a1 assets/liminalcraft/models/item/small_battery.json
+97195505962d418e2bec4b23347ad2598051e722 assets/liminalcraft/models/item/yellow_wallpaper_slab.json

@@ -13,7 +13,7 @@
     {
       "weight":3 ,
       "element": {
-        "location": "liminalcraft:loot_box",
+        "location": "liminalcraft:level_0/loot_box",
         "processors":
                       [{"processor_type": "minecraft:rule",
                         "rules":  [

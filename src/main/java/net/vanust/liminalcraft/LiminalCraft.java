@@ -52,7 +52,7 @@ public class LiminalCraft
 
         LiminalCraftLootModifiers.register(modEventBus);
 
-//        LiminalCraftStructureRegister.DEFERRED_REGISTRY_STRUCTURE.register(modEventBus);
+        LiminalCraftStructureRegister.DEFERRED_REGISTRY_STRUCTURE.register(modEventBus);
 //        LiminalCraftNoiseSettings.register(modEventBus);
 
     }

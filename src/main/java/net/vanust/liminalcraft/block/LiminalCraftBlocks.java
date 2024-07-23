@@ -30,8 +30,14 @@ public class LiminalCraftBlocks {
     public static final RegistryObject<Block> YELLOW_WALLPAPER = registerBlock("yellow_wallpaper",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f)));
 
+    public static final RegistryObject<Block> YELLOW_WALLPAPER_SLAB = registerBlock("yellow_wallpaper_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+
     public static final RegistryObject<Block> YELLOW_WALLPAPER_WORSE = registerBlock("yellow_wallpaper_worse",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+            () -> new JigsawBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+
 
     public static final RegistryObject<Block> BASIC_FLOOR_0 = registerBlock("basic_floor_0",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
@@ -39,7 +45,7 @@ public class LiminalCraftBlocks {
     public static final RegistryObject<Block> BASIC_FLOOR_LIGHT_0 = registerBlock("basic_floor_light_0",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
-    public static final RegistryObject<Block> BASIC_STAIRS_0 = registerBlock("basic_stairs_light_0",
+    public static final RegistryObject<Block> BASIC_STAIRS_0 = registerBlock("basic_stairs_0",
             () -> new StairBlock(() -> LiminalCraftBlocks.BASIC_FLOOR_0.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
     public static final RegistryObject<Block> BASIC_SLAB_0 = registerBlock("basic_slab_0",

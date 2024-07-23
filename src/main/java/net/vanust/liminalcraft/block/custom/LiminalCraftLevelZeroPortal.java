@@ -46,7 +46,7 @@ public class LiminalCraftLevelZeroPortal extends Block {
             ResourceKey<Level> resourcekey = LiminalCraftLevels.LEVEL_0_KEY;
 //            player.sendSystemMessage(Component.literal(resourcekey.toString()));
             ServerLevel portalDimension = minecraftserver.getLevel(resourcekey);
-            player.teleportTo(portalDimension,(int)(player.getX()  + normal_random.nextGaussian(0,1000)),100,(int)(player.getZ() + normal_random.nextGaussian(0,1000)),
+            player.teleportTo(portalDimension,(int)(player.getX()  + normal_random.nextGaussian(0,5000)),150,(int)(player.getZ() + normal_random.nextGaussian(0,5000)),
                     RelativeMovement.ALL,0,0);
 //            if (portalDimension != null && !player.isPassenger()) {
 //                player.changeDimension(portalDimension, new LiminalCraftTeleports(pPos, true, true, LiminalCraftLevelZeroPortal.this));

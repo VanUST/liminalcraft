@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "liminalcraft:basic_stairs_light_0"
+          "name": "liminalcraft:basic_stairs_0"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "liminalcraft:blocks/basic_stairs_light_0"
+  "random_sequence": "liminalcraft:blocks/basic_stairs_0"
 }

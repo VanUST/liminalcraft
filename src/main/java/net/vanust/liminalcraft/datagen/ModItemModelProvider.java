@@ -30,6 +30,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0);
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_SLAB_0);
+        evenSimplerBlockItem(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB);
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_STAIRS_0);
     }
 

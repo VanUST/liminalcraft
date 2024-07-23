@@ -1,0 +1,57 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": 3,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -3,
+      "offsetY": 3,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX":-4,
+      "offsetY": 3,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -5,
+      "offsetY": 3,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  ]
+}

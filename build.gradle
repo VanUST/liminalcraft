@@ -207,7 +207,7 @@ dependencies {
     implementation fg.deobf("maven.modrinth:cloth-config:12.0.109+forge")
     implementation fg.deobf("maven.modrinth:Patchouli:1.20.1-84-forge")
 //    implementation fg.deobf("curse.maven:true-darkness-forge-updated-fork-970641:5080314")
-
+    implementation fg.deobf("curse.maven:scp-overtime-339045:5159413")
     implementation fg.deobf("maven.modrinth:travelersbackpack:1.20.1-9.1.15")
     implementation fg.deobf("maven.modrinth:moonlight:forge_1.20-2.12.6")
     implementation fg.deobf("maven.modrinth:supplementaries:1.20-2.8.17")

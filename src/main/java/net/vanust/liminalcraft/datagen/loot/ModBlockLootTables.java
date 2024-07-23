@@ -32,6 +32,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
+        this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get());
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_0.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());

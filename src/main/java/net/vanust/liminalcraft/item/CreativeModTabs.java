@@ -29,6 +29,7 @@ public class CreativeModTabs {
                                 pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
                                 pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
                                 pOutput.accept(LiminalCraftBlocks.LEVEL_0_PORTAL.get());
+                                pOutput.accept(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get());
                                 pOutput.accept(LiminalCraftBlocks.LEVEL_1_PORTAL.get());
                                 pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_0.get());
                                 pOutput.accept(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());

@@ -1,52 +1,23 @@
 [
-  {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:location_check",
-        "offsetY": 2,
-        "offsetZ": -1,
-        "predicate": {
-          "dimension": "liminalcraft:level_0",
-          "block": {
-            "tag": "minecraft:replaceable"
-          }
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "offsetY": 2,
-        "offsetZ": 1,
-        "predicate": {
-          "dimension": "liminalcraft:level_0",
-          "block": {
-            "tag": "minecraft:replaceable"
-          }
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "offsetX": -1,
-        "offsetY": 2,
-        "predicate": {
-          "dimension": "liminalcraft:level_0",
-          "block": {
-            "tag": "minecraft:replaceable"
-          }
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "offsetX": 1,
-        "offsetY": 2,
-        "predicate": {
-          "position": {},
-          "dimension": "liminalcraft:level_0",
-          "block": {
-            "tag": "minecraft:replaceable"
-          }
-        }
-      }
-    ]
-  }
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "liminalcraft:check_line_1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "liminalcraft:check_line_2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "liminalcraft:check_line_3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "liminalcraft:check_line_4"
+    }
+  ]
+}
 ]

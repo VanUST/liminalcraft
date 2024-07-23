@@ -31,6 +31,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) LiminalCraftBlocks.BASIC_STAIRS_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
         slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_SLAB_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
         slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()));
+        slabBlock((SlabBlock) LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get(),blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()),blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()));
 
         //        blockWithItem(LiminalCraftBlocks.CEILING_LIGHT_1);
 

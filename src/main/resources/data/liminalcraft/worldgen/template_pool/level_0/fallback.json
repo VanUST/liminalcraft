@@ -11,20 +11,20 @@
         {
           "weight": 1,
           "element": {
-            "location": "liminalcraft:level_0_fallback",
+            "location": "liminalcraft:level_0/fallback_4_5",
             "processors": "minecraft:empty",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
           }
-        }
-//    {
-//      "weight": 1,
-//      "element": {
-//        "location": "liminalcraft:level_0_turn",
-//        "processors": "minecraft:empty",
-//        "projection": "rigid",
-//        "element_type": "minecraft:single_pool_element"
-//      }
-//    }
+        },
+    {
+      "weight": 1,
+      "element": {
+        "location": "liminalcraft:level_0/fallback_6_7",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
   ]
 }
