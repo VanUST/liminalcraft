@@ -40,6 +40,36 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "location": "liminalcraft:level_0/6_7_to_8_9",
+        "processors":
+        [{
+          "processor_type": "minecraft:rule",
+          "rules":  [
+            {
+              "input_predicate":  {
+                "predicate_type": "block_match",
+                "block": "minecraft:air"
+              },
+              "location_predicate": {
+                "predicate_type": "always_true"
+              },
+              "output_state": {
+                "Name": "liminalcraft:structure_air"
+              }
+            }
+          ]
+        },
+          {"processor_type": "minecraft:protected_blocks",
+            "value": "#liminalcraft:not_replace"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 50,
       "element": {
         "location": "liminalcraft:level_0/corridor_6_7",

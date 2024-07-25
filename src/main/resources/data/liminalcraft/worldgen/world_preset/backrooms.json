@@ -1,0 +1,41 @@
+{
+  "dimensions": {
+    "liminalcraft:level_0": {
+      "type": "liminalcraft:level_0_type",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "liminalcraft:level_0_corridors",
+          "lakes": false,
+          "features": false,
+          "layers": []
+        }
+      }
+    },
+    "liminalcraft:level_1": {
+      "type": "liminalcraft:level_1_type",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "liminalcraft:level_1_halls",
+          "lakes": false,
+          "features": false,
+          "layers": []
+        }
+      }
+    },
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "liminalcraft:level_1_halls",
+          "lakes": false,
+          "features": false,
+          "layers": []
+        }
+      }
+  }
+  }
+}
+

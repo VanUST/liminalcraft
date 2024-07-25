@@ -3,8 +3,8 @@
   "terms": [
     {
       "condition": "minecraft:location_check",
-      "offsetX": -2,
-      "offsetY": 3,
+      "offsetY": 2,
+      "offsetX": 2,
       "predicate": {
         "dimension": "liminalcraft:level_0",
         "block": {
@@ -16,8 +16,8 @@
     },
     {
       "condition": "minecraft:location_check",
-      "offsetX": -3,
-      "offsetY": 3,
+      "offsetY": 2,
+      "offsetX": 3,
       "predicate": {
         "dimension": "liminalcraft:level_0",
         "block": {
@@ -29,8 +29,8 @@
     },
     {
       "condition": "minecraft:location_check",
-      "offsetX":-4,
-      "offsetY": 3,
+      "offsetY": 2,
+      "offsetX": 4,
       "predicate": {
         "dimension": "liminalcraft:level_0",
         "block": {
@@ -42,8 +42,73 @@
     },
     {
       "condition": "minecraft:location_check",
-      "offsetX": -5,
-      "offsetY": 3,
+      "offsetY": 2,
+      "offsetX": 5,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "offsetX": 6,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "offsetX": 7,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "offsetX": 8,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "offsetX": 9,
+      "predicate": {
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "offsetX": 10,
       "predicate": {
         "dimension": "liminalcraft:level_0",
         "block": {

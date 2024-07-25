@@ -12,7 +12,7 @@
   "logical_height": 512,
   "min_y": 0,
   "monster_spawn_block_light_limit": 0,
-  "monster_spawn_light_level": 0,
+  "monster_spawn_light_level": 15,
   "natural": false,
   "piglin_safe": false,
   "respawn_anchor_works": false,

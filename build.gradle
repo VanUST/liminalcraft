@@ -199,7 +199,7 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 //    implementation fg.deobf("maven.modrinth:ferrite-core:6.0.1-forge")
 //    implementation fg.deobf("maven.modrinth:ImmediatelyFast:1.2.18+1.20.4-forge")
 
@@ -207,7 +207,9 @@ dependencies {
     implementation fg.deobf("maven.modrinth:cloth-config:12.0.109+forge")
     implementation fg.deobf("maven.modrinth:Patchouli:1.20.1-84-forge")
 //    implementation fg.deobf("curse.maven:true-darkness-forge-updated-fork-970641:5080314")
-    implementation fg.deobf("curse.maven:scp-overtime-339045:5159413")
+    implementation fg.deobf("curse.maven:scp-overtime-339045:5351832")
+//    implementation fg.deobf("curse.maven:scp-overtime-339045:5351832")
+//    implementation fg.deobf("curse.maven:scp-overtime-339045:5159413")
     implementation fg.deobf("maven.modrinth:travelersbackpack:1.20.1-9.1.15")
     implementation fg.deobf("maven.modrinth:moonlight:forge_1.20-2.12.6")
     implementation fg.deobf("maven.modrinth:supplementaries:1.20-2.8.17")
@@ -219,7 +221,9 @@ dependencies {
     implementation fg.deobf("curse.maven:minecraft-transit-railway-266707:4788065")
     implementation fg.deobf("curse.maven:architectury-api-419699:5084452")
 //    implementation fg.deobf("curse.maven:immersive-engineering-231951:5224387")
-//    implementation fg.deobf("maven.modrinth:station-decoration:1.3.7")
+    implementation fg.deobf("maven.modrinth:station-decoration:1.3.7")
+//    implementation fg.deobf("curse.maven:paladins-furniture-663141:5149461")
+    implementation fg.deobf("curse.maven:reeves-furniture-399025:5485183")
 //    implementation fg.deobf("maven.modrinth:modern-life:1.69")
 //    implementation fg.deobf("curse.maven:modern-life-483050:4634116")
     implementation fg.deobf("curse.maven:furniture-expanded-550478:4759946")
@@ -243,6 +247,22 @@ dependencies {
     implementation("com.eliotlash.mclib:mclib:20")
 
 //    implementation fg.deobf("maven.modrinth:simple-voicechat:forge-1.20.1-2.5.19")
+}
+
+mixin {
+    // Refmaps for each SourceSet
+//    add sourceSets.main, 'mixins.mymod.refmap.json'
+//
+//    // Configs to add to runs and jars
+//    config 'mixins.mymod.json'
+
+    // Specify options for dev run configs
+    debug.verbose = true
+    debug.export = true
+    dumpTargetOnFailure = true
+
+    // Options for the Annotation Processor
+    quiet
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

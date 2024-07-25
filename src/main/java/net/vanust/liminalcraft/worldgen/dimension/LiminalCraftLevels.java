@@ -25,6 +25,8 @@ import net.vanust.liminalcraft.worldgen.biome.LiminalCraftBiomes;
 import java.util.List;
 import java.util.OptionalLong;
 
+
+
 public class LiminalCraftLevels {
     public static final ResourceKey<LevelStem> LEVEL_0_STEM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
             new ResourceLocation(LiminalCraft.MOD_ID, "level_0"));
@@ -39,7 +41,6 @@ public class LiminalCraftLevels {
             new ResourceLocation(LiminalCraft.MOD_ID, "level_1"));
     public static final ResourceKey<DimensionType> LEVEL_1_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
             new ResourceLocation(LiminalCraft.MOD_ID, "level_1_type"));
-
 
     public static void bootstrapType(BootstapContext<DimensionType> context) {
         context.register(LEVEL_0_TYPE, new DimensionType(
@@ -57,7 +58,7 @@ public class LiminalCraftLevels {
                 BlockTags.BASE_STONE_OVERWORLD, // infiniburn
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
                 0.0f, // ambientLight
-                new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 0)));
+                new DimensionType.MonsterSettings(false, false, ConstantInt.of(15), 0)));
 
         context.register(LEVEL_1_TYPE, new DimensionType(
                 OptionalLong.of(18000), // fixedTime
@@ -81,6 +82,8 @@ public class LiminalCraftLevels {
         HolderGetter<Biome> biomeRegistry = context.lookup(Registries.BIOME);
         HolderGetter<DimensionType> dimTypes = context.lookup(Registries.DIMENSION_TYPE);
         HolderGetter<NoiseGeneratorSettings> noiseGenSettings = context.lookup(Registries.NOISE_SETTINGS);
+
+
 
         NoiseBasedChunkGenerator wrappedChunkGenerator = new NoiseBasedChunkGenerator(
                 new FixedBiomeSource(biomeRegistry.getOrThrow(Biomes.DARK_FOREST)),

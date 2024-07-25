@@ -1,0 +1,73 @@
+{
+  // More info on template pools can be found here: https://minecraft.gamepedia.com/Custom_world_generation#JSON_format_8
+  // Yes, worldgen json files can have comments. Minecraft does "lenient" parsing of these json files.
+
+  // The template pool to refer to if the entries in 'elements' fails to generate.
+  "fallback": "liminalcraft:level_0/fallback",
+
+  // Here you can list as many nbt files or placed features to spawn.
+  // Do note that placed features needs a special element entry stuff.
+  "elements": [
+
+    {
+      "weight": 3,
+      "element": {
+        "location": "liminalcraft:level_0/6_7_to_8_9",
+        "processors":
+        [{
+          "processor_type": "minecraft:rule",
+          "rules":  [
+            {
+              "input_predicate":  {
+                "predicate_type": "block_match",
+                "block": "minecraft:air"
+              },
+              "location_predicate": {
+                "predicate_type": "always_true"
+              },
+              "output_state": {
+                "Name": "liminalcraft:structure_air"
+              }
+            }
+          ]
+        },
+          {"processor_type": "minecraft:protected_blocks",
+            "value": "#liminalcraft:not_replace"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "liminalcraft:level_0/stairs_8_9",
+        "processors":
+        [{
+          "processor_type": "minecraft:rule",
+          "rules":  [
+            {
+              "input_predicate":  {
+                "predicate_type": "block_match",
+                "block": "minecraft:air"
+              },
+              "location_predicate": {
+                "predicate_type": "always_true"
+              },
+              "output_state": {
+                "Name": "liminalcraft:structure_air"
+              }
+            }
+          ]
+        },
+          {"processor_type": "minecraft:protected_blocks",
+            "value": "#liminalcraft:not_replace"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

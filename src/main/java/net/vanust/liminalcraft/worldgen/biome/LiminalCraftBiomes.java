@@ -15,6 +15,7 @@ import net.minecraft.sounds.Musics;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.*;
 import net.minecraft.world.level.levelgen.GenerationStep;
+import net.scpo.item.SCP005Item;
 import net.vanust.liminalcraft.LiminalCraft;
 
 public class LiminalCraftBiomes {
@@ -31,18 +32,18 @@ public class LiminalCraftBiomes {
     }
 
 
-    public static void globalOverworldGeneration(BiomeGenerationSettings.Builder builder) {
-        BiomeDefaultFeatures.addDefaultCarversAndLakes(builder);
-        BiomeDefaultFeatures.addDefaultCrystalFormations(builder);
-        BiomeDefaultFeatures.addDefaultMonsterRoom(builder);
-        BiomeDefaultFeatures.addDefaultUndergroundVariety(builder);
-        BiomeDefaultFeatures.addDefaultSprings(builder);
-        BiomeDefaultFeatures.addSurfaceFreezing(builder);
-    }
+//    public static void globalOverworldGeneration(BiomeGenerationSettings.Builder builder) {
+//        BiomeDefaultFeatures.addDefaultCarversAndLakes(builder);
+//        BiomeDefaultFeatures.addDefaultCrystalFormations(builder);
+//        BiomeDefaultFeatures.addDefaultMonsterRoom(builder);
+//        BiomeDefaultFeatures.addDefaultUndergroundVariety(builder);
+//        BiomeDefaultFeatures.addDefaultSprings(builder);
+//        BiomeDefaultFeatures.addSurfaceFreezing(builder);
+//    }
 
     public static Biome level_1_halls(BootstapContext<Biome> context) {
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
-
+        spawnBuilder.creatureGenerationProbability(0f);
         BiomeGenerationSettings.Builder biomeBuilder =
                 new BiomeGenerationSettings.Builder(context.lookup(Registries.PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
 
@@ -71,10 +72,11 @@ public class LiminalCraftBiomes {
 
     public static Biome level_0_corridors(BootstapContext<Biome> context) {
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+        spawnBuilder.creatureGenerationProbability(0f);
+
 //        spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.RHINO.get(), 2, 3, 5));
 //
 //        spawnBuilder.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.WOLF, 5, 4, 4));
-
 //        BiomeDefaultFeatures.farmAnimals(spawnBuilder);
 //        BiomeDefaultFeatures.commonSpawns(spawnBuilder);
 
