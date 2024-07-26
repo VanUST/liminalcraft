@@ -1,7 +1,8 @@
-// 1.20.1	2024-07-25T22:33:00.1552485	Registries
-2aa5c160cab1740c681e9b44428b885de0d8a683 data/liminalcraft/dimension/level_0.json
-4bd719164dea59761214cac7da9581c49a531d30 data/liminalcraft/dimension/level_1.json
+// 1.20.1	2024-07-26T16:45:24.5900513	Registries
+cb36bf71b8490fed2c9efc9630ee4514c25cf1f1 data/liminalcraft/dimension/level_0.json
+532b70146881d13a2cefc49879019413b9b2c60b data/liminalcraft/dimension/level_1.json
 6c007fb2917893d7e268fcb7e034ff5d9b46307f data/liminalcraft/dimension_type/level_0_type.json
 fc0eb919bf6e86c0dc8481c1f8817832e1886339 data/liminalcraft/dimension_type/level_1_type.json
 138b8d8a7603ebb97ff387bcfce6bf0277ba8920 data/liminalcraft/worldgen/biome/level_0_corridors.json
 138b8d8a7603ebb97ff387bcfce6bf0277ba8920 data/liminalcraft/worldgen/biome/level_1_halls.json
+558aed346532223ddac3fb06c1d3899120483348 data/liminalcraft/worldgen/noise_settings/level_0_world.json

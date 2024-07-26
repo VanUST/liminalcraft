@@ -10,7 +10,7 @@
   "elements": [
 
     {
-      "weight": 3,
+      "weight": 100,
       "element": {
         "location": "liminalcraft:level_0/6_7_to_8_9",
         "processors":
@@ -40,7 +40,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 3,
       "element": {
         "location": "liminalcraft:level_0/stairs_8_9",
         "processors":
@@ -60,10 +60,10 @@
               }
             }
           ]
-        },
-          {"processor_type": "minecraft:protected_blocks",
-            "value": "#liminalcraft:not_replace"
-          }
+        }
+//          {"processor_type": "minecraft:protected_blocks",
+//            "value": "#liminalcraft:not_replace"
+//          }
         ],
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

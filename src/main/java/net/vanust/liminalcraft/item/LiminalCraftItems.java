@@ -9,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vanust.liminalcraft.LiminalCraft;
 import net.vanust.liminalcraft.item.custom.FlashlightItemLiminal;
+import net.vanust.liminalcraft.item.custom.LiminalCraftRevolver;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,6 +30,10 @@ public class LiminalCraftItems {
 
     public static final RegistryObject<Item> FLASHLIGHT_ITEM =
             ITEMS.register("flashlight_item",() -> new FlashlightItemLiminal());
+
+    public static final RegistryObject<Item> REVOLVER_ITEM =
+            ITEMS.register("revolver_item",() -> new LiminalCraftRevolver());
+
 
     public static final RegistryObject<Item> GLASS_SHARD =
             ITEMS.register("glass_shard",() -> new Item(new Item.Properties().stacksTo(64)));

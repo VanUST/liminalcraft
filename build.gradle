@@ -71,7 +71,6 @@ minecraft {
             // "REGISTRIES": For firing of registry events.
             // "REGISTRYDUMP": For getting the contents of all registries.
             property 'forge.logging.markers', 'REGISTRIES'
-
             // Recommended logging level for the console
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
@@ -251,10 +250,10 @@ dependencies {
 
 mixin {
     // Refmaps for each SourceSet
-//    add sourceSets.main, 'mixins.mymod.refmap.json'
+    add sourceSets.main, 'mixins.liminalcraft.refmap.json'
 //
 //    // Configs to add to runs and jars
-//    config 'mixins.mymod.json'
+    config 'mixins.liminalcraft.json'
 
     // Specify options for dev run configs
     debug.verbose = true
@@ -285,6 +284,7 @@ tasks.named('processResources', ProcessResources).configure {
     }
 }
 
+
 // Example for how to get properties into the manifest for reading at runtime.
 tasks.named('jar', Jar).configure {
     manifest {
@@ -296,6 +296,9 @@ tasks.named('jar', Jar).configure {
                 'Implementation-Version'  : project.jar.archiveVersion,
                 'Implementation-Vendor'   : mod_authors,
                 'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+//                'MixinConfigs'            : 'liminalcraft.mixin.json',
+//                'TweakOrder'              : 0,
+//                'TweakClass'              : 'org.spongepowered.asm.launch.MixinTweaker'
         ])
     }
 

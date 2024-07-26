@@ -39,6 +39,7 @@ public class BaseStructure extends Structure {
         private final Optional<Heightmap.Types> projectStartToHeightmap;
         private final int maxDistanceFromCenter;
 
+
         public BaseStructure(Structure.StructureSettings config,
                               Holder<StructureTemplatePool> startPool,
                               Optional<ResourceLocation> startJigsawName,
@@ -110,7 +111,7 @@ public class BaseStructure extends Structure {
 
             // Turns the chunk coordinates into actual coordinates we can use. (Gets corner of that chunk)
             ChunkPos chunkPos = context.chunkPos();
-            BlockPos blockPos = new BlockPos(chunkPos.getMinBlockX(), 135, chunkPos.getMinBlockZ());
+            BlockPos blockPos = new BlockPos(chunkPos.getMinBlockX(), 256, chunkPos.getMinBlockZ());
 
 
             Optional<Structure.GenerationStub> structurePiecesGenerator =
