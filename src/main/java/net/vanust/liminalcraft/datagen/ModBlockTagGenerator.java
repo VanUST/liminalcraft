@@ -31,14 +31,23 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(LiminalCraftTags.Blocks.IS_WALL)
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER.get())
+                .add(LiminalCraftBlocks.YELLOW_WALLPAPER_1.get())
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
 
         this.tag(LiminalCraftTags.Blocks.IS_FLOOR).add(LiminalCraftBlocks.BASIC_FLOOR_0.get())
                 .add(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());
 
+        this.tag(LiminalCraftTags.Blocks.IS_CEILING).add(LiminalCraftBlocks.LEVEL_0_CEILING.get())
+                .add(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS.get())
+                .add(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_WEAK.get())
+                .add(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_OFF.get())
+        ;
+
+
         this.tag(LiminalCraftTags.Blocks.NOT_REPLACE).add(LiminalCraftBlocks.END_OF_STRUCTURE.get())
                 .add(LiminalCraftBlocks.STRUCTURE_AIR.get()).add(LiminalCraftBlocks.BASIC_STAIRS_0.get())
                 .add(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get())
+                .add(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB_1.get())
                 .add((LiminalCraftBlocks.BASIC_SLAB_0.get()))
                 .add((LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get()))
                 .add(RegistryHandler.CARDBOX.get())

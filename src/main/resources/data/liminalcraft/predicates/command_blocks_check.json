@@ -1,0 +1,113 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 1,
+            "max": 20
+          },
+          "y": {
+            "min": -3,
+            "max": 3
+          },
+          "z": {
+            "min": -10,
+            "max": 10
+          }
+        },
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": -1,
+            "max": -20
+          },
+          "y": {
+            "min": -3,
+            "max": 3
+          },
+          "z": {
+            "min": -10,
+            "max": 10
+          }
+        },
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": -10,
+            "max": 10
+          },
+          "y": {
+            "min": -3,
+            "max": 3
+          },
+          "z": {
+            "min": -1,
+            "max": -20
+          }
+        },
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": -10,
+            "max": 10
+          },
+          "y": {
+            "min": -3,
+            "max": 3
+          },
+          "z": {
+            "min": 1,
+            "max": 20
+          }
+        },
+        "dimension": "liminalcraft:level_0",
+        "block": {
+          "blocks": [
+            "minecraft:command_block",
+            "minecraft:repeating_command_block",
+            "minecraft:chain_command_block"
+          ]
+        }
+      }
+    }
+  ]
+}

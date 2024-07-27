@@ -1,6 +1,10 @@
 {
   "values": [
     "liminalcraft:basic_floor_0",
-    "liminalcraft:basic_floor_light_0"
+    "liminalcraft:basic_floor_light_0",
+    "liminalcraft:level_0_ceiling",
+    "liminalcraft:level_0_ceiling_lights",
+    "liminalcraft:level_0_ceiling_lights_weak",
+    "liminalcraft:level_0_ceiling_lights_off"
   ]
 }

@@ -15,6 +15,8 @@ public class LiminalCraftTags {
 
         public static final TagKey<Block> IS_FLOOR = tag("is_floor");
 
+        public static final TagKey<Block> IS_CEILING = tag("is_floor");
+
         public static final TagKey<Block> NOT_REPLACE = tag("not_replace");
 
         private static TagKey<Block> tag(String name){

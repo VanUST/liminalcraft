@@ -6,6 +6,10 @@
   "item.liminalcraft.small_battery": "Small battery",
 
   "block.liminalcraft.yellow_wallpaper": "Yellow wallpaper",
+  "block.liminalcraft.yellow_wallpaper_1": "Yellow wallpaper 1",
+  "block.liminalcraft.level_0_ceiling_lights": "Ceiling lights level 0",
+  "block.liminalcraft.level_0_ceiling_lights_weak": "Ceiling lights level 0 weak",
+  "block.liminalcraft.level_0_ceiling_lights_off": "Ceiling lights level 0 off",
   "creativetab.liminal_tab": "Liminal craft",
   "block.liminalcraft.yellow_wallpaper_worse": "Dirty yellow wallpaper",
   "block.liminalcraft.level_0_portal": "Level 0 Portal",
@@ -18,5 +22,8 @@
   "block.liminalcraft.basic_light_slab_0": "level 0 light slab",
   "block.liminalcraft.end_of_structure": "end of structure void",
   "key.liminalcraft.recharge": "recharge item that can be powered",
-  "generator.liminalcraft.backrooms": "Backrooms"
+  "generator.liminalcraft.backrooms": "Backrooms",
+
+
+  "sounds.liminalcraft.ceiling_light_buzz": "ceiling lights buzz"
 }

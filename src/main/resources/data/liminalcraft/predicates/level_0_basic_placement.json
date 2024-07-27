@@ -1,23 +1,45 @@
-[
 {
-  "condition": "minecraft:any_of",
-  "terms": [
+  "condition": "minecraft:all_of",
+  "terms":[
     {
-      "condition": "minecraft:reference",
-      "name": "liminalcraft:check_line_1"
-    },
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "liminalcraft:level_0"
+      }
+    }
+  ,
     {
-      "condition": "minecraft:reference",
-      "name": "liminalcraft:check_line_2"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "liminalcraft:check_line_3"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "liminalcraft:check_line_4"
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "liminalcraft:direction_1_check_level_0"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "liminalcraft:direction_2_check_level_0"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "liminalcraft:direction_3_check_level_0"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "liminalcraft:direction_4_check_level_0"
+          }
+        }
+      ]
     }
   ]
 }
-]

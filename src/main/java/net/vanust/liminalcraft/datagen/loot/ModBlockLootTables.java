@@ -33,16 +33,22 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER.get());
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get());
+        this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB_1.get());
         this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_0.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_STAIRS_0.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_SLAB_0.get());
         this.dropSelf(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get());
+        this.dropSelf(LiminalCraftBlocks.YELLOW_WALLPAPER_1.get());
+        this.dropSelf(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS.get());
+        this.dropSelf(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_WEAK.get());
+        this.dropSelf(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_OFF.get());
+        this.dropSelf(LiminalCraftBlocks.LEVEL_0_CEILING.get());
 //        this.dropSelf(LiminalCraftBlocks.END_OF_STRUCTURE.get());
 //        this.dropSelf(LiminalCraftBlocks.METAL_LADDER.get());
 //        this.dropSelf(LiminalCraftBlocks.CEILING_LIGHT_1.get());
-        this.add(LiminalCraftBlocks.CEILING_LIGHT_1.get(),block -> createProbDrop(LiminalCraftBlocks.CEILING_LIGHT_1.get(), LiminalCraftItems.GLASS_SHARD.get(),0.5F));
+//        this.add(LiminalCraftBlocks.CEILING_LIGHT_1.get(),block -> createProbDrop(LiminalCraftBlocks.CEILING_LIGHT_1.get(), LiminalCraftItems.GLASS_SHARD.get(),0.5F));
 //        this.add(ModBlocks.SAPPHIRE_ORE.get(),
 //                block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
     }

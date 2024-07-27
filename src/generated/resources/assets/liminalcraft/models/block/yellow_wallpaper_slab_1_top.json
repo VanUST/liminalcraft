@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "liminalcraft:block/yellow_wallpaper_1",
+    "side": "liminalcraft:block/yellow_wallpaper_1",
+    "top": "liminalcraft:block/yellow_wallpaper_1"
+  }
+}

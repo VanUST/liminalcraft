@@ -17,6 +17,8 @@ import net.vanust.liminalcraft.block.LiminalCraftBlocks;
 import net.vanust.liminalcraft.item.CreativeModTabs;
 import net.vanust.liminalcraft.item.LiminalCraftItems;
 import net.vanust.liminalcraft.loot.LiminalCraftLootModifiers;
+import net.vanust.liminalcraft.network.ModNetworkHandler;
+import net.vanust.liminalcraft.sound.LiminalCraftSounds;
 import net.vanust.liminalcraft.worldgen.LiminalCraftNoiseSettings;
 import net.vanust.liminalcraft.worldgen.biome.LiminalCraftTerraBlender;
 import org.slf4j.Logger;
@@ -49,6 +51,9 @@ public class LiminalCraft
 
         LiminalCraftTerraBlender.registerBiomes();
 
+        ModNetworkHandler.register();
+
+        LiminalCraftSounds.register(modEventBus);
 
         LiminalCraftLootModifiers.register(modEventBus);
 

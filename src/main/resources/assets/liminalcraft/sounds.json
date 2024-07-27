@@ -1,0 +1,8 @@
+{
+  "ceiling_light_buzz": {
+    "subtitles": "sounds.liminalcraft.ceiling_light_buzz",
+    "sounds": [
+      "liminalcraft:ceiling_light_buzz"
+    ]
+  }
+}

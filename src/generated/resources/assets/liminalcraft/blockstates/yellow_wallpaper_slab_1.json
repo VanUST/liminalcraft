@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "liminalcraft:block/yellow_wallpaper_slab_1"
+    },
+    "type=double": {
+      "model": "liminalcraft:block/yellow_wallpaper_1"
+    },
+    "type=top": {
+      "model": "liminalcraft:block/yellow_wallpaper_slab_1_top"
+    }
+  }
+}

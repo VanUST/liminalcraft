@@ -1,0 +1,1113 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -18,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -17,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -16,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -15,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -14,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -13,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -12,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -11,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -10,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -9,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -8,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -7,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -6,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -5,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -4,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -2,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -18,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -17,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -16,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -15,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -14,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -13,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -12,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -11,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -10,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -9,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -8,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -7,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -6,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -5,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -4,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -2,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -18,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -17,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -16,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -15,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -14,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -13,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -12,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -11,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -10,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -9,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -8,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -7,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -6,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -5,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -4,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -2,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -18,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -17,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -16,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -15,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -14,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -13,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -12,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -11,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -10,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -9,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -8,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -7,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -6,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -5,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -4,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetY": 0,
+          "offsetX": -2,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "liminalcraft:structure_air",
+                "liminalcraft:basic_floor_0",
+                "liminalcraft:yellow_wallpaper_1",
+                "liminalcraft:basic_floor_light_0"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

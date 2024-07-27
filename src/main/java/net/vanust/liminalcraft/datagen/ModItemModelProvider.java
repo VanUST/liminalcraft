@@ -26,11 +26,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(LiminalCraftItems.PIECE_OF_YELLOW_WALLPAPER);
         simpleItem(LiminalCraftItems.GLASS_SHARD);
         simpleItem(LiminalCraftItems.SMALL_BATTERY);
-        trapdoorItem(LiminalCraftBlocks.CEILING_LIGHT_1);
+//        trapdoorItem(LiminalCraftBlocks.CEILING_LIGHT_1);
 
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_LIGHT_SLAB_0);
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_SLAB_0);
         evenSimplerBlockItem(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB);
+        evenSimplerBlockItem(LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB_1);
         evenSimplerBlockItem(LiminalCraftBlocks.BASIC_STAIRS_0);
     }
 

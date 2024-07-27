@@ -5,7 +5,7 @@
     "distance": {
       "y": {
         "min": 0,
-        "max": 3
+        "max": 10
       }
     }
   }

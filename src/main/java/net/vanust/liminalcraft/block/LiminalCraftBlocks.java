@@ -30,12 +30,38 @@ public class LiminalCraftBlocks {
     public static final RegistryObject<Block> YELLOW_WALLPAPER = registerBlock("yellow_wallpaper",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f)));
 
+    public static final RegistryObject<Block> YELLOW_WALLPAPER_1 = registerBlock("yellow_wallpaper_1",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f)));
+
+
     public static final RegistryObject<Block> YELLOW_WALLPAPER_SLAB = registerBlock("yellow_wallpaper_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> YELLOW_WALLPAPER_SLAB_1 = registerBlock("yellow_wallpaper_slab_1",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
 
 
     public static final RegistryObject<Block> YELLOW_WALLPAPER_WORSE = registerBlock("yellow_wallpaper_worse",
             () -> new JigsawBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(-1f,36f)));
+
+
+    public static final RegistryObject<Block> LEVEL_0_CEILING = registerBlock("level_0_ceiling",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f)));
+
+    public static final RegistryObject<Block> LEVEL_0_CEILING_LIGHTS = registerBlock("level_0_ceiling_lights",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f).sound(SoundType.GLASS)
+                    .lightLevel((p_152607_) -> {
+                        return 14;
+                    })));
+
+    public static final RegistryObject<Block> LEVEL_0_CEILING_LIGHTS_WEAK = registerBlock("level_0_ceiling_lights_weak",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f).sound(SoundType.GLASS)
+                    .lightLevel((p_152607_) -> {
+                        return 9;
+                    })));
+
+    public static final RegistryObject<Block> LEVEL_0_CEILING_LIGHTS_OFF = registerBlock("level_0_ceiling_lights_off",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).strength(-1f,36f)));
 
 
 
@@ -59,14 +85,14 @@ public class LiminalCraftBlocks {
 
     public static final RegistryObject<Block> STRUCTURE_AIR = registerBlock("structure_air", () -> new AirBlock(BlockBehaviour.Properties.of().replaceable().noCollission().noLootTable().air()));
 
-
-    public static final RegistryObject<Block> CEILING_LIGHT_1 = registerBlock("ceiling_light_1",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().strength(1f,36f).sound(SoundType.GLASS)
-                    .lightLevel((p_152607_) -> {
-                        return 10;
-                    })
-                    , BlockSetType.GOLD)
-            );
+//
+//    public static final RegistryObject<Block> CEILING_LIGHT_1 = registerBlock("ceiling_light_1",
+//            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().strength(1f,36f).sound(SoundType.GLASS)
+//                    .lightLevel((p_152607_) -> {
+//                        return 10;
+//                    })
+//                    , BlockSetType.GOLD)
+//            );
 
 //    public static final RegistryObject<Block> METAL_LADDER = registerBlock("metal_ladder",
 //            () -> new LadderBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).strength(1F,5F))

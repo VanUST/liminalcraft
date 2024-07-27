@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-23T22:08:51.9925389	Tags for minecraft:block mod id liminalcraft
-18e0e0c5037781fe515515eb7cd996a2ea91c133 data/liminalcraft/tags/blocks/is_floor.json
-faabd1f5efa1c6515e8c7c00039a2771a95c1b55 data/liminalcraft/tags/blocks/is_wall.json
-066e103942d9a5ca449edc948426f076cbe1ef6d data/liminalcraft/tags/blocks/not_replace.json
+// 1.20.1	2024-07-27T22:45:54.7276324	Tags for minecraft:block mod id liminalcraft
+db11dcec64ebd916204249e23e82ef299396f355 data/liminalcraft/tags/blocks/is_floor.json
+c8970cc7a3545349bc82d91d01bc7003d27c11db data/liminalcraft/tags/blocks/is_wall.json
+de568babdc01b6978ec9df89d19d87229b554182 data/liminalcraft/tags/blocks/not_replace.json

@@ -19,31 +19,37 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     @Override
-    protected void registerStatesAndModels(){
+    protected void registerStatesAndModels() {
         blockWithItem(LiminalCraftBlocks.YELLOW_WALLPAPER);
         blockWithItem(LiminalCraftBlocks.YELLOW_WALLPAPER_WORSE);
+        blockWithItem(LiminalCraftBlocks.YELLOW_WALLPAPER_1);
+        blockWithItem(LiminalCraftBlocks.LEVEL_0_CEILING);
+        blockWithItem(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS);
+        blockWithItem(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_WEAK);
+        blockWithItem(LiminalCraftBlocks.LEVEL_0_CEILING_LIGHTS_OFF);
         blockWithItem(LiminalCraftBlocks.LEVEL_0_PORTAL);
         blockWithItem(LiminalCraftBlocks.BASIC_FLOOR_0);
         blockWithItem(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0);
         blockWithItem(LiminalCraftBlocks.LEVEL_1_PORTAL);
         blockWithItem(LiminalCraftBlocks.END_OF_STRUCTURE);
         blockWithItem(LiminalCraftBlocks.STRUCTURE_AIR);
-        stairsBlock((StairBlock) LiminalCraftBlocks.BASIC_STAIRS_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
-        slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_SLAB_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
-        slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get(),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()),blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()));
-        slabBlock((SlabBlock) LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get(),blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()),blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()));
+        stairsBlock((StairBlock) LiminalCraftBlocks.BASIC_STAIRS_0.get(), blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
+        slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_SLAB_0.get(), blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()), blockTexture(LiminalCraftBlocks.BASIC_FLOOR_0.get()));
+        slabBlock((SlabBlock) LiminalCraftBlocks.BASIC_LIGHT_SLAB_0.get(), blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()), blockTexture(LiminalCraftBlocks.BASIC_FLOOR_LIGHT_0.get()));
+        slabBlock((SlabBlock) LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB.get(), blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()), blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER.get()));
+        slabBlock((SlabBlock) LiminalCraftBlocks.YELLOW_WALLPAPER_SLAB_1.get(), blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER_1.get()), blockTexture(LiminalCraftBlocks.YELLOW_WALLPAPER_1.get()));
 
         //        blockWithItem(LiminalCraftBlocks.CEILING_LIGHT_1);
 
-        trapdoorBlockWithRenderType((TrapDoorBlock) LiminalCraftBlocks.CEILING_LIGHT_1.get(),
-                modLoc("block/ceiling_light_1"),
-                true,
-                "cutoff");
-
-//        blockWithItem(LiminalCraftBlocks.METAL_LADDER);
-//        blockWithItem(LiminalCraftBlocks.CEILING_LIGHT_1);
+//        trapdoorBlockWithRenderType((TrapDoorBlock) LiminalCraftBlocks.CEILING_LIGHT_1.get(),
+//                modLoc("block/ceiling_light_1"),
+//                true,
+//                "cutoff");
+//
+////        blockWithItem(LiminalCraftBlocks.METAL_LADDER);
+////        blockWithItem(LiminalCraftBlocks.CEILING_LIGHT_1);
+//    }
     }
-
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }

@@ -1,350 +1,351 @@
-[27èþë.2024 01:51:40.952] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Ivan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, liminalcraft, --all, --output, D:\liminal\src\generated\resources, --existing, D:\liminal\src\main\resources, --mixin.config, mixins.liminalcraft.json]
-[27èþë.2024 01:51:40.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[27èþë.2024 01:51:41.076] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[27èþë.2024 01:51:41.125] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Ivan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
-[27èþë.2024 01:51:41.405] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27èþë.2024 01:51:41.408] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27èþë.2024 01:51:41.411] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27èþë.2024 01:51:41.414] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[27èþë.2024 01:51:41.761] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[27èþë.2024 01:51:44.076] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.liminalcraft.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[27èþë.2024 01:51:44.076] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27èþë.2024 01:51:44.135] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[27èþë.2024 01:51:44.136] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[27èþë.2024 01:51:44.173] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
-[27èþë.2024 01:51:44.203] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by bendylib.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[27èþë.2024 01:51:44.210] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by architectury.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[27èþë.2024 01:51:44.211] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by architectury-common.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[27èþë.2024 01:51:44.214] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mtr.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.223] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.224] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.fantastic.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.225] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.vertexformat.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.225] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.bettermipmaps.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.226] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.fixes.maxfpscrash.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.227] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by oculus-batched-entity-rendering.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.228] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.sodium.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.229] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.indigo.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.230] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.indium.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.231] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.dh.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.232] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.pixelmon.json is lower than the default level supported by the current mixin service (JAVA_16).
-[27èþë.2024 01:51:44.241] [main/INFO] [mixin/]: Checking for additional mixins for MixinEnvironment[PREINIT]
-[27èþë.2024 01:51:44.241] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[27èþë.2024 01:51:44.242] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Ivan\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, liminalcraft, --all, --output, D:\liminal\src\generated\resources, --existing, D:\liminal\src\main\resources]
-[27èþë.2024 01:51:44.244] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[27èþë.2024 01:51:44.244] [main/INFO] [mixin/]: Selecting config mixins.liminalcraft.json
-[27èþë.2024 01:51:44.247] [main/WARN] [mixin/]: Reference map 'mixins.liminalcraft.refmap.json' for mixins.liminalcraft.json could not be read. If this is a development environment you can ignore this message
-[27èþë.2024 01:51:44.247] [main/INFO] [mixin/]: Selecting config moonlight-common.mixins.json
-[27èþë.2024 01:51:44.484] [main/INFO] [mixin/]: Remapping refMap moonlight-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.484] [main/INFO] [mixin/]: Selecting config moonlight.mixins.json
-[27èþë.2024 01:51:44.485] [main/INFO] [mixin/]: Remapping refMap moonlight-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.485] [main/INFO] [mixin/]: Selecting config terrablender.mixins.json
-[27èþë.2024 01:51:44.486] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.486] [main/INFO] [mixin/]: Selecting config terrablender_forge.mixins.json
-[27èþë.2024 01:51:44.487] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.487] [main/INFO] [mixin/]: Selecting config mixinsquared.init.mixins.json
-[27èþë.2024 01:51:44.502] [main/INFO] [mixin/]: Selecting config geckolib.mixins.json
-[27èþë.2024 01:51:44.503] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.503] [main/INFO] [mixin/]: Selecting config bendylib.mixins.json
-[27èþë.2024 01:51:44.504] [main/INFO] [mixin/]: Remapping refMap bendy-lib-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.504] [main/INFO] [mixin/]: Selecting config patchouli_xplat.mixins.json
-[27èþë.2024 01:51:44.504] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.504] [main/INFO] [mixin/]: Selecting config mixinextras.init.mixins.json
-[27èþë.2024 01:51:44.568] [main/INFO] [mixin/]: Selecting config midnightlib.mixins.json
-[27èþë.2024 01:51:44.569] [main/INFO] [mixin/]: Remapping refMap midnightlib-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.569] [main/INFO] [mixin/]: Selecting config architectury.mixins.json
-[27èþë.2024 01:51:44.570] [main/INFO] [mixin/]: Remapping refMap architectury-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.570] [main/INFO] [mixin/]: Selecting config architectury-common.mixins.json
-[27èþë.2024 01:51:44.572] [main/INFO] [mixin/]: Remapping refMap architectury-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.572] [main/INFO] [mixin/]: Selecting config mtr.mixins.json
-[27èþë.2024 01:51:44.574] [main/INFO] [mixin/]: Remapping refMap mtr-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.574] [main/INFO] [mixin/]: Selecting config mixins.powered_flashlight.json
-[27èþë.2024 01:51:44.575] [main/INFO] [mixin/]: Selecting config mixins.powered_flashlight.forge.json
-[27èþë.2024 01:51:44.576] [main/INFO] [mixin/]: Selecting config supplementaries-common.mixins.json
-[27èþë.2024 01:51:44.578] [main/INFO] [mixin/]: Remapping refMap supplementaries-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.578] [main/INFO] [mixin/]: Selecting config supplementaries.mixins.json
-[27èþë.2024 01:51:44.579] [main/INFO] [mixin/]: Remapping refMap supplementaries-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.579] [main/INFO] [mixin/]: Selecting config embeddium.mixins.json
-[27èþë.2024 01:51:44.585] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 71 options available, 3 override(s) found
-[27èþë.2024 01:51:44.587] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
-[27èþë.2024 01:51:44.738] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 2080, version=DriverVersion=31.0.15.3699]
-[27èþë.2024 01:51:44.742] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
-[27èþë.2024 01:51:44.742] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[27èþë.2024 01:51:44.747] [main/INFO] [mixin/]: Remapping refMap embeddium-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.747] [main/INFO] [mixin/]: Selecting config mixins.oculus.json
-[27èþë.2024 01:51:44.749] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.749] [main/INFO] [mixin/]: Selecting config mixins.oculus.fantastic.json
-[27èþë.2024 01:51:44.751] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.752] [main/INFO] [mixin/]: Selecting config mixins.oculus.vertexformat.json
-[27èþë.2024 01:51:44.753] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.753] [main/INFO] [mixin/]: Selecting config mixins.oculus.bettermipmaps.json
-[27èþë.2024 01:51:44.755] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.755] [main/INFO] [mixin/]: Selecting config mixins.oculus.fixes.maxfpscrash.json
-[27èþë.2024 01:51:44.757] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.757] [main/INFO] [mixin/]: Selecting config oculus-batched-entity-rendering.mixins.json
-[27èþë.2024 01:51:44.759] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.759] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.sodium.json
-[27èþë.2024 01:51:44.761] [main/INFO] [mixin/]: Remapping refMap sodiumCompatibility-oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.762] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.indigo.json
-[27èþë.2024 01:51:44.764] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.764] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.indium.json
-[27èþë.2024 01:51:44.767] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.767] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.dh.json
-[27èþë.2024 01:51:44.770] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.770] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.pixelmon.json
-[27èþë.2024 01:51:44.772] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.772] [main/INFO] [mixin/]: Selecting config mixins.boh.json
-[27èþë.2024 01:51:44.773] [main/WARN] [mixin/]: Reference map 'mixins.boh.refmap.json' for mixins.boh.json could not be read. If this is a development environment you can ignore this message
-[27èþë.2024 01:51:44.773] [main/INFO] [mixin/]: Selecting config structure_gel.mixins.json
-[27èþë.2024 01:51:44.775] [main/INFO] [mixin/]: Remapping refMap structure_gel.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.776] [main/INFO] [mixin/]: Selecting config sound_physics_remastered.mixins.json
-[27èþë.2024 01:51:44.776] [main/INFO] [mixin/]: Remapping refMap sound_physics_remastered.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
-[27èþë.2024 01:51:44.777] [main/INFO] [mixin/]: Preparing mixins.liminalcraft.json (1)
-[27èþë.2024 01:51:44.790] [main/INFO] [mixin/]: Preparing moonlight-common.mixins.json (32)
-[27èþë.2024 01:51:45.059] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/gui/MapRenderer$MapInstance is public in moonlight-common.mixins.json:MapInstanceMixin and should be specified in value
-[27èþë.2024 01:51:45.073] [main/INFO] [mixin/]: Preparing moonlight.mixins.json (10)
-[27èþë.2024 01:51:45.081] [main/INFO] [mixin/]: Preparing terrablender.mixins.json (7)
-[27èþë.2024 01:51:45.093] [main/INFO] [mixin/]: Preparing terrablender_forge.mixins.json (0)
-[27èþë.2024 01:51:45.093] [main/INFO] [mixin/]: Preparing mixinsquared.init.mixins.json (0)
-[27èþë.2024 01:51:45.093] [main/INFO] [mixin/]: Preparing geckolib.mixins.json (1)
-[27èþë.2024 01:51:45.094] [main/INFO] [mixin/]: Preparing bendylib.mixins.json (3)
-[27èþë.2024 01:51:45.097] [main/INFO] [mixin/]: Preparing patchouli_xplat.mixins.json (10)
-[27èþë.2024 01:51:45.114] [main/INFO] [mixin/]: Preparing mixinextras.init.mixins.json (0)
-[27èþë.2024 01:51:45.114] [main/INFO] [mixin/]: Preparing midnightlib.mixins.json (1)
-[27èþë.2024 01:51:45.115] [main/INFO] [mixin/]: Preparing architectury.mixins.json (8)
-[27èþë.2024 01:51:45.123] [main/INFO] [mixin/]: Preparing architectury-common.mixins.json (10)
-[27èþë.2024 01:51:45.176] [main/INFO] [mixin/]: Preparing mtr.mixins.json (4)
-[27èþë.2024 01:51:45.183] [main/INFO] [mixin/]: Preparing mixins.powered_flashlight.json (0)
-[27èþë.2024 01:51:45.183] [main/INFO] [mixin/]: Preparing mixins.powered_flashlight.forge.json (0)
-[27èþë.2024 01:51:45.183] [main/INFO] [mixin/]: Preparing supplementaries-common.mixins.json (63)
-[27èþë.2024 01:51:45.297] [main/INFO] [mixin/]: Preparing supplementaries.mixins.json (23)
-[27èþë.2024 01:51:45.336] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.map_atlas_generation.MapAtlasTexture)
-[27èþë.2024 01:51:45.338] [main/INFO] [mixin/]: Preparing embeddium.mixins.json (0)
-[27èþë.2024 01:51:45.338] [main/INFO] [mixin/]: Preparing mixins.oculus.json (86)
-[27èþë.2024 01:51:45.404] [main/INFO] [mixin/]: Preparing mixins.oculus.fantastic.json (5)
-[27èþë.2024 01:51:45.412] [main/INFO] [mixin/]: Preparing mixins.oculus.vertexformat.json (8)
-[27èþë.2024 01:51:45.421] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$RebuildTask is public in mixins.oculus.vertexformat.json:block_rendering.MixinChunkRebuildTask and should be specified in value
-[27èþë.2024 01:51:45.421] [main/INFO] [mixin/]: Preparing mixins.oculus.bettermipmaps.json (0)
-[27èþë.2024 01:51:45.421] [main/INFO] [mixin/]: Preparing mixins.oculus.fixes.maxfpscrash.json (1)
-[27èþë.2024 01:51:45.421] [main/INFO] [mixin/]: Preparing oculus-batched-entity-rendering.mixins.json (17)
-[27èþë.2024 01:51:45.428] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.sodium.json (49)
-[27èþë.2024 01:51:45.456] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.indigo.json (1)
-[27èþë.2024 01:51:45.461] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.indium.json (1)
-[27èþë.2024 01:51:45.465] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.dh.json (4)
-[27èþë.2024 01:51:45.466] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.pixelmon.json (1)
-[27èþë.2024 01:51:45.471] [main/INFO] [mixin/]: Preparing mixins.boh.json (0)
-[27èþë.2024 01:51:45.471] [main/INFO] [mixin/]: Preparing structure_gel.mixins.json (0)
-[27èþë.2024 01:51:45.471] [main/INFO] [mixin/]: Preparing sound_physics_remastered.mixins.json (11)
-[27èþë.2024 01:51:45.532] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.532] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.532] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.534] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.535] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.535] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.535] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.535] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.536] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.536] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.536] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
-[27èþë.2024 01:51:45.714] [main/INFO] [mixin/]: Prepared 346 mixins in 1,470 sec (4,2ms avg) (0ms load, 0ms transform, 0ms plugin)
-[27èþë.2024 01:51:45.905] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[27èþë.2024 01:51:45.911] [main/INFO] [mixin/]: Mixing texture.MixinResourceLocation from mixins.oculus.json into net.minecraft.resources.ResourceLocation
-[27èþë.2024 01:51:45.913] [main/WARN] [mixin/]: mixins.oculus.json:texture.MixinResourceLocation: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:45.964] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [liminalcraft]
-[27èþë.2024 01:51:45.967] [main/INFO] [mixin/]: Mixing MixinBuiltInRegistries from terrablender.mixins.json into net.minecraft.core.registries.BuiltInRegistries
-[27èþë.2024 01:51:45.968] [main/INFO] [mixin/]: Renaming synthetic method lambda$registerSimple$0(Lnet/minecraft/core/registries/BuiltInRegistries$RegistryBootstrap;Lnet/minecraft/core/Registry;)Ljava/lang/Object; to mdff94cd$lambda$registerSimple$0$0 in terrablender.mixins.json:MixinBuiltInRegistries
-[27èþë.2024 01:51:46.032] [main/INFO] [mixin/]: Mixing inject.MixinGameEvent from architectury-common.mixins.json into net.minecraft.world.level.gameevent.GameEvent
-[27èþë.2024 01:51:46.039] [main/INFO] [mixin/]: Mixing SoundEventMixin from sound_physics_remastered.mixins.json into net.minecraft.sounds.SoundEvent
-[27èþë.2024 01:51:46.073] [main/INFO] [mixin/]: Mixing inject.MixinBlock from architectury-common.mixins.json into net.minecraft.world.level.block.Block
-[27èþë.2024 01:51:46.075] [main/INFO] [mixin/]: Mixing BlockMixin from structure_gel.mixins.json into net.minecraft.world.level.block.Block
-[27èþë.2024 01:51:46.095] [main/INFO] [mixin/]: Mixing MixinBlockStateBehavior from mixins.oculus.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
-[27èþë.2024 01:51:46.096] [main/INFO] [mixin/]: Mixing BlockBehaviourPlanterMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
-[27èþë.2024 01:51:46.119] [main/INFO] [mixin/]: Mixing EntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.Entity
-[27èþë.2024 01:51:46.121] [main/INFO] [mixin/]: Mixing EntityMixin from sound_physics_remastered.mixins.json into net.minecraft.world.entity.Entity
-[27èþë.2024 01:51:46.122] [main/INFO] [mixin/]: Mixing EntityMixin from structure_gel.mixins.json into net.minecraft.world.entity.Entity
-[27èþë.2024 01:51:46.177] [main/INFO] [mixin/]: Mixing LivingEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.LivingEntity
-[27èþë.2024 01:51:46.188] [main/INFO] [mixin/]: Mixing LivingEntityMixin from supplementaries.mixins.json into net.minecraft.world.entity.LivingEntity
-[27èþë.2024 01:51:46.249] [main/INFO] [mixin/]: Mixing PlayerProjectileMixin from supplementaries.mixins.json into net.minecraft.world.entity.player.Player
-[27èþë.2024 01:51:46.292] [main/INFO] [mixin/]: Mixing ServerLevelMixin from supplementaries-common.mixins.json into net.minecraft.server.level.ServerLevel
-[27èþë.2024 01:51:46.296] [main/INFO] [mixin/]: Renaming synthetic method lambda$unluckyLightning$0(Lnet/minecraft/world/entity/LivingEntity;)Z to mdff94cd$lambda$unluckyLightning$0$0 in supplementaries-common.mixins.json:ServerLevelMixin
-[27èþë.2024 01:51:46.353] [main/INFO] [mixin/]: Mixing inject.MixinFluid from architectury-common.mixins.json into net.minecraft.world.level.material.Fluid
-[27èþë.2024 01:51:46.357] [main/INFO] [mixin/]: Mixing ItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.Item
-[27èþë.2024 01:51:46.359] [main/INFO] [mixin/]: Mixing ItemMixin from moonlight.mixins.json into net.minecraft.world.item.Item
-[27èþë.2024 01:51:46.360] [main/INFO] [mixin/]: Mixing inject.MixinItem from architectury-common.mixins.json into net.minecraft.world.item.Item
-[27èþë.2024 01:51:46.362] [main/INFO] [mixin/]: Mixing MixinItem from mixins.oculus.json into net.minecraft.world.item.Item
-[27èþë.2024 01:51:46.362] [main/INFO] [mixin/]: Mixing ItemMixin from structure_gel.mixins.json into net.minecraft.world.item.Item
-[27èþë.2024 01:51:46.431] [main/INFO] [mixin/]: Mixing inject.MixinEntityType from architectury-common.mixins.json into net.minecraft.world.entity.EntityType
-[27èþë.2024 01:51:46.517] [main/INFO] [mixin/]: Mixing FireBlockMixin from moonlight.mixins.json into net.minecraft.world.level.block.FireBlock
-[27èþë.2024 01:51:46.548] [main/INFO] [mixin/]: Mixing features.render.immediate.DirectionMixin from embeddium.mixins.json into net.minecraft.core.Direction
-[27èþë.2024 01:51:46.690] [main/INFO] [mixin/]: Mixing inject.MixinLiquidBlock from architectury-common.mixins.json into net.minecraft.world.level.block.LiquidBlock
-[27èþë.2024 01:51:46.698] [main/INFO] [mixin/]: Mixing features.options.render_layers.LeavesBlockMixin from embeddium.mixins.json into net.minecraft.world.level.block.LeavesBlock
-[27èþë.2024 01:51:46.715] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockAccessor from moonlight-common.mixins.json into net.minecraft.world.level.block.DispenserBlock
-[27èþë.2024 01:51:46.715] [main/INFO] [mixin/]: Renaming @Accessor method getDispenserRegistry()Ljava/util/Map; to getDispenserRegistry_$md$ff94cd$0 in moonlight-common.mixins.json:accessor.DispenserBlockAccessor
-[27èþë.2024 01:51:46.775] [main/INFO] [mixin/]: Mixing IronBarsBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.IronBarsBlock
-[27èþë.2024 01:51:46.799] [main/INFO] [mixin/]: Mixing EndPortalBlockMixin from structure_gel.mixins.json into net.minecraft.world.level.block.EndPortalBlock
-[27èþë.2024 01:51:46.820] [main/INFO] [mixin/]: Mixing ComparatorBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.ComparatorBlock
-[27èþë.2024 01:51:46.866] [main/INFO] [mixin/]: Mixing CampfireBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.CampfireBlock
-[27èþë.2024 01:51:47.014] [main/INFO] [mixin/]: Mixing MixinFallingBlockEntity from architectury.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
-[27èþë.2024 01:51:47.016] [main/INFO] [mixin/]: Mixing FallingBlockEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
-[27èþë.2024 01:51:47.075] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockEntityAccessor from moonlight-common.mixins.json into net.minecraft.world.level.block.entity.DispenserBlockEntity
-[27èþë.2024 01:51:47.196] [main/INFO] [mixin/]: Mixing PistonBlockEntityMixin from moonlight-common.mixins.json into net.minecraft.world.level.block.piston.PistonMovingBlockEntity
-[27èþë.2024 01:51:47.405] [main/INFO] [mixin/]: Mixing AbstractArrowMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
-[27èþë.2024 01:51:47.432] [main/INFO] [mixin/]: Mixing EntityMixin from moonlight-common.mixins.json into net.minecraft.world.entity.Mob
-[27èþë.2024 01:51:47.630] [main/INFO] [mixin/]: Mixing ShulkerBoxBlockEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity
-[27èþë.2024 01:51:47.813] [main/INFO] [mixin/]: Mixing LoomMenuMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.LoomMenu
-[27èþë.2024 01:51:47.829] [main/INFO] [mixin/]: Mixing CartographyTableMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.CartographyTableMenu
-[27èþë.2024 01:51:47.849] [main/INFO] [mixin/]: Mixing GrindstoneMenuMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu
-[27èþë.2024 01:51:47.876] [main/INFO] [mixin/]: Mixing StructureBlockEntityMixin from structure_gel.mixins.json into net.minecraft.world.level.block.entity.StructureBlockEntity
-[27èþë.2024 01:51:47.878] [main/INFO] [mixin/]: Mixing TemplateMixins$StructureBlockEntityMixin from structure_gel.mixins.json into net.minecraft.world.level.block.entity.StructureBlockEntity
-[27èþë.2024 01:51:47.959] [main/INFO] [mixin/]: Mixing LightningEntityMixin from moonlight-common.mixins.json into net.minecraft.world.entity.LightningBolt
-[27èþë.2024 01:51:47.960] [main/INFO] [mixin/]: Mixing MixinLightningBolt from architectury-common.mixins.json into net.minecraft.world.entity.LightningBolt
-[27èþë.2024 01:51:48.023] [main/INFO] [mixin/]: Mixing BlockItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.BlockItem
-[27èþë.2024 01:51:48.044] [main/INFO] [mixin/]: Mixing BowMixin from supplementaries-common.mixins.json into net.minecraft.world.item.BowItem
-[27èþë.2024 01:51:48.045] [main/INFO] [mixin/]: Renaming synthetic method lambda$getAllSupportedProjectiles$0(Ljava/util/function/Predicate;Lnet/minecraft/world/item/ItemStack;)Z to mdff94cd$lambda$getAllSupportedProjectiles$0$0 in supplementaries-common.mixins.json:BowMixin
-[27èþë.2024 01:51:48.052] [main/INFO] [mixin/]: Mixing ProjectileWeaponItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.ProjectileWeaponItem
-[27èþë.2024 01:51:48.066] [main/INFO] [mixin/]: Mixing PaintingItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.HangingEntityItem
-[27èþë.2024 01:51:48.074] [main/INFO] [mixin/]: Mixing inject.MixinBucketItem from architectury-common.mixins.json into net.minecraft.world.item.BucketItem
-[27èþë.2024 01:51:48.079] [main/INFO] [mixin/]: Mixing MobBucketItemAccessor from supplementaries.mixins.json into net.minecraft.world.item.MobBucketItem
-[27èþë.2024 01:51:48.088] [main/INFO] [mixin/]: Mixing InkSackMixin from supplementaries-common.mixins.json into net.minecraft.world.item.InkSacItem
-[27èþë.2024 01:51:48.098] [main/INFO] [mixin/]: Mixing MapItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.MapItem
-[27èþë.2024 01:51:48.100] [main/INFO] [mixin/]: Renaming synthetic method lambda$update$1(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;Lnet/minecraft/world/entity/Entity;Ljava/util/concurrent/atomic/AtomicBoolean;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdff94cd$lambda$update$1$0 in moonlight-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.100] [main/INFO] [mixin/]: Renaming synthetic method lambda$appendHoverText$0(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;Lnet/minecraft/world/item/ItemStack;Ljava/util/List;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdff94cd$lambda$appendHoverText$0$1 in moonlight-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.101] [main/INFO] [mixin/]: Mixing MapItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.MapItem
-[27èþë.2024 01:51:48.113] [main/INFO] [mixin/]: Renaming synthetic method lambda$updateCustomColor$3(Lorg/joml/Vector2i;)D to mdff94cd$lambda$updateCustomColor$3$2 in supplementaries-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.114] [main/INFO] [mixin/]: Renaming synthetic method lambda$updateCustomColor$2(Lorg/joml/Vector2i;)D to mdff94cd$lambda$updateCustomColor$2$3 in supplementaries-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.115] [main/INFO] [mixin/]: Renaming synthetic method lambda$removeXrayAndAddAccurateColor$1(Lnet/minecraft/core/BlockPos;Lorg/joml/Vector2i;)Lcom/mojang/datafixers/util/Pair; to mdff94cd$lambda$removeXrayAndAddAccurateColor$1$4 in supplementaries-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.115] [main/INFO] [mixin/]: Renaming synthetic method lambda$removeXrayAndAddAccurateColor$0(Lorg/joml/Vector2i;)Ljava/util/List; to mdff94cd$lambda$removeXrayAndAddAccurateColor$0$5 in supplementaries-common.mixins.json:MapItemMixin
-[27èþë.2024 01:51:48.207] [main/INFO] [mixin/]: Mixing ShearItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.ShearsItem
-[27èþë.2024 01:51:48.245] [main/INFO] [mixin/]: Mixing CrossbowItemRopeMixin from supplementaries-common.mixins.json into net.minecraft.world.item.CrossbowItem
-[27èþë.2024 01:51:48.258] [main/INFO] [mixin/]: Mixing BannerPatternItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.BannerPatternItem
-[27èþë.2024 01:51:48.266] [main/INFO] [mixin/]: Mixing inject.MixinItemProperties from architectury-common.mixins.json into net.minecraft.world.item.Item$Properties
-[27èþë.2024 01:51:48.815] [main/INFO] [mixin/]: Mixing BeeGoalMixin from moonlight-common.mixins.json into net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal
-[27èþë.2024 01:51:48.845] [main/INFO] [mixin/]: Mixing AbstractHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.AbstractHorse
-[27èþë.2024 01:51:48.877] [main/INFO] [mixin/]: Mixing CatSitOnBlockGoalMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.ai.goal.CatSitOnBlockGoal
-[27èþë.2024 01:51:48.895] [main/INFO] [mixin/]: Mixing SkeletonMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Skeleton
-[27èþë.2024 01:51:48.915] [main/INFO] [mixin/]: Mixing AbstractSkeletonMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.AbstractSkeleton
-[27èþë.2024 01:51:49.013] [main/INFO] [mixin/]: Mixing EndermanMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.EnderMan
-[27èþë.2024 01:51:49.029] [main/INFO] [mixin/]: Mixing EvokerMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Evoker
-[27èþë.2024 01:51:49.049] [main/INFO] [mixin/]: Mixing FixBlockPlaceContextMixin from moonlight-common.mixins.json into net.minecraft.world.item.context.BlockPlaceContext
-[27èþë.2024 01:51:49.199] [main/INFO] [mixin/]: Mixing SkellyHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.SkeletonHorse
-[27èþë.2024 01:51:49.200] [main/INFO] [mixin/]: Renaming synthetic method lambda$tick$0(Ljava/lang/Integer;)V to mdff94cd$lambda$tick$0$0 in supplementaries-common.mixins.json:SkellyHorseMixin
-[27èþë.2024 01:51:49.272] [main/INFO] [mixin/]: Mixing StrayMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Stray
-[27èþë.2024 01:51:49.310] [main/INFO] [mixin/]: Mixing FriendlyByteBufMixin from supplementaries.mixins.json into net.minecraft.network.FriendlyByteBuf
-[27èþë.2024 01:51:49.352] [main/INFO] [mixin/]: Mixing PlayerTeleportationStateAccessor from mtr.mixins.json into net.minecraft.server.level.ServerPlayer
-[27èþë.2024 01:51:49.352] [main/WARN] [mixin/]: mtr.mixins.json:PlayerTeleportationStateAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:49.388] [main/INFO] [mixin/]: Mixing ChunkAccessMixin$Access from structure_gel.mixins.json into net.minecraft.world.level.chunk.ChunkAccess
-[27èþë.2024 01:51:49.400] [main/INFO] [mixin/]: Mixing LevelChunkMixin from moonlight-common.mixins.json into net.minecraft.world.level.chunk.LevelChunk
-[27èþë.2024 01:51:49.493] [main/INFO] [mixin/]: Mixing VillagerMixin from moonlight-common.mixins.json into net.minecraft.world.entity.npc.Villager
-[27èþë.2024 01:51:49.520] [main/INFO] [mixin/]: Mixing WanderingTraderMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.npc.WanderingTrader
-[27èþë.2024 01:51:49.548] [main/INFO] [mixin/]: Mixing ZombieHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.ZombieHorse
-[27èþë.2024 01:51:49.583] [main/INFO] [mixin/]: Mixing inject.MixinFoodPropertiesBuilder from architectury-common.mixins.json into net.minecraft.world.food.FoodProperties$Builder
-[27èþë.2024 01:51:49.614] [main/INFO] [mixin/]: Mixing ServerGamePacketListenerMixin from supplementaries-common.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
-[27èþë.2024 01:51:49.614] [main/INFO] [mixin/]: Renaming synthetic method lambda$addAntiqueInk$0(Ljava/util/function/UnaryOperator;Ljava/lang/String;)Ljava/lang/String; to mdff94cd$lambda$addAntiqueInk$0$0 in supplementaries-common.mixins.json:ServerGamePacketListenerMixin
-[27èþë.2024 01:51:49.739] [main/INFO] [mixin/]: Mixing StructureTemplateManagerMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager
-[27èþë.2024 01:51:49.752] [main/INFO] [mixin/]: Mixing ChunkGeneratorMixin from structure_gel.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
-[27èþë.2024 01:51:49.752] [main/INFO] [mixin/]: Renaming synthetic method lambda$stopIfNotInDimension$0(Lnet/minecraft/resources/ResourceKey;Ljava/util/Optional;)Z to mdff94cd$lambda$stopIfNotInDimension$0$0 in structure_gel.mixins.json:ChunkGeneratorMixin
-[27èþë.2024 01:51:49.794] [main/INFO] [mixin/]: Mixing InventoryMixin from moonlight-common.mixins.json into net.minecraft.world.entity.player.Inventory
-[27èþë.2024 01:51:49.819] [main/INFO] [mixin/]: Mixing GrindstoneInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$2
-[27èþë.2024 01:51:49.827] [main/INFO] [mixin/]: Mixing GrindstoneMenuSlotMixin from moonlight-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$4
-[27èþë.2024 01:51:49.828] [main/INFO] [mixin/]: Mixing GrindstoneTestSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$4
-[27èþë.2024 01:51:49.843] [main/INFO] [mixin/]: Mixing LoomInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.LoomMenu$3
-[27èþë.2024 01:51:49.856] [main/INFO] [mixin/]: Mixing CartographyTableInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.CartographyTableMenu$4
-[27èþë.2024 01:51:49.871] [main/INFO] [mixin/]: Mixing MapExtendingRecipeMixin from moonlight-common.mixins.json into net.minecraft.world.item.crafting.MapExtendingRecipe
-[27èþë.2024 01:51:49.955] [main/INFO] [mixin/]: Mixing MixinBiomes from mixins.oculus.json into net.minecraft.world.level.biome.Biomes
-[27èþë.2024 01:51:49.997] [main/INFO] [mixin/]: Mixing ExplorationMapSerializerMixin from supplementaries-common.mixins.json into net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer
-[27èþë.2024 01:51:50.014] [main/INFO] [mixin/]: Mixing ExplorationMapFunctionMixin from supplementaries-common.mixins.json into net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction
-[27èþë.2024 01:51:50.075] [main/INFO] [mixin/]: Mixing DimensionTypeAccessor from mixins.oculus.json into net.minecraft.world.level.dimension.DimensionType
-[27èþë.2024 01:51:50.148] [main/INFO] [mixin/]: Mixing LakeFeatureMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.feature.LakeFeature
-[27èþë.2024 01:51:50.358] [main/INFO] [mixin/]: Mixing StructureMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.Structure
-[27èþë.2024 01:51:50.378] [main/WARN] [mixin/]: @At("STORE" implicit StructurePiecesBuilder) has invalid IMPLICIT discriminator for opcode 15 in net/minecraft/world/level/levelgen/structure/Structure::generate(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;: Found 0 candidate variables but exactly 1 is required.
-[27èþë.2024 01:51:50.378] [main/WARN] [mixin/]: @At("STORE" implicit StructurePiecesBuilder) has invalid IMPLICIT discriminator for opcode 21 in net/minecraft/world/level/levelgen/structure/Structure::generate(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;: Found 0 candidate variables but exactly 1 is required.
-[27èþë.2024 01:51:50.410] [main/INFO] [mixin/]: Mixing MineshaftCorridorMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCorridor
-[27èþë.2024 01:51:50.446] [main/INFO] [mixin/]: Mixing StrongholdCrossingSconceMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FiveCrossing
-[27èþë.2024 01:51:50.471] [main/INFO] [mixin/]: Mixing StrongholdRoomSconceMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing
-[27èþë.2024 01:51:50.494] [main/INFO] [mixin/]: Mixing TemplateStructurePieceMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.TemplateStructurePiece
-[27èþë.2024 01:51:50.553] [main/INFO] [mixin/]: Mixing PoolElementStructurePieceMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece
-[27èþë.2024 01:51:50.554] [main/WARN] [mixin/]: @Shadow target structure_gel.mixins.json:PoolElementStructurePieceMixin::element is final but shadow is not decorated with @Final
-[27èþë.2024 01:51:50.667] [main/INFO] [mixin/]: Mixing MixinBiomeSource from terrablender.mixins.json into net.minecraft.world.level.biome.BiomeSource
-[27èþë.2024 01:51:50.668] [main/INFO] [mixin/]: Renaming synthetic method lambda$appendDeferredBiomesList$0(Lcom/google/common/collect/ImmutableList;)Ljava/util/Set; to mdff94cd$lambda$appendDeferredBiomesList$0$0 in terrablender.mixins.json:MixinBiomeSource
-[27èþë.2024 01:51:50.676] [main/INFO] [mixin/]: Mixing features.world.biome.BiomeMixin from embeddium.mixins.json into net.minecraft.world.level.biome.Biome
-[27èþë.2024 01:51:50.678] [main/INFO] [mixin/]: Mixing MixinBiome from mixins.oculus.json into net.minecraft.world.level.biome.Biome
-[27èþë.2024 01:51:50.722] [main/INFO] [mixin/]: Mixing MixinMultiNoiseBiomeSource from terrablender.mixins.json into net.minecraft.world.level.biome.MultiNoiseBiomeSource
-[27èþë.2024 01:51:50.730] [main/INFO] [mixin/]: Mixing MixinParameterList from terrablender.mixins.json into net.minecraft.world.level.biome.Climate$ParameterList
-[27èþë.2024 01:51:50.731] [main/INFO] [mixin/]: Renaming synthetic method lambda$initializeForTerraBlender$0(Lcom/google/common/collect/ImmutableList$Builder;Lnet/minecraft/core/Registry;Lcom/mojang/datafixers/util/Pair;)V to mdff94cd$lambda$initializeForTerraBlender$0$0 in terrablender.mixins.json:MixinParameterList
-[27èþë.2024 01:51:50.761] [main/INFO] [mixin/]: Mixing MixinNoiseGeneratorSettings from terrablender.mixins.json into net.minecraft.world.level.levelgen.NoiseGeneratorSettings
-[27èþë.2024 01:51:50.762] [main/WARN] [mixin/]: @Shadow target terrablender.mixins.json:MixinNoiseGeneratorSettings::surfaceRule is final but shadow is not decorated with @Final
-[27èþë.2024 01:51:50.900] [main/INFO] [mixin/]: Mixing SinglePoolElementMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement
-[27èþë.2024 01:51:51.178] [modloading-worker-0/INFO] [mixin/]: Mixing MinecraftMixin from moonlight-common.mixins.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.180] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMinecraft from architectury.mixins.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.181] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMinecraft_PipelineManagement from mixins.oculus.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.184] [modloading-worker-0/INFO] [mixin/]: Mixing MinecraftMixin from sound_physics_remastered.mixins.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.185] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.MinecraftAccessor from embeddium.mixins.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.191] [modloading-worker-0/INFO] [mixin/]: Mixing core.MinecraftClientMixin from embeddium.mixins.json into net.minecraft.client.Minecraft
-[27èþë.2024 01:51:51.191] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$postInit$0(Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/Screen; to mdff94cd$lambda$postInit$0$0 in embeddium.mixins.json:core.MinecraftClientMixin
-[27èþë.2024 01:51:51.318] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.BakedModelMixin from embeddium.mixins.json into net.minecraft.client.resources.model.BakedModel
-[27èþë.2024 01:51:51.321] [modloading-worker-0/INFO] [mixin/]: Mixing client.AccessorScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.Screen
-[27èþë.2024 01:51:51.344] [modloading-worker-0/INFO] [mixin/]: Mixing MixinOptions_Entrypoint from mixins.oculus.json into net.minecraft.client.Options
-[27èþë.2024 01:51:51.344] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMaxFpsCrashFix from mixins.oculus.fixes.maxfpscrash.json into net.minecraft.client.Options
-[27èþë.2024 01:51:51.344] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.fixes.maxfpscrash.json:MixinMaxFpsCrashFix: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:51.344] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinOptions_CloudsOverride from mixins.oculus.json into net.minecraft.client.Options
-[27èþë.2024 01:51:51.344] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$overrideCloudsType$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdff94cd$lambda$iris$overrideCloudsType$0$0 in mixins.oculus.json:sky.MixinOptions_CloudsOverride
-[27èþë.2024 01:51:51.382] [modloading-worker-0/INFO] [mixin/]: Mixing features.model.ModelBakeryMixin from embeddium.mixins.json into net.minecraft.client.resources.model.ModelBakery
-[27èþë.2024 01:51:51.402] [modloading-worker-0/INFO] [mixin/]: Mixing MixinRenderTarget from mixins.oculus.json into com.mojang.blaze3d.pipeline.RenderTarget
-[27èþë.2024 01:51:51.403] [modloading-worker-0/INFO] [mixin/]: Mixing state_tracking.MixinRenderTarget from mixins.oculus.json into com.mojang.blaze3d.pipeline.RenderTarget
-[27èþë.2024 01:51:51.404] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$onBindFramebuffer$0(ZLnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdff94cd$lambda$iris$onBindFramebuffer$0$0 in mixins.oculus.json:state_tracking.MixinRenderTarget
-[27èþë.2024 01:51:51.419] [modloading-worker-0/INFO] [mixin/]: Mixing client.AccessorKeyMapping from patchouli_xplat.mixins.json into net.minecraft.client.KeyMapping
-[27èþë.2024 01:51:51.420] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getAllKeyMappings()Ljava/util/Map; to getAllKeyMappings_$md$ff94cd$0 in patchouli_xplat.mixins.json:client.AccessorKeyMapping
-[27èþë.2024 01:51:51.431] [modloading-worker-0/INFO] [mixin/]: Mixing gui.MixinGui from mixins.oculus.json into net.minecraft.client.gui.Gui
-[27èþë.2024 01:51:51.432] [modloading-worker-0/INFO] [mixin/]: Mixing features.options.overlays.InGameHudMixin from embeddium.mixins.json into net.minecraft.client.gui.Gui
-[27èþë.2024 01:51:51.433] [modloading-worker-0/INFO] [mixin/]: Mixing GuiMixin from structure_gel.mixins.json into net.minecraft.client.gui.Gui
-[27èþë.2024 01:51:51.489] [modloading-worker-0/INFO] [mixin/]: Mixing gui.MixinForgeGui from mixins.oculus.json into net.minecraftforge.client.gui.overlay.ForgeGui
-[27èþë.2024 01:51:51.491] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.gui.debug.ForgeGuiMixin from embeddium.mixins.json into net.minecraftforge.client.gui.overlay.ForgeGui
-[27èþë.2024 01:51:51.492] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderLinesVanilla$0(Lme/jellysquid/mods/sodium/mixin/features/render/gui/debug/DebugScreenOverlayAccessor;Lnet/minecraft/client/gui/GuiGraphics;Ljava/util/ArrayList;Ljava/util/ArrayList;)V to mdff94cd$lambda$renderLinesVanilla$0$0 in embeddium.mixins.json:features.render.gui.debug.ForgeGuiMixin
-[27èþë.2024 01:51:51.536] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.colors.ItemColorsMixin from embeddium.mixins.json into net.minecraft.client.color.item.ItemColors
-[27èþë.2024 01:51:51.552] [modloading-worker-0/INFO] [mixin/]: Mixing ChatMixin from supplementaries.mixins.json into net.minecraft.client.gui.screens.ChatScreen
-[27èþë.2024 01:51:51.562] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.colors.BlockColorsMixin from embeddium.mixins.json into net.minecraft.client.color.block.BlockColors
-[27èþë.2024 01:51:51.577] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.world.ClientLevelMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.578] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$new$0(Lnet/minecraft/world/level/biome/AmbientParticleSettings;)V to mdff94cd$lambda$new$0$0 in embeddium.mixins.json:features.render.world.ClientLevelMixin
-[27èþë.2024 01:51:51.580] [modloading-worker-0/INFO] [mixin/]: Mixing MixinClientLevel from architectury.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.581] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from supplementaries-common.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.584] [modloading-worker-0/INFO] [mixin/]: Mixing block_rendering.MixinClientLevel from mixins.oculus.vertexformat.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.584] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:51.584] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from sound_physics_remastered.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.586] [modloading-worker-0/INFO] [mixin/]: Mixing core.world.biome.ClientWorldMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.586] [modloading-worker-0/INFO] [mixin/]: Mixing core.world.map.ClientWorldMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[27èþë.2024 01:51:51.649] [modloading-worker-0/INFO] [mixin/]: Mixing LocalPlayerMixin from supplementaries-common.mixins.json into net.minecraft.client.player.LocalPlayer
-[27èþë.2024 01:51:51.652] [modloading-worker-0/INFO] [mixin/]: Mixing LocalPlayerMixin from sound_physics_remastered.mixins.json into net.minecraft.client.player.LocalPlayer
-[27èþë.2024 01:51:51.689] [modloading-worker-0/INFO] [mixin/]: Mixing MixinParticleEngine from mixins.oculus.json into net.minecraft.client.particle.ParticleEngine
-[27èþë.2024 01:51:51.690] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$finishDrawingParticles$1(Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdff94cd$lambda$iris$finishDrawingParticles$1$0 in mixins.oculus.json:MixinParticleEngine
-[27èþë.2024 01:51:51.690] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$beginDrawingParticles$0(Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdff94cd$lambda$iris$beginDrawingParticles$0$1 in mixins.oculus.json:MixinParticleEngine
-[27èþë.2024 01:51:51.690] [modloading-worker-0/INFO] [mixin/]: Mixing MixinParticleEngine from mixins.oculus.fantastic.json into net.minecraft.client.particle.ParticleEngine
-[27èþë.2024 01:51:51.690] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.fantastic.json:MixinParticleEngine: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:51.691] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$selectParticlesToRender$1(Lnet/minecraft/client/particle/ParticleRenderType;)Z to mdff94cd$lambda$iris$selectParticlesToRender$1$2 in mixins.oculus.fantastic.json:MixinParticleEngine
-[27èþë.2024 01:51:51.691] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$selectParticlesToRender$0(Lnet/minecraft/client/particle/ParticleRenderType;)Z to mdff94cd$lambda$iris$selectParticlesToRender$0$3 in mixins.oculus.fantastic.json:MixinParticleEngine
-[27èþë.2024 01:51:51.718] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelEvent from architectury.mixins.json into net.minecraftforge.event.level.LevelEvent
-[27èþë.2024 01:51:51.729] [modloading-worker-0/INFO] [mixin/]: Mixing MixinTitleScreen from mixins.oculus.json into net.minecraft.client.gui.screens.TitleScreen
-[27èþë.2024 01:51:51.752] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinInventoryScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.inventory.InventoryScreen
-[27èþë.2024 01:51:51.790] [modloading-worker-0/INFO] [mixin/]: Mixing features.gui.screen.LevelLoadingScreenMixin from embeddium.mixins.json into net.minecraft.client.gui.screens.LevelLoadingScreen
-[27èþë.2024 01:51:51.790] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderChunks$0(Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)V to mdff94cd$lambda$renderChunks$0$0 in embeddium.mixins.json:features.gui.screen.LevelLoadingScreenMixin
-[27èþë.2024 01:51:51.834] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[27èþë.2024 01:51:51.835] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[27èþë.2024 01:51:51.837] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[27èþë.2024 01:51:51.864] [modloading-worker-0/INFO] [mixin/]: Mixing ConditionHackMixin from moonlight.mixins.json into net.minecraft.server.packs.resources.SimplePreparableReloadListener
-[27èþë.2024 01:51:51.930] [modloading-worker-0/INFO] [mixin/]: Mixing workarounds.context_creation.WindowMixin from embeddium.mixins.json into com.mojang.blaze3d.platform.Window
-[27èþë.2024 01:51:51.944] [modloading-worker-0/INFO] [mixin/]: Mixing MixinWindow from mixins.oculus.json into com.mojang.blaze3d.platform.Window
-[27èþë.2024 01:51:52.031] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.DrawContextMixin from embeddium.mixins.json into net.minecraft.client.gui.GuiGraphics
-[27èþë.2024 01:51:52.064] [modloading-worker-0/INFO] [mixin/]: Mixing FontRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.gui.Font
-[27èþë.2024 01:51:52.086] [modloading-worker-0/INFO] [mixin/]: Mixing options.MixinSodiumGameOptions from mixins.oculus.compat.sodium.json into me.jellysquid.mods.sodium.client.gui.SodiumGameOptions
-[27èþë.2024 01:51:52.086] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.compat.sodium.json:options.MixinSodiumGameOptions: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:52.102] [modloading-worker-0/INFO] [mixin/]: Mixing SelfItemDisplayTileMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.block.ItemDisplayTile
-[27èþë.2024 01:51:52.113] [modloading-worker-0/INFO] [mixin/]: Mixing SelfExtraModelDataProvider from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.client.model.IExtraModelDataProvider
-[27èþë.2024 01:51:52.126] [modloading-worker-0/INFO] [mixin/]: Mixing texture.TextureAtlasAccessor from mixins.oculus.json into net.minecraft.client.renderer.texture.TextureAtlas
-[27èþë.2024 01:51:52.140] [modloading-worker-0/INFO] [mixin/]: Mixing texture.pbr.MixinTextureAtlas from mixins.oculus.json into net.minecraft.client.renderer.texture.TextureAtlas
-[27èþë.2024 01:51:52.141] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.SpriteAtlasTextureMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlas
-[27èþë.2024 01:51:52.251] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+[27èþë.2024 23:40:04.147] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Ivan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, liminalcraft, --all, --output, D:\liminal\src\generated\resources, --existing, D:\liminal\src\main\resources, --mixin.config, mixins.liminalcraft.json]
+[27èþë.2024 23:40:04.153] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[27èþë.2024 23:40:04.285] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[27èþë.2024 23:40:04.337] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Ivan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
+[27èþë.2024 23:40:04.656] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27èþë.2024 23:40:04.660] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27èþë.2024 23:40:04.663] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27èþë.2024 23:40:04.666] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[27èþë.2024 23:40:05.125] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[27èþë.2024 23:40:08.352] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.liminalcraft.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[27èþë.2024 23:40:08.353] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27èþë.2024 23:40:08.419] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[27èþë.2024 23:40:08.420] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[27èþë.2024 23:40:08.474] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[27èþë.2024 23:40:08.502] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by bendylib.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[27èþë.2024 23:40:08.509] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by architectury.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[27èþë.2024 23:40:08.510] [main/WARN] [mixin/]: Compatibility level JAVA_16 specified by architectury-common.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[27èþë.2024 23:40:08.512] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mtr.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.523] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.524] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.fantastic.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.525] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.vertexformat.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.526] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.bettermipmaps.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.527] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.fixes.maxfpscrash.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.529] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by oculus-batched-entity-rendering.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.530] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.sodium.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.533] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.indigo.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.535] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.indium.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.537] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.dh.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.538] [main/INFO] [mixin/]: Compatibility level JAVA_8 specified by mixins.oculus.compat.pixelmon.json is lower than the default level supported by the current mixin service (JAVA_16).
+[27èþë.2024 23:40:08.544] [main/INFO] [mixin/]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[27èþë.2024 23:40:08.544] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[27èþë.2024 23:40:08.546] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Ivan\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, liminalcraft, --all, --output, D:\liminal\src\generated\resources, --existing, D:\liminal\src\main\resources]
+[27èþë.2024 23:40:08.547] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[27èþë.2024 23:40:08.548] [main/INFO] [mixin/]: Selecting config mixins.liminalcraft.json
+[27èþë.2024 23:40:08.552] [main/WARN] [mixin/]: Reference map 'mixins.liminalcraft.refmap.json' for mixins.liminalcraft.json could not be read. If this is a development environment you can ignore this message
+[27èþë.2024 23:40:08.552] [main/INFO] [mixin/]: Selecting config moonlight-common.mixins.json
+[27èþë.2024 23:40:08.890] [main/INFO] [mixin/]: Remapping refMap moonlight-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.890] [main/INFO] [mixin/]: Selecting config moonlight.mixins.json
+[27èþë.2024 23:40:08.891] [main/INFO] [mixin/]: Remapping refMap moonlight-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.891] [main/INFO] [mixin/]: Selecting config terrablender.mixins.json
+[27èþë.2024 23:40:08.892] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.892] [main/INFO] [mixin/]: Selecting config terrablender_forge.mixins.json
+[27èþë.2024 23:40:08.893] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.893] [main/INFO] [mixin/]: Selecting config mixinsquared.init.mixins.json
+[27èþë.2024 23:40:08.916] [main/INFO] [mixin/]: Selecting config geckolib.mixins.json
+[27èþë.2024 23:40:08.918] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.918] [main/INFO] [mixin/]: Selecting config bendylib.mixins.json
+[27èþë.2024 23:40:08.920] [main/INFO] [mixin/]: Remapping refMap bendy-lib-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.920] [main/INFO] [mixin/]: Selecting config patchouli_xplat.mixins.json
+[27èþë.2024 23:40:08.921] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:08.921] [main/INFO] [mixin/]: Selecting config mixinextras.init.mixins.json
+[27èþë.2024 23:40:09.007] [main/INFO] [mixin/]: Selecting config midnightlib.mixins.json
+[27èþë.2024 23:40:09.008] [main/INFO] [mixin/]: Remapping refMap midnightlib-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.009] [main/INFO] [mixin/]: Selecting config architectury.mixins.json
+[27èþë.2024 23:40:09.011] [main/INFO] [mixin/]: Remapping refMap architectury-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.011] [main/INFO] [mixin/]: Selecting config architectury-common.mixins.json
+[27èþë.2024 23:40:09.012] [main/INFO] [mixin/]: Remapping refMap architectury-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.012] [main/INFO] [mixin/]: Selecting config mtr.mixins.json
+[27èþë.2024 23:40:09.014] [main/INFO] [mixin/]: Remapping refMap mtr-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.014] [main/INFO] [mixin/]: Selecting config mixins.powered_flashlight.json
+[27èþë.2024 23:40:09.016] [main/INFO] [mixin/]: Selecting config mixins.powered_flashlight.forge.json
+[27èþë.2024 23:40:09.018] [main/INFO] [mixin/]: Selecting config supplementaries-common.mixins.json
+[27èþë.2024 23:40:09.022] [main/INFO] [mixin/]: Remapping refMap supplementaries-common-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.022] [main/INFO] [mixin/]: Selecting config supplementaries.mixins.json
+[27èþë.2024 23:40:09.023] [main/INFO] [mixin/]: Remapping refMap supplementaries-forge-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.023] [main/INFO] [mixin/]: Selecting config embeddium.mixins.json
+[27èþë.2024 23:40:09.031] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 72 options available, 3 override(s) found
+[27èþë.2024 23:40:09.035] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[27èþë.2024 23:40:09.241] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 2080, version=DriverVersion=31.0.15.3699]
+[27èþë.2024 23:40:09.246] [main/WARN] [Embeddium-Workarounds/]: Embeddium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[27èþë.2024 23:40:09.247] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[27èþë.2024 23:40:09.253] [main/INFO] [mixin/]: Remapping refMap embeddium-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.253] [main/INFO] [mixin/]: Selecting config mixins.oculus.json
+[27èþë.2024 23:40:09.257] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.257] [main/INFO] [mixin/]: Selecting config mixins.oculus.fantastic.json
+[27èþë.2024 23:40:09.260] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.260] [main/INFO] [mixin/]: Selecting config mixins.oculus.vertexformat.json
+[27èþë.2024 23:40:09.263] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.263] [main/INFO] [mixin/]: Selecting config mixins.oculus.bettermipmaps.json
+[27èþë.2024 23:40:09.265] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.265] [main/INFO] [mixin/]: Selecting config mixins.oculus.fixes.maxfpscrash.json
+[27èþë.2024 23:40:09.268] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.268] [main/INFO] [mixin/]: Selecting config oculus-batched-entity-rendering.mixins.json
+[27èþë.2024 23:40:09.270] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.270] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.sodium.json
+[27èþë.2024 23:40:09.272] [main/INFO] [mixin/]: Remapping refMap sodiumCompatibility-oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.272] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.indigo.json
+[27èþë.2024 23:40:09.275] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.275] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.indium.json
+[27èþë.2024 23:40:09.277] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.277] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.dh.json
+[27èþë.2024 23:40:09.280] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.280] [main/INFO] [mixin/]: Selecting config mixins.oculus.compat.pixelmon.json
+[27èþë.2024 23:40:09.284] [main/INFO] [mixin/]: Remapping refMap oculus-mixins-refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.284] [main/INFO] [mixin/]: Selecting config mixins.boh.json
+[27èþë.2024 23:40:09.286] [main/WARN] [mixin/]: Reference map 'mixins.boh.refmap.json' for mixins.boh.json could not be read. If this is a development environment you can ignore this message
+[27èþë.2024 23:40:09.286] [main/INFO] [mixin/]: Selecting config structure_gel.mixins.json
+[27èþë.2024 23:40:09.288] [main/INFO] [mixin/]: Remapping refMap structure_gel.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.288] [main/INFO] [mixin/]: Selecting config sound_physics_remastered.mixins.json
+[27èþë.2024 23:40:09.289] [main/INFO] [mixin/]: Remapping refMap sound_physics_remastered.refmap.json using D:\liminal\build\createSrgToMcp\output.srg
+[27èþë.2024 23:40:09.290] [main/INFO] [mixin/]: Preparing mixins.liminalcraft.json (1)
+[27èþë.2024 23:40:09.307] [main/INFO] [mixin/]: Preparing moonlight-common.mixins.json (32)
+[27èþë.2024 23:40:09.679] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/gui/MapRenderer$MapInstance is public in moonlight-common.mixins.json:MapInstanceMixin and should be specified in value
+[27èþë.2024 23:40:09.704] [main/INFO] [mixin/]: Preparing moonlight.mixins.json (10)
+[27èþë.2024 23:40:09.719] [main/INFO] [mixin/]: Preparing terrablender.mixins.json (7)
+[27èþë.2024 23:40:09.732] [main/INFO] [mixin/]: Preparing terrablender_forge.mixins.json (0)
+[27èþë.2024 23:40:09.733] [main/INFO] [mixin/]: Preparing mixinsquared.init.mixins.json (0)
+[27èþë.2024 23:40:09.733] [main/INFO] [mixin/]: Preparing geckolib.mixins.json (1)
+[27èþë.2024 23:40:09.735] [main/INFO] [mixin/]: Preparing bendylib.mixins.json (3)
+[27èþë.2024 23:40:09.746] [main/INFO] [mixin/]: Preparing patchouli_xplat.mixins.json (10)
+[27èþë.2024 23:40:09.770] [main/INFO] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[27èþë.2024 23:40:09.770] [main/INFO] [mixin/]: Preparing midnightlib.mixins.json (1)
+[27èþë.2024 23:40:09.772] [main/INFO] [mixin/]: Preparing architectury.mixins.json (8)
+[27èþë.2024 23:40:09.783] [main/INFO] [mixin/]: Preparing architectury-common.mixins.json (10)
+[27èþë.2024 23:40:09.842] [main/INFO] [mixin/]: Preparing mtr.mixins.json (4)
+[27èþë.2024 23:40:09.853] [main/INFO] [mixin/]: Preparing mixins.powered_flashlight.json (0)
+[27èþë.2024 23:40:09.853] [main/INFO] [mixin/]: Preparing mixins.powered_flashlight.forge.json (0)
+[27èþë.2024 23:40:09.853] [main/INFO] [mixin/]: Preparing supplementaries-common.mixins.json (63)
+[27èþë.2024 23:40:10.015] [main/INFO] [mixin/]: Preparing supplementaries.mixins.json (23)
+[27èþë.2024 23:40:10.073] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.map_atlas_generation.MapAtlasTexture)
+[27èþë.2024 23:40:10.075] [main/INFO] [mixin/]: Preparing embeddium.mixins.json (0)
+[27èþë.2024 23:40:10.075] [main/INFO] [mixin/]: Preparing mixins.oculus.json (86)
+[27èþë.2024 23:40:10.175] [main/INFO] [mixin/]: Preparing mixins.oculus.fantastic.json (5)
+[27èþë.2024 23:40:10.184] [main/INFO] [mixin/]: Preparing mixins.oculus.vertexformat.json (8)
+[27èþë.2024 23:40:10.197] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$RebuildTask is public in mixins.oculus.vertexformat.json:block_rendering.MixinChunkRebuildTask and should be specified in value
+[27èþë.2024 23:40:10.197] [main/INFO] [mixin/]: Preparing mixins.oculus.bettermipmaps.json (0)
+[27èþë.2024 23:40:10.197] [main/INFO] [mixin/]: Preparing mixins.oculus.fixes.maxfpscrash.json (1)
+[27èþë.2024 23:40:10.198] [main/INFO] [mixin/]: Preparing oculus-batched-entity-rendering.mixins.json (17)
+[27èþë.2024 23:40:10.209] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.sodium.json (49)
+[27èþë.2024 23:40:10.248] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.indigo.json (1)
+[27èþë.2024 23:40:10.255] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.indium.json (1)
+[27èþë.2024 23:40:10.260] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.dh.json (4)
+[27èþë.2024 23:40:10.261] [main/INFO] [mixin/]: Preparing mixins.oculus.compat.pixelmon.json (1)
+[27èþë.2024 23:40:10.265] [main/INFO] [mixin/]: Preparing mixins.boh.json (0)
+[27èþë.2024 23:40:10.283] [main/INFO] [mixin/]: Preparing structure_gel.mixins.json (0)
+[27èþë.2024 23:40:10.283] [main/INFO] [mixin/]: Preparing sound_physics_remastered.mixins.json (11)
+[27èþë.2024 23:40:10.377] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.378] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.378] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.380] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.381] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.FontSetMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.381] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.381] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.382] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.remove_streams.HierarchicalModelMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.382] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.383] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.383] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[27èþë.2024 23:40:10.604] [main/INFO] [mixin/]: Prepared 346 mixins in 2,055 sec (5,9ms avg) (0ms load, 0ms transform, 0ms plugin)
+[27èþë.2024 23:40:10.915] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[27èþë.2024 23:40:10.925] [main/INFO] [mixin/]: Mixing texture.MixinResourceLocation from mixins.oculus.json into net.minecraft.resources.ResourceLocation
+[27èþë.2024 23:40:10.928] [main/WARN] [mixin/]: mixins.oculus.json:texture.MixinResourceLocation: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:11.049] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [liminalcraft]
+[27èþë.2024 23:40:11.059] [main/INFO] [mixin/]: Mixing MixinBuiltInRegistries from terrablender.mixins.json into net.minecraft.core.registries.BuiltInRegistries
+[27èþë.2024 23:40:11.060] [main/INFO] [mixin/]: Renaming synthetic method lambda$registerSimple$0(Lnet/minecraft/core/registries/BuiltInRegistries$RegistryBootstrap;Lnet/minecraft/core/Registry;)Ljava/lang/Object; to mdc5199e$lambda$registerSimple$0$0 in terrablender.mixins.json:MixinBuiltInRegistries
+[27èþë.2024 23:40:11.132] [main/INFO] [mixin/]: Mixing inject.MixinGameEvent from architectury-common.mixins.json into net.minecraft.world.level.gameevent.GameEvent
+[27èþë.2024 23:40:11.143] [main/INFO] [mixin/]: Mixing SoundEventMixin from sound_physics_remastered.mixins.json into net.minecraft.sounds.SoundEvent
+[27èþë.2024 23:40:11.174] [main/INFO] [mixin/]: Mixing inject.MixinBlock from architectury-common.mixins.json into net.minecraft.world.level.block.Block
+[27èþë.2024 23:40:11.175] [main/INFO] [mixin/]: Mixing BlockMixin from structure_gel.mixins.json into net.minecraft.world.level.block.Block
+[27èþë.2024 23:40:11.198] [main/INFO] [mixin/]: Mixing MixinBlockStateBehavior from mixins.oculus.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[27èþë.2024 23:40:11.201] [main/INFO] [mixin/]: Mixing BlockBehaviourPlanterMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[27èþë.2024 23:40:11.229] [main/INFO] [mixin/]: Mixing EntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.Entity
+[27èþë.2024 23:40:11.231] [main/INFO] [mixin/]: Mixing EntityMixin from sound_physics_remastered.mixins.json into net.minecraft.world.entity.Entity
+[27èþë.2024 23:40:11.234] [main/INFO] [mixin/]: Mixing EntityMixin from structure_gel.mixins.json into net.minecraft.world.entity.Entity
+[27èþë.2024 23:40:11.353] [main/INFO] [mixin/]: Mixing LivingEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.LivingEntity
+[27èþë.2024 23:40:11.365] [main/INFO] [mixin/]: Mixing LivingEntityMixin from supplementaries.mixins.json into net.minecraft.world.entity.LivingEntity
+[27èþë.2024 23:40:11.462] [main/INFO] [mixin/]: Mixing PlayerProjectileMixin from supplementaries.mixins.json into net.minecraft.world.entity.player.Player
+[27èþë.2024 23:40:11.512] [main/INFO] [mixin/]: Mixing ServerLevelMixin from supplementaries-common.mixins.json into net.minecraft.server.level.ServerLevel
+[27èþë.2024 23:40:11.516] [main/INFO] [mixin/]: Renaming synthetic method lambda$unluckyLightning$0(Lnet/minecraft/world/entity/LivingEntity;)Z to mdc5199e$lambda$unluckyLightning$0$0 in supplementaries-common.mixins.json:ServerLevelMixin
+[27èþë.2024 23:40:11.588] [main/INFO] [mixin/]: Mixing inject.MixinFluid from architectury-common.mixins.json into net.minecraft.world.level.material.Fluid
+[27èþë.2024 23:40:11.594] [main/INFO] [mixin/]: Mixing ItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.Item
+[27èþë.2024 23:40:11.596] [main/INFO] [mixin/]: Mixing ItemMixin from moonlight.mixins.json into net.minecraft.world.item.Item
+[27èþë.2024 23:40:11.598] [main/INFO] [mixin/]: Mixing inject.MixinItem from architectury-common.mixins.json into net.minecraft.world.item.Item
+[27èþë.2024 23:40:11.599] [main/INFO] [mixin/]: Mixing MixinItem from mixins.oculus.json into net.minecraft.world.item.Item
+[27èþë.2024 23:40:11.600] [main/INFO] [mixin/]: Mixing ItemMixin from structure_gel.mixins.json into net.minecraft.world.item.Item
+[27èþë.2024 23:40:11.705] [main/INFO] [mixin/]: Mixing inject.MixinEntityType from architectury-common.mixins.json into net.minecraft.world.entity.EntityType
+[27èþë.2024 23:40:11.909] [main/INFO] [mixin/]: Mixing FireBlockMixin from moonlight.mixins.json into net.minecraft.world.level.block.FireBlock
+[27èþë.2024 23:40:11.957] [main/INFO] [mixin/]: Mixing features.render.immediate.DirectionMixin from embeddium.mixins.json into net.minecraft.core.Direction
+[27èþë.2024 23:40:12.161] [main/INFO] [mixin/]: Mixing inject.MixinLiquidBlock from architectury-common.mixins.json into net.minecraft.world.level.block.LiquidBlock
+[27èþë.2024 23:40:12.174] [main/INFO] [mixin/]: Mixing features.options.render_layers.LeavesBlockMixin from embeddium.mixins.json into net.minecraft.world.level.block.LeavesBlock
+[27èþë.2024 23:40:12.200] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockAccessor from moonlight-common.mixins.json into net.minecraft.world.level.block.DispenserBlock
+[27èþë.2024 23:40:12.200] [main/INFO] [mixin/]: Renaming @Accessor method getDispenserRegistry()Ljava/util/Map; to getDispenserRegistry_$md$c5199e$0 in moonlight-common.mixins.json:accessor.DispenserBlockAccessor
+[27èþë.2024 23:40:12.321] [main/INFO] [mixin/]: Mixing IronBarsBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.IronBarsBlock
+[27èþë.2024 23:40:12.366] [main/INFO] [mixin/]: Mixing EndPortalBlockMixin from structure_gel.mixins.json into net.minecraft.world.level.block.EndPortalBlock
+[27èþë.2024 23:40:12.404] [main/INFO] [mixin/]: Mixing ComparatorBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.ComparatorBlock
+[27èþë.2024 23:40:12.527] [main/INFO] [mixin/]: Mixing CampfireBlockMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.CampfireBlock
+[27èþë.2024 23:40:12.697] [main/INFO] [mixin/]: Mixing MixinFallingBlockEntity from architectury.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[27èþë.2024 23:40:12.698] [main/INFO] [mixin/]: Mixing FallingBlockEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[27èþë.2024 23:40:12.761] [main/INFO] [mixin/]: Mixing accessor.DispenserBlockEntityAccessor from moonlight-common.mixins.json into net.minecraft.world.level.block.entity.DispenserBlockEntity
+[27èþë.2024 23:40:12.910] [main/INFO] [mixin/]: Mixing PistonBlockEntityMixin from moonlight-common.mixins.json into net.minecraft.world.level.block.piston.PistonMovingBlockEntity
+[27èþë.2024 23:40:13.190] [main/INFO] [mixin/]: Mixing AbstractArrowMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[27èþë.2024 23:40:13.240] [main/INFO] [mixin/]: Mixing EntityMixin from moonlight-common.mixins.json into net.minecraft.world.entity.Mob
+[27èþë.2024 23:40:13.483] [main/INFO] [mixin/]: Mixing ShulkerBoxBlockEntityMixin from supplementaries-common.mixins.json into net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity
+[27èþë.2024 23:40:13.651] [main/INFO] [mixin/]: Mixing LoomMenuMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.LoomMenu
+[27èþë.2024 23:40:13.675] [main/INFO] [mixin/]: Mixing CartographyTableMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.CartographyTableMenu
+[27èþë.2024 23:40:13.698] [main/INFO] [mixin/]: Mixing GrindstoneMenuMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu
+[27èþë.2024 23:40:13.729] [main/INFO] [mixin/]: Mixing StructureBlockEntityMixin from structure_gel.mixins.json into net.minecraft.world.level.block.entity.StructureBlockEntity
+[27èþë.2024 23:40:13.741] [main/INFO] [mixin/]: Mixing TemplateMixins$StructureBlockEntityMixin from structure_gel.mixins.json into net.minecraft.world.level.block.entity.StructureBlockEntity
+[27èþë.2024 23:40:13.882] [main/INFO] [mixin/]: Mixing LightningEntityMixin from moonlight-common.mixins.json into net.minecraft.world.entity.LightningBolt
+[27èþë.2024 23:40:13.883] [main/INFO] [mixin/]: Mixing MixinLightningBolt from architectury-common.mixins.json into net.minecraft.world.entity.LightningBolt
+[27èþë.2024 23:40:13.971] [main/INFO] [mixin/]: Mixing BlockItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.BlockItem
+[27èþë.2024 23:40:13.999] [main/INFO] [mixin/]: Mixing BowMixin from supplementaries-common.mixins.json into net.minecraft.world.item.BowItem
+[27èþë.2024 23:40:13.999] [main/INFO] [mixin/]: Renaming synthetic method lambda$getAllSupportedProjectiles$0(Ljava/util/function/Predicate;Lnet/minecraft/world/item/ItemStack;)Z to mdc5199e$lambda$getAllSupportedProjectiles$0$0 in supplementaries-common.mixins.json:BowMixin
+[27èþë.2024 23:40:14.009] [main/INFO] [mixin/]: Mixing ProjectileWeaponItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.ProjectileWeaponItem
+[27èþë.2024 23:40:14.026] [main/INFO] [mixin/]: Mixing PaintingItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.HangingEntityItem
+[27èþë.2024 23:40:14.033] [main/INFO] [mixin/]: Mixing inject.MixinBucketItem from architectury-common.mixins.json into net.minecraft.world.item.BucketItem
+[27èþë.2024 23:40:14.039] [main/INFO] [mixin/]: Mixing MobBucketItemAccessor from supplementaries.mixins.json into net.minecraft.world.item.MobBucketItem
+[27èþë.2024 23:40:14.048] [main/INFO] [mixin/]: Mixing InkSackMixin from supplementaries-common.mixins.json into net.minecraft.world.item.InkSacItem
+[27èþë.2024 23:40:14.059] [main/INFO] [mixin/]: Mixing MapItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.MapItem
+[27èþë.2024 23:40:14.060] [main/INFO] [mixin/]: Renaming synthetic method lambda$update$1(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;Lnet/minecraft/world/entity/Entity;Ljava/util/concurrent/atomic/AtomicBoolean;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdc5199e$lambda$update$1$0 in moonlight-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.060] [main/INFO] [mixin/]: Renaming synthetic method lambda$appendHoverText$0(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;Lnet/minecraft/world/item/ItemStack;Ljava/util/List;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdc5199e$lambda$appendHoverText$0$1 in moonlight-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.061] [main/INFO] [mixin/]: Mixing MapItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.MapItem
+[27èþë.2024 23:40:14.062] [main/INFO] [mixin/]: Renaming synthetic method lambda$updateCustomColor$3(Lorg/joml/Vector2i;)D to mdc5199e$lambda$updateCustomColor$3$2 in supplementaries-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.062] [main/INFO] [mixin/]: Renaming synthetic method lambda$updateCustomColor$2(Lorg/joml/Vector2i;)D to mdc5199e$lambda$updateCustomColor$2$3 in supplementaries-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.063] [main/INFO] [mixin/]: Renaming synthetic method lambda$removeXrayAndAddAccurateColor$1(Lnet/minecraft/core/BlockPos;Lorg/joml/Vector2i;)Lcom/mojang/datafixers/util/Pair; to mdc5199e$lambda$removeXrayAndAddAccurateColor$1$4 in supplementaries-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.063] [main/INFO] [mixin/]: Renaming synthetic method lambda$removeXrayAndAddAccurateColor$0(Lorg/joml/Vector2i;)Ljava/util/List; to mdc5199e$lambda$removeXrayAndAddAccurateColor$0$5 in supplementaries-common.mixins.json:MapItemMixin
+[27èþë.2024 23:40:14.255] [main/INFO] [mixin/]: Mixing ShearItemMixin from moonlight-common.mixins.json into net.minecraft.world.item.ShearsItem
+[27èþë.2024 23:40:14.360] [main/INFO] [mixin/]: Mixing CrossbowItemRopeMixin from supplementaries-common.mixins.json into net.minecraft.world.item.CrossbowItem
+[27èþë.2024 23:40:14.385] [main/INFO] [mixin/]: Mixing BannerPatternItemMixin from supplementaries-common.mixins.json into net.minecraft.world.item.BannerPatternItem
+[27èþë.2024 23:40:14.415] [main/INFO] [mixin/]: Mixing inject.MixinItemProperties from architectury-common.mixins.json into net.minecraft.world.item.Item$Properties
+[27èþë.2024 23:40:15.218] [main/INFO] [mixin/]: Mixing BeeGoalMixin from moonlight-common.mixins.json into net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal
+[27èþë.2024 23:40:15.256] [main/INFO] [mixin/]: Mixing AbstractHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.AbstractHorse
+[27èþë.2024 23:40:15.307] [main/INFO] [mixin/]: Mixing CatSitOnBlockGoalMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.ai.goal.CatSitOnBlockGoal
+[27èþë.2024 23:40:15.330] [main/INFO] [mixin/]: Mixing SkeletonMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Skeleton
+[27èþë.2024 23:40:15.360] [main/INFO] [mixin/]: Mixing AbstractSkeletonMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.AbstractSkeleton
+[27èþë.2024 23:40:15.472] [main/INFO] [mixin/]: Mixing EndermanMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.EnderMan
+[27èþë.2024 23:40:15.486] [main/INFO] [mixin/]: Mixing EvokerMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Evoker
+[27èþë.2024 23:40:15.517] [main/INFO] [mixin/]: Mixing FixBlockPlaceContextMixin from moonlight-common.mixins.json into net.minecraft.world.item.context.BlockPlaceContext
+[27èþë.2024 23:40:15.658] [main/INFO] [mixin/]: Mixing SkellyHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.SkeletonHorse
+[27èþë.2024 23:40:15.659] [main/INFO] [mixin/]: Renaming synthetic method lambda$tick$0(Ljava/lang/Integer;)V to mdc5199e$lambda$tick$0$0 in supplementaries-common.mixins.json:SkellyHorseMixin
+[27èþë.2024 23:40:15.720] [main/INFO] [mixin/]: Mixing StrayMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.monster.Stray
+[27èþë.2024 23:40:15.884] [main/INFO] [mixin/]: Mixing FriendlyByteBufMixin from supplementaries.mixins.json into net.minecraft.network.FriendlyByteBuf
+[27èþë.2024 23:40:15.926] [main/INFO] [mixin/]: Mixing PlayerTeleportationStateAccessor from mtr.mixins.json into net.minecraft.server.level.ServerPlayer
+[27èþë.2024 23:40:15.926] [main/WARN] [mixin/]: mtr.mixins.json:PlayerTeleportationStateAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:15.958] [main/INFO] [mixin/]: Mixing ChunkAccessMixin$Access from structure_gel.mixins.json into net.minecraft.world.level.chunk.ChunkAccess
+[27èþë.2024 23:40:15.968] [main/INFO] [mixin/]: Mixing LevelChunkMixin from moonlight-common.mixins.json into net.minecraft.world.level.chunk.LevelChunk
+[27èþë.2024 23:40:16.064] [main/INFO] [mixin/]: Mixing VillagerMixin from moonlight-common.mixins.json into net.minecraft.world.entity.npc.Villager
+[27èþë.2024 23:40:16.087] [main/INFO] [mixin/]: Mixing WanderingTraderMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.npc.WanderingTrader
+[27èþë.2024 23:40:16.110] [main/INFO] [mixin/]: Mixing ZombieHorseMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.animal.horse.ZombieHorse
+[27èþë.2024 23:40:16.141] [main/INFO] [mixin/]: Mixing inject.MixinFoodPropertiesBuilder from architectury-common.mixins.json into net.minecraft.world.food.FoodProperties$Builder
+[27èþë.2024 23:40:16.175] [main/INFO] [mixin/]: Mixing ServerGamePacketListenerMixin from supplementaries-common.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[27èþë.2024 23:40:16.175] [main/INFO] [mixin/]: Renaming synthetic method lambda$addAntiqueInk$0(Ljava/util/function/UnaryOperator;Ljava/lang/String;)Ljava/lang/String; to mdc5199e$lambda$addAntiqueInk$0$0 in supplementaries-common.mixins.json:ServerGamePacketListenerMixin
+[27èþë.2024 23:40:16.290] [main/INFO] [mixin/]: Mixing StructureTemplateManagerMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager
+[27èþë.2024 23:40:16.302] [main/INFO] [mixin/]: Mixing ChunkGeneratorMixin from structure_gel.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[27èþë.2024 23:40:16.303] [main/INFO] [mixin/]: Renaming synthetic method lambda$stopIfNotInDimension$0(Lnet/minecraft/resources/ResourceKey;Ljava/util/Optional;)Z to mdc5199e$lambda$stopIfNotInDimension$0$0 in structure_gel.mixins.json:ChunkGeneratorMixin
+[27èþë.2024 23:40:16.348] [main/INFO] [mixin/]: Mixing InventoryMixin from moonlight-common.mixins.json into net.minecraft.world.entity.player.Inventory
+[27èþë.2024 23:40:16.370] [main/INFO] [mixin/]: Mixing GrindstoneInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$2
+[27èþë.2024 23:40:16.379] [main/INFO] [mixin/]: Mixing GrindstoneMenuSlotMixin from moonlight-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$4
+[27èþë.2024 23:40:16.380] [main/INFO] [mixin/]: Mixing GrindstoneTestSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.GrindstoneMenu$4
+[27èþë.2024 23:40:16.393] [main/INFO] [mixin/]: Mixing LoomInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.LoomMenu$3
+[27èþë.2024 23:40:16.402] [main/INFO] [mixin/]: Mixing CartographyTableInputSlotMixin from supplementaries-common.mixins.json into net.minecraft.world.inventory.CartographyTableMenu$4
+[27èþë.2024 23:40:16.416] [main/INFO] [mixin/]: Mixing MapExtendingRecipeMixin from moonlight-common.mixins.json into net.minecraft.world.item.crafting.MapExtendingRecipe
+[27èþë.2024 23:40:16.485] [main/INFO] [mixin/]: Mixing MixinBiomes from mixins.oculus.json into net.minecraft.world.level.biome.Biomes
+[27èþë.2024 23:40:16.530] [main/INFO] [mixin/]: Mixing ExplorationMapSerializerMixin from supplementaries-common.mixins.json into net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer
+[27èþë.2024 23:40:16.547] [main/INFO] [mixin/]: Mixing ExplorationMapFunctionMixin from supplementaries-common.mixins.json into net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction
+[27èþë.2024 23:40:16.617] [main/INFO] [mixin/]: Mixing DimensionTypeAccessor from mixins.oculus.json into net.minecraft.world.level.dimension.DimensionType
+[27èþë.2024 23:40:16.700] [main/INFO] [mixin/]: Mixing LakeFeatureMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.feature.LakeFeature
+[27èþë.2024 23:40:16.836] [main/INFO] [mixin/]: Mixing StructureMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.Structure
+[27èþë.2024 23:40:16.847] [main/WARN] [mixin/]: @At("STORE" implicit StructurePiecesBuilder) has invalid IMPLICIT discriminator for opcode 15 in net/minecraft/world/level/levelgen/structure/Structure::generate(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;: Found 0 candidate variables but exactly 1 is required.
+[27èþë.2024 23:40:16.847] [main/WARN] [mixin/]: @At("STORE" implicit StructurePiecesBuilder) has invalid IMPLICIT discriminator for opcode 21 in net/minecraft/world/level/levelgen/structure/Structure::generate(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;: Found 0 candidate variables but exactly 1 is required.
+[27èþë.2024 23:40:16.859] [main/INFO] [mixin/]: Mixing MineshaftCorridorMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCorridor
+[27èþë.2024 23:40:16.882] [main/INFO] [mixin/]: Mixing StrongholdCrossingSconceMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FiveCrossing
+[27èþë.2024 23:40:16.896] [main/INFO] [mixin/]: Mixing StrongholdRoomSconceMixin from supplementaries-common.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing
+[27èþë.2024 23:40:16.914] [main/INFO] [mixin/]: Mixing TemplateStructurePieceMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.TemplateStructurePiece
+[27èþë.2024 23:40:16.987] [main/INFO] [mixin/]: Mixing PoolElementStructurePieceMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece
+[27èþë.2024 23:40:16.987] [main/WARN] [mixin/]: @Shadow target structure_gel.mixins.json:PoolElementStructurePieceMixin::element is final but shadow is not decorated with @Final
+[27èþë.2024 23:40:17.104] [main/INFO] [mixin/]: Mixing MixinBiomeSource from terrablender.mixins.json into net.minecraft.world.level.biome.BiomeSource
+[27èþë.2024 23:40:17.105] [main/INFO] [mixin/]: Renaming synthetic method lambda$appendDeferredBiomesList$0(Lcom/google/common/collect/ImmutableList;)Ljava/util/Set; to mdc5199e$lambda$appendDeferredBiomesList$0$0 in terrablender.mixins.json:MixinBiomeSource
+[27èþë.2024 23:40:17.114] [main/INFO] [mixin/]: Mixing features.world.biome.BiomeMixin from embeddium.mixins.json into net.minecraft.world.level.biome.Biome
+[27èþë.2024 23:40:17.116] [main/INFO] [mixin/]: Mixing MixinBiome from mixins.oculus.json into net.minecraft.world.level.biome.Biome
+[27èþë.2024 23:40:17.177] [main/INFO] [mixin/]: Mixing MixinMultiNoiseBiomeSource from terrablender.mixins.json into net.minecraft.world.level.biome.MultiNoiseBiomeSource
+[27èþë.2024 23:40:17.186] [main/INFO] [mixin/]: Mixing MixinParameterList from terrablender.mixins.json into net.minecraft.world.level.biome.Climate$ParameterList
+[27èþë.2024 23:40:17.186] [main/INFO] [mixin/]: Renaming synthetic method lambda$initializeForTerraBlender$0(Lcom/google/common/collect/ImmutableList$Builder;Lnet/minecraft/core/Registry;Lcom/mojang/datafixers/util/Pair;)V to mdc5199e$lambda$initializeForTerraBlender$0$0 in terrablender.mixins.json:MixinParameterList
+[27èþë.2024 23:40:17.215] [main/INFO] [mixin/]: Mixing MixinNoiseGeneratorSettings from terrablender.mixins.json into net.minecraft.world.level.levelgen.NoiseGeneratorSettings
+[27èþë.2024 23:40:17.215] [main/WARN] [mixin/]: @Shadow target terrablender.mixins.json:MixinNoiseGeneratorSettings::surfaceRule is final but shadow is not decorated with @Final
+[27èþë.2024 23:40:17.322] [main/INFO] [mixin/]: Mixing SinglePoolElementMixin from structure_gel.mixins.json into net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement
+[27èþë.2024 23:40:17.550] [modloading-worker-0/INFO] [mixin/]: Mixing MinecraftMixin from moonlight-common.mixins.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.552] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMinecraft from architectury.mixins.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.554] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMinecraft_PipelineManagement from mixins.oculus.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.558] [modloading-worker-0/INFO] [mixin/]: Mixing MinecraftMixin from sound_physics_remastered.mixins.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.559] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.MinecraftAccessor from embeddium.mixins.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.564] [modloading-worker-0/INFO] [mixin/]: Mixing core.MinecraftClientMixin from embeddium.mixins.json into net.minecraft.client.Minecraft
+[27èþë.2024 23:40:17.564] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$postInit$0(Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/Screen; to mdc5199e$lambda$postInit$0$0 in embeddium.mixins.json:core.MinecraftClientMixin
+[27èþë.2024 23:40:17.766] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.BakedModelMixin from embeddium.mixins.json into net.minecraft.client.resources.model.BakedModel
+[27èþë.2024 23:40:17.773] [modloading-worker-0/INFO] [mixin/]: Mixing client.AccessorScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.Screen
+[27èþë.2024 23:40:17.835] [modloading-worker-0/INFO] [mixin/]: Mixing MixinOptions_Entrypoint from mixins.oculus.json into net.minecraft.client.Options
+[27èþë.2024 23:40:17.836] [modloading-worker-0/INFO] [mixin/]: Mixing MixinMaxFpsCrashFix from mixins.oculus.fixes.maxfpscrash.json into net.minecraft.client.Options
+[27èþë.2024 23:40:17.836] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.fixes.maxfpscrash.json:MixinMaxFpsCrashFix: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:17.837] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinOptions_CloudsOverride from mixins.oculus.json into net.minecraft.client.Options
+[27èþë.2024 23:40:17.837] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$overrideCloudsType$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdc5199e$lambda$iris$overrideCloudsType$0$0 in mixins.oculus.json:sky.MixinOptions_CloudsOverride
+[27èþë.2024 23:40:17.870] [modloading-worker-0/INFO] [mixin/]: Mixing features.model.ModelBakeryMixin from embeddium.mixins.json into net.minecraft.client.resources.model.ModelBakery
+[27èþë.2024 23:40:17.884] [modloading-worker-0/INFO] [mixin/]: Mixing MixinRenderTarget from mixins.oculus.json into com.mojang.blaze3d.pipeline.RenderTarget
+[27èþë.2024 23:40:17.885] [modloading-worker-0/INFO] [mixin/]: Mixing state_tracking.MixinRenderTarget from mixins.oculus.json into com.mojang.blaze3d.pipeline.RenderTarget
+[27èþë.2024 23:40:17.886] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$onBindFramebuffer$0(ZLnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdc5199e$lambda$iris$onBindFramebuffer$0$0 in mixins.oculus.json:state_tracking.MixinRenderTarget
+[27èþë.2024 23:40:17.901] [modloading-worker-0/INFO] [mixin/]: Mixing client.AccessorKeyMapping from patchouli_xplat.mixins.json into net.minecraft.client.KeyMapping
+[27èþë.2024 23:40:17.902] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getAllKeyMappings()Ljava/util/Map; to getAllKeyMappings_$md$c5199e$0 in patchouli_xplat.mixins.json:client.AccessorKeyMapping
+[27èþë.2024 23:40:17.914] [modloading-worker-0/INFO] [mixin/]: Mixing gui.MixinGui from mixins.oculus.json into net.minecraft.client.gui.Gui
+[27èþë.2024 23:40:17.915] [modloading-worker-0/INFO] [mixin/]: Mixing features.options.overlays.InGameHudMixin from embeddium.mixins.json into net.minecraft.client.gui.Gui
+[27èþë.2024 23:40:17.915] [modloading-worker-0/INFO] [mixin/]: Mixing GuiMixin from structure_gel.mixins.json into net.minecraft.client.gui.Gui
+[27èþë.2024 23:40:17.960] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.colors.ItemColorsMixin from embeddium.mixins.json into net.minecraft.client.color.item.ItemColors
+[27èþë.2024 23:40:17.976] [modloading-worker-0/INFO] [mixin/]: Mixing gui.MixinForgeGui from mixins.oculus.json into net.minecraftforge.client.gui.overlay.ForgeGui
+[27èþë.2024 23:40:17.977] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.gui.debug.ForgeGuiMixin from embeddium.mixins.json into net.minecraftforge.client.gui.overlay.ForgeGui
+[27èþë.2024 23:40:17.977] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderLinesVanilla$0(Lme/jellysquid/mods/sodium/mixin/features/render/gui/debug/DebugScreenOverlayAccessor;Lnet/minecraft/client/gui/GuiGraphics;Ljava/util/ArrayList;Ljava/util/ArrayList;)V to mdc5199e$lambda$renderLinesVanilla$0$0 in embeddium.mixins.json:features.render.gui.debug.ForgeGuiMixin
+[27èþë.2024 23:40:18.014] [modloading-worker-0/INFO] [mixin/]: Mixing core.model.colors.BlockColorsMixin from embeddium.mixins.json into net.minecraft.client.color.block.BlockColors
+[27èþë.2024 23:40:18.037] [modloading-worker-0/INFO] [mixin/]: Mixing LocalPlayerMixin from supplementaries-common.mixins.json into net.minecraft.client.player.LocalPlayer
+[27èþë.2024 23:40:18.040] [modloading-worker-0/INFO] [mixin/]: Mixing LocalPlayerMixin from sound_physics_remastered.mixins.json into net.minecraft.client.player.LocalPlayer
+[27èþë.2024 23:40:18.084] [modloading-worker-0/INFO] [mixin/]: Mixing MixinParticleEngine from mixins.oculus.json into net.minecraft.client.particle.ParticleEngine
+[27èþë.2024 23:40:18.084] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$finishDrawingParticles$1(Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdc5199e$lambda$iris$finishDrawingParticles$1$0 in mixins.oculus.json:MixinParticleEngine
+[27èþë.2024 23:40:18.084] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$beginDrawingParticles$0(Lnet/irisshaders/iris/pipeline/WorldRenderingPipeline;)V to mdc5199e$lambda$iris$beginDrawingParticles$0$1 in mixins.oculus.json:MixinParticleEngine
+[27èþë.2024 23:40:18.085] [modloading-worker-0/INFO] [mixin/]: Mixing MixinParticleEngine from mixins.oculus.fantastic.json into net.minecraft.client.particle.ParticleEngine
+[27èþë.2024 23:40:18.086] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.fantastic.json:MixinParticleEngine: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:18.086] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$selectParticlesToRender$1(Lnet/minecraft/client/particle/ParticleRenderType;)Z to mdc5199e$lambda$iris$selectParticlesToRender$1$2 in mixins.oculus.fantastic.json:MixinParticleEngine
+[27èþë.2024 23:40:18.087] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$iris$selectParticlesToRender$0(Lnet/minecraft/client/particle/ParticleRenderType;)Z to mdc5199e$lambda$iris$selectParticlesToRender$0$3 in mixins.oculus.fantastic.json:MixinParticleEngine
+[27èþë.2024 23:40:18.135] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.world.ClientLevelMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.135] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$new$0(Lnet/minecraft/world/level/biome/AmbientParticleSettings;)V to mdc5199e$lambda$new$0$0 in embeddium.mixins.json:features.render.world.ClientLevelMixin
+[27èþë.2024 23:40:18.138] [modloading-worker-0/INFO] [mixin/]: Mixing MixinClientLevel from architectury.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.140] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from supplementaries-common.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.142] [modloading-worker-0/INFO] [mixin/]: Mixing block_rendering.MixinClientLevel from mixins.oculus.vertexformat.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.143] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:18.143] [modloading-worker-0/INFO] [mixin/]: Mixing ClientLevelMixin from sound_physics_remastered.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.144] [modloading-worker-0/INFO] [mixin/]: Mixing core.world.biome.ClientWorldMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.144] [modloading-worker-0/INFO] [mixin/]: Mixing core.world.map.ClientWorldMixin from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[27èþë.2024 23:40:18.199] [modloading-worker-0/INFO] [mixin/]: Mixing ChatMixin from supplementaries.mixins.json into net.minecraft.client.gui.screens.ChatScreen
+[27èþë.2024 23:40:18.220] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelEvent from architectury.mixins.json into net.minecraftforge.event.level.LevelEvent
+[27èþë.2024 23:40:18.235] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinInventoryScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.inventory.InventoryScreen
+[27èþë.2024 23:40:18.268] [modloading-worker-0/INFO] [mixin/]: Mixing MixinTitleScreen from mixins.oculus.json into net.minecraft.client.gui.screens.TitleScreen
+[27èþë.2024 23:40:18.286] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[27èþë.2024 23:40:18.287] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[27èþë.2024 23:40:18.296] [modloading-worker-0/INFO] [mixin/]: Mixing features.gui.screen.LevelLoadingScreenMixin from embeddium.mixins.json into net.minecraft.client.gui.screens.LevelLoadingScreen
+[27èþë.2024 23:40:18.296] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderChunks$0(Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)V to mdc5199e$lambda$renderChunks$0$0 in embeddium.mixins.json:features.gui.screen.LevelLoadingScreenMixin
+[27èþë.2024 23:40:18.331] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[27èþë.2024 23:40:18.348] [modloading-worker-0/INFO] [mixin/]: Mixing ConditionHackMixin from moonlight.mixins.json into net.minecraft.server.packs.resources.SimplePreparableReloadListener
+[27èþë.2024 23:40:18.374] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.DrawContextMixin from embeddium.mixins.json into net.minecraft.client.gui.GuiGraphics
+[27èþë.2024 23:40:18.399] [modloading-worker-0/INFO] [mixin/]: Mixing workarounds.context_creation.WindowMixin from embeddium.mixins.json into com.mojang.blaze3d.platform.Window
+[27èþë.2024 23:40:18.407] [modloading-worker-0/INFO] [mixin/]: Mixing MixinWindow from mixins.oculus.json into com.mojang.blaze3d.platform.Window
+[27èþë.2024 23:40:18.458] [modloading-worker-0/INFO] [mixin/]: Mixing FontRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.gui.Font
+[27èþë.2024 23:40:18.525] [modloading-worker-0/INFO] [mixin/]: Mixing texture.TextureAtlasAccessor from mixins.oculus.json into net.minecraft.client.renderer.texture.TextureAtlas
+[27èþë.2024 23:40:18.547] [modloading-worker-0/INFO] [mixin/]: Mixing texture.pbr.MixinTextureAtlas from mixins.oculus.json into net.minecraft.client.renderer.texture.TextureAtlas
+[27èþë.2024 23:40:18.548] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.SpriteAtlasTextureMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlas
+[27èþë.2024 23:40:18.566] [modloading-worker-0/INFO] [mixin/]: Mixing options.MixinSodiumGameOptions from mixins.oculus.compat.sodium.json into me.jellysquid.mods.sodium.client.gui.SodiumGameOptions
+[27èþë.2024 23:40:18.567] [modloading-worker-0/WARN] [mixin/]: mixins.oculus.compat.sodium.json:options.MixinSodiumGameOptions: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:18.577] [modloading-worker-0/INFO] [mixin/]: Mixing texture.MixinAbstractTexture from mixins.oculus.json into net.minecraft.client.renderer.texture.AbstractTexture
+[27èþë.2024 23:40:18.588] [modloading-worker-0/INFO] [mixin/]: Mixing SelfItemDisplayTileMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.block.ItemDisplayTile
+[27èþë.2024 23:40:18.609] [modloading-worker-0/INFO] [mixin/]: Mixing SelfExtraModelDataProvider from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.client.model.IExtraModelDataProvider
+[27èþë.2024 23:40:18.622] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
 java.lang.NullPointerException: Cannot invoke "net.minecraft.client.Minecraft.getUser()" because the return value of "net.minecraft.client.Minecraft.getInstance()" is null
-	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23216!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:103) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23216!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:43) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23216!/:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23217!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:103) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23217!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:43) ~[embeddium-0.3.25+mc1.20.1_mapped_parchment_2023.09.03-1.20.1.jar%23217!/:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
@@ -359,145 +360,144 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.client.Minecraft.ge
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27èþë.2024 01:51:52.260] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.SpriteMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlasSprite
-[27èþë.2024 01:51:52.465] [Thread-1/WARN] [Supplementaries/]: Failed to fetch contributors data from url https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/credits.json, java.lang.RuntimeException: Not a boolean: "true" missed input: {"toffanelly":{"has_globe":"true"}}
-[27èþë.2024 01:51:52.519] [modloading-worker-0/INFO] [mixin/]: Mixing texture.MixinAbstractTexture from mixins.oculus.json into net.minecraft.client.renderer.texture.AbstractTexture
-[27èþë.2024 01:51:52.573] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[27èþë.2024 01:51:52.598] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 16.74 ms
-[27èþë.2024 01:51:52.662] [modloading-worker-0/INFO] [mixin/]: Mixing MixinShaderInstance from mixins.oculus.json into net.minecraft.client.renderer.ShaderInstance
-[27èþë.2024 01:51:52.664] [modloading-worker-0/INFO] [mixin/]: Mixing features.shader.uniform.ShaderProgramMixin from embeddium.mixins.json into net.minecraft.client.renderer.ShaderInstance
-[27èþë.2024 01:51:52.739] [modloading-worker-0/INFO] [mixin/]: Mixing features.model.ModelDataMixin from embeddium.mixins.json into net.minecraftforge.client.model.data.ModelData
-[27èþë.2024 01:51:52.764] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSoapItemMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.SoapItem
-[27èþë.2024 01:51:52.771] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfGunpowderMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.GunpowderBlock
-[27èþë.2024 01:51:52.789] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
-[27èþë.2024 01:51:52.792] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[27èþë.2024 01:51:52.868] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfWrenchMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.WrenchItem
-[27èþë.2024 01:51:52.869] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$onLeftClickEntity$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/player/Player;)V to mdff94cd$lambda$onLeftClickEntity$0$0 in supplementaries.mixins.json:self.SelfWrenchMixin
-[27èþë.2024 01:51:52.893] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSafeMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.SafeBlock
-[27èþë.2024 01:51:52.906] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSlingshotMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.SlingshotItem
-[27èþë.2024 01:51:52.914] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.world.clouds.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.915] [modloading-worker-0/INFO] [mixin/]: Mixing immediate.MixinLevelRenderer from mixins.oculus.vertexformat.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.920] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.920] [modloading-worker-0/WARN] [mixin/]: oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[27èþë.2024 01:51:52.923] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer_EntityListSorting from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.924] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$batchedentityrendering$sortEntityList$1(Ljava/util/Map;Lnet/minecraft/world/entity/Entity;)V to mdff94cd$lambda$batchedentityrendering$sortEntityList$1$0 in oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting
-[27èþë.2024 01:51:52.924] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$batchedentityrendering$sortEntityList$0(Lnet/minecraft/world/entity/EntityType;)Ljava/util/List; to mdff94cd$lambda$batchedentityrendering$sortEntityList$0$1 in oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting
-[27èþë.2024 01:51:52.924] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinLevelRenderer from patchouli_xplat.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.925] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from mtr.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.926] [modloading-worker-0/WARN] [mixin/]: @Shadow field mtr.mixins.json:LevelRendererMixin::renderBuffers is decorated with @Final but target is not final
-[27èþë.2024 01:51:52.929] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.929] [modloading-worker-0/INFO] [mixin/]: Mixing ParrotMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.931] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererAccessor from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.963] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.968] [modloading-worker-0/INFO] [mixin/]: Mixing fabulous.MixinDisableFabulousGraphics from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.969] [modloading-worker-0/INFO] [mixin/]: Mixing shadows.MixinLevelRenderer from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.969] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinLevelRenderer_SunMoonToggle from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.970] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from mixins.oculus.fantastic.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.979] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinLevelRenderer from mixins.oculus.compat.sodium.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.981] [modloading-worker-0/INFO] [mixin/]: Mixing features.options.weather.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.982] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.gui.outlines.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.996] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.world.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:52.997] [modloading-worker-0/WARN] [mixin/]: @Shadow field embeddium.mixins.json:core.render.world.WorldRendererMixin::renderBuffers is decorated with @Final but target is not final
-[27èþë.2024 01:51:53.000] [modloading-worker-0/INFO] [mixin/]: Mixing shadows.MixinPreventRebuildNearInShadowPass from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
-[27èþë.2024 01:51:53.355] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfQuiverItem from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.QuiverItem
-[27èþë.2024 01:51:53.360] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.MatrixStackMixin from embeddium.mixins.json into com.mojang.blaze3d.vertex.PoseStack
-[27èþë.2024 01:51:53.368] [modloading-worker-0/INFO] [mixin/]: Mixing CameraMixin from supplementaries-common.mixins.json into net.minecraft.client.Camera
-[27èþë.2024 01:51:53.380] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.frustum.FrustumMixin from embeddium.mixins.json into net.minecraft.client.renderer.culling.Frustum
-[27èþë.2024 01:51:53.386] [modloading-worker-0/INFO] [mixin/]: Mixing SoundSystemMixin from sound_physics_remastered.mixins.json into net.minecraft.client.sounds.SoundEngine
-[27èþë.2024 01:51:53.386] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$tickNonPaused$0(Lnet/minecraft/client/resources/sounds/SoundInstance;Lcom/mojang/blaze3d/audio/Channel;)V to mdff94cd$lambda$tickNonPaused$0$0 in sound_physics_remastered.mixins.json:SoundSystemMixin
-[27èþë.2024 01:51:53.417] [modloading-worker-0/INFO] [mixin/]: Mixing self.SerfOpenableContainerMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.tiles.OpeneableContainerBlockEntity
-[27èþë.2024 01:51:53.431] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfPlanterMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.PlanterBlock
-[27èþë.2024 01:51:53.453] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_generate_path
-[27èþë.2024 01:51:53.453] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_clear_trains
-[27èþë.2024 01:51:53.454] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_sign_types
-[27èþë.2024 01:51:53.454] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_add_balance
-[27èþë.2024 01:51:53.454] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_pids_update
-[27èþë.2024 01:51:53.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_arrival_projector_update
-[27èþë.2024 01:51:53.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_use_time_and_wind_sync
-[27èþë.2024 01:51:53.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_station
-[27èþë.2024 01:51:53.456] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_platform
-[27èþë.2024 01:51:53.457] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_siding
-[27èþë.2024 01:51:53.457] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_route
-[27èþë.2024 01:51:53.457] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_depot
-[27èþë.2024 01:51:53.458] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift
-[27èþë.2024 01:51:53.458] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift_track_floor
-[27èþë.2024 01:51:53.459] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_station
-[27èþë.2024 01:51:53.459] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_platform
-[27èþë.2024 01:51:53.459] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_siding
-[27èþë.2024 01:51:53.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_route
-[27èþë.2024 01:51:53.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_depot
-[27èþë.2024 01:51:53.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_train_announcer
-[27èþë.2024 01:51:53.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_remove_rail_action
-[27èþë.2024 01:51:53.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_train_passenger_position
-[27èþë.2024 01:51:53.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_lift_passenger_position
-[27èþë.2024 01:51:53.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_entity_seat_position
-[27èþë.2024 01:51:53.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_drive_train
-[27èþë.2024 01:51:53.462] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_press_lift_button
-[27èþë.2024 01:51:53.465] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfFrameMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.FrameBlock
-[27èþë.2024 01:51:53.542] [modloading-worker-0/INFO] [mixin/]: Mixing SelfEntitySpawnDataMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.entity.IExtraClientSpawnData
-[27èþë.2024 01:51:53.543] [modloading-worker-0/INFO] [mtr.libraries.org.eclipse.jetty.util.log/]: Logging initialized @14540ms to mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
-[27èþë.2024 01:51:53.673] [modloading-worker-0/INFO] [mixin/]: Mixing MapDataMixin from moonlight-common.mixins.json into net.minecraft.world.level.saveddata.maps.MapItemSavedData
-[27èþë.2024 01:51:53.675] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$save$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdff94cd$lambda$save$3$0 in moonlight-common.mixins.json:MapDataMixin
-[27èþë.2024 01:51:53.675] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$load$2(Lnet/minecraft/nbt/CompoundTag;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdff94cd$lambda$load$2$1 in moonlight-common.mixins.json:MapDataMixin
-[27èþë.2024 01:51:53.675] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$setCustomDataDirty$1(Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData$Type;Ljava/util/function/Consumer;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer;)V to mdff94cd$lambda$setCustomDataDirty$1$2 in moonlight-common.mixins.json:MapDataMixin
-[27èþë.2024 01:51:53.675] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$setCustomDecorationsDirty$0(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer;)V to mdff94cd$lambda$setCustomDecorationsDirty$0$3 in moonlight-common.mixins.json:MapDataMixin
-[27èþë.2024 01:51:53.857] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.BrainAccessor from moonlight-common.mixins.json into net.minecraft.world.entity.ai.Brain
-[27èþë.2024 01:51:53.872] [modloading-worker-0/INFO] [mixin/]: Mixing SelfCustomModelLoaderMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.client.model.CustomModelLoader
-[27èþë.2024 01:51:53.874] [modloading-worker-0/INFO] [mixin/]: Mixing copyEntity.cull.EntityRendererMixin from mixins.oculus.compat.sodium.json into net.minecraft.client.renderer.entity.EntityRenderer
-[27èþë.2024 01:51:53.940] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinDimensionSpecialEffects from mixins.oculus.json into net.minecraft.client.renderer.DimensionSpecialEffects
-[27èþë.2024 01:51:54.039] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from moonlight-common.mixins.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.040] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from mtr.mixins.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.044] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.048] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererAccessor from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.072] [modloading-worker-0/INFO] [mixin/]: Mixing MixinGameRenderer from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.087] [modloading-worker-0/INFO] [mixin/]: Mixing MixinModelViewBobbing from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.089] [modloading-worker-0/INFO] [mixin/]: Mixing features.gui.hooks.console.GameRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.090] [modloading-worker-0/INFO] [mixin/]: Mixing MixinGameRenderer_NightVisionCompat from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
-[27èþë.2024 01:51:54.415] [modloading-worker-0/INFO] [mixin/]: Mixing rendertype.RenderTypeAccessor from mixins.oculus.json into net.minecraft.client.renderer.RenderType
-[27èþë.2024 01:51:54.419] [modloading-worker-0/INFO] [mixin/]: Mixing MixinRenderType from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderType
-[27èþë.2024 01:51:54.420] [modloading-worker-0/INFO] [mixin/]: Mixing RenderTypeAccessor from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderType
-[27èþë.2024 01:51:54.433] [modloading-worker-0/INFO] [mixin/]: Mixing rendertype.RenderStateShardAccessor from mixins.oculus.json into net.minecraft.client.renderer.RenderStateShard
-[27èþë.2024 01:51:54.434] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getTranslucentTransparency()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getTranslucentTransparency_$md$ff94cd$0 in mixins.oculus.json:rendertype.RenderStateShardAccessor
-[27èþë.2024 01:51:54.443] [modloading-worker-0/INFO] [mixin/]: Mixing RenderStateShardAccessor from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderStateShard
-[27èþë.2024 01:51:54.443] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getNO_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getNO_TRANSPARENCY_$md$ff94cd$1 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
-[27èþë.2024 01:51:54.448] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getGLINT_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getGLINT_TRANSPARENCY_$md$ff94cd$2 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
-[27èþë.2024 01:51:54.452] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getCRUMBLING_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getCRUMBLING_TRANSPARENCY_$md$ff94cd$3 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
-[27èþë.2024 01:51:54.467] [modloading-worker-0/INFO] [mixin/]: Mixing PlayerRendererOffsetMixin from mtr.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
-[27èþë.2024 01:51:55.290] [main/INFO] [mixin/]: Mixing self.SelfSpeakerBlockTileMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.tiles.SpeakerBlockTile
-[27èþë.2024 01:51:55.506] [main/INFO] [Moonlight/]: Initialized block sets in 12ms
-[27èþë.2024 01:51:55.591] [main/INFO] [mixin/]: Mixing self.SelfDispenserMinecraftMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.entities.dispenser_minecart.DispenserMinecartEntity
-[27èþë.2024 01:51:55.595] [main/INFO] [mixin/]: Renaming synthetic method lambda$reviveCaps$1()Lnet/minecraftforge/items/wrapper/InvWrapper; to mdff94cd$lambda$reviveCaps$1$0 in supplementaries.mixins.json:self.SelfDispenserMinecraftMixin
-[27èþë.2024 01:51:55.596] [main/INFO] [mixin/]: Renaming synthetic method lambda$new$0()Lnet/minecraftforge/items/wrapper/InvWrapper; to mdff94cd$lambda$new$0$1 in supplementaries.mixins.json:self.SelfDispenserMinecraftMixin
-[27èþë.2024 01:51:55.995] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[27èþë.2024 01:51:56.013] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[27èþë.2024 01:51:56.018] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[27èþë.2024 01:51:56.023] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[27èþë.2024 01:51:56.226] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ivan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[27èþë.2024 01:51:56.226] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ivan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[27èþë.2024 01:51:56.240] [main/INFO] [mixin/]: Mixing MultiPackResourceManagerMixin from moonlight-common.mixins.json into net.minecraft.server.packs.resources.MultiPackResourceManager
-[27èþë.2024 01:51:56.390] [main/INFO] [mixin/]: Mixing texture.pbr.MixinDirectoryLister from mixins.oculus.json into net.minecraft.client.renderer.texture.atlas.sources.DirectoryLister
-[27èþë.2024 01:51:56.390] [main/INFO] [mixin/]: Renaming synthetic method lambda$run$0(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/FileToIdConverter;Lnet/minecraft/client/renderer/texture/atlas/SpriteSource$Output;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/server/packs/resources/Resource;)V to mdff94cd$lambda$run$0$0 in mixins.oculus.json:texture.pbr.MixinDirectoryLister
-[27èþë.2024 01:51:56.429] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[27èþë.2024 01:51:56.488] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 58 ms
-[27èþë.2024 01:51:56.489] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[27èþë.2024 01:51:56.576] [main/INFO] [mixin/]: Mixing MixinLootDataManager from architectury.mixins.json into net.minecraft.world.level.storage.loot.LootDataManager
-[27èþë.2024 01:51:56.640] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 150 ms
-[27èþë.2024 01:51:56.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: liminalcraft
-[27èþë.2024 01:51:56.717] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:holder_set_type]
-[27èþë.2024 01:51:56.718] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:structure_modifier]
-[27èþë.2024 01:51:56.718] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:structure_modifier_serializers]
-[27èþë.2024 01:51:56.833] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: liminalcraft finished after 192 ms
-[27èþë.2024 01:51:56.833] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: liminalcraft
-[27èþë.2024 01:51:56.912] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: liminalcraft finished after 77 ms
-[27èþë.2024 01:51:56.912] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id liminalcraft
-[27èþë.2024 01:51:56.958] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id liminalcraft finished after 45 ms
-[27èþë.2024 01:51:56.958] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id liminalcraft
-[27èþë.2024 01:51:56.961] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id liminalcraft finished after 2 ms
-[27èþë.2024 01:51:56.961] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : liminalcraft
-[27èþë.2024 01:51:56.966] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : liminalcraft finished after 4 ms
-[27èþë.2024 01:51:56.966] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id liminalcraft
-[27èþë.2024 01:51:56.969] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id liminalcraft finished after 2 ms
-[27èþë.2024 01:51:56.969] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[27èþë.2024 01:51:57.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 43 ms
-[27èþë.2024 01:51:57.014] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 585 ms
-[27èþë.2024 01:51:57.039] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 74, old count: 74, new count: 75, removed stale: 0, written: 0
+[27èþë.2024 23:40:18.627] [modloading-worker-0/INFO] [mixin/]: Mixing features.textures.animations.tracking.SpriteMixin from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlasSprite
+[27èþë.2024 23:40:18.679] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[27èþë.2024 23:40:18.690] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 7.823 ms
+[27èþë.2024 23:40:18.698] [modloading-worker-0/INFO] [mixin/]: Mixing features.model.ModelDataMixin from embeddium.mixins.json into net.minecraftforge.client.model.data.ModelData
+[27èþë.2024 23:40:18.703] [modloading-worker-0/INFO] [mixin/]: Mixing MixinShaderInstance from mixins.oculus.json into net.minecraft.client.renderer.ShaderInstance
+[27èþë.2024 23:40:18.707] [modloading-worker-0/INFO] [mixin/]: Mixing features.shader.uniform.ShaderProgramMixin from embeddium.mixins.json into net.minecraft.client.renderer.ShaderInstance
+[27èþë.2024 23:40:18.844] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[27èþë.2024 23:40:18.847] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[27èþë.2024 23:40:18.869] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSlingshotMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.SlingshotItem
+[27èþë.2024 23:40:18.901] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSafeMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.SafeBlock
+[27èþë.2024 23:40:18.916] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfWrenchMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.WrenchItem
+[27èþë.2024 23:40:18.916] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$onLeftClickEntity$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/player/Player;)V to mdc5199e$lambda$onLeftClickEntity$0$0 in supplementaries.mixins.json:self.SelfWrenchMixin
+[27èþë.2024 23:40:18.930] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfSoapItemMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.SoapItem
+[27èþë.2024 23:40:18.937] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfGunpowderMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.GunpowderBlock
+[27èþë.2024 23:40:18.969] [modloading-worker-0/INFO] [mixin/]: Mixing SoundSystemMixin from sound_physics_remastered.mixins.json into net.minecraft.client.sounds.SoundEngine
+[27èþë.2024 23:40:18.969] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$tickNonPaused$0(Lnet/minecraft/client/resources/sounds/SoundInstance;Lcom/mojang/blaze3d/audio/Channel;)V to mdc5199e$lambda$tickNonPaused$0$0 in sound_physics_remastered.mixins.json:SoundSystemMixin
+[27èþë.2024 23:40:19.011] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.world.clouds.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.013] [modloading-worker-0/INFO] [mixin/]: Mixing immediate.MixinLevelRenderer from mixins.oculus.vertexformat.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.014] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.014] [modloading-worker-0/WARN] [mixin/]: oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[27èþë.2024 23:40:19.017] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer_EntityListSorting from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.017] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$batchedentityrendering$sortEntityList$1(Ljava/util/Map;Lnet/minecraft/world/entity/Entity;)V to mdc5199e$lambda$batchedentityrendering$sortEntityList$1$0 in oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting
+[27èþë.2024 23:40:19.017] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$batchedentityrendering$sortEntityList$0(Lnet/minecraft/world/entity/EntityType;)Ljava/util/List; to mdc5199e$lambda$batchedentityrendering$sortEntityList$0$1 in oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting
+[27èþë.2024 23:40:19.018] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinLevelRenderer from patchouli_xplat.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.019] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from mtr.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.019] [modloading-worker-0/WARN] [mixin/]: @Shadow field mtr.mixins.json:LevelRendererMixin::renderBuffers is decorated with @Final but target is not final
+[27èþë.2024 23:40:19.023] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.024] [modloading-worker-0/INFO] [mixin/]: Mixing ParrotMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.027] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererAccessor from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.041] [Thread-1/WARN] [Supplementaries/]: Failed to fetch contributors data from url https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/credits.json, java.lang.RuntimeException: Not a boolean: "true" missed input: {"toffanelly":{"has_globe":"true"}}
+[27èþë.2024 23:40:19.053] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.063] [modloading-worker-0/INFO] [mixin/]: Mixing fabulous.MixinDisableFabulousGraphics from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.063] [modloading-worker-0/INFO] [mixin/]: Mixing shadows.MixinLevelRenderer from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.064] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinLevelRenderer_SunMoonToggle from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.064] [modloading-worker-0/INFO] [mixin/]: Mixing MixinLevelRenderer from mixins.oculus.fantastic.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.066] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinLevelRenderer from mixins.oculus.compat.sodium.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.069] [modloading-worker-0/INFO] [mixin/]: Mixing features.options.weather.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.069] [modloading-worker-0/INFO] [mixin/]: Mixing features.render.gui.outlines.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.089] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.world.WorldRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.090] [modloading-worker-0/WARN] [mixin/]: @Shadow field embeddium.mixins.json:core.render.world.WorldRendererMixin::renderBuffers is decorated with @Final but target is not final
+[27èþë.2024 23:40:19.099] [modloading-worker-0/INFO] [mixin/]: Mixing shadows.MixinPreventRebuildNearInShadowPass from mixins.oculus.json into net.minecraft.client.renderer.LevelRenderer
+[27èþë.2024 23:40:19.463] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.MatrixStackMixin from embeddium.mixins.json into com.mojang.blaze3d.vertex.PoseStack
+[27èþë.2024 23:40:19.475] [modloading-worker-0/INFO] [mixin/]: Mixing CameraMixin from supplementaries-common.mixins.json into net.minecraft.client.Camera
+[27èþë.2024 23:40:19.488] [modloading-worker-0/INFO] [mixin/]: Mixing core.render.frustum.FrustumMixin from embeddium.mixins.json into net.minecraft.client.renderer.culling.Frustum
+[27èþë.2024 23:40:19.498] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfQuiverItem from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.items.QuiverItem
+[27èþë.2024 23:40:19.503] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_generate_path
+[27èþë.2024 23:40:19.504] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_clear_trains
+[27èþë.2024 23:40:19.504] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_sign_types
+[27èþë.2024 23:40:19.504] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_add_balance
+[27èþë.2024 23:40:19.504] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_pids_update
+[27èþë.2024 23:40:19.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_arrival_projector_update
+[27èþë.2024 23:40:19.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_use_time_and_wind_sync
+[27èþë.2024 23:40:19.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_station
+[27èþë.2024 23:40:19.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_platform
+[27èþë.2024 23:40:19.505] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_siding
+[27èþë.2024 23:40:19.506] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_route
+[27èþë.2024 23:40:19.506] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_depot
+[27èþë.2024 23:40:19.507] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift
+[27èþë.2024 23:40:19.508] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift_track_floor
+[27èþë.2024 23:40:19.508] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_station
+[27èþë.2024 23:40:19.509] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_platform
+[27èþë.2024 23:40:19.509] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_siding
+[27èþë.2024 23:40:19.509] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_route
+[27èþë.2024 23:40:19.510] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_depot
+[27èþë.2024 23:40:19.510] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_train_announcer
+[27èþë.2024 23:40:19.511] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_remove_rail_action
+[27èþë.2024 23:40:19.511] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_train_passenger_position
+[27èþë.2024 23:40:19.512] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_lift_passenger_position
+[27èþë.2024 23:40:19.512] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_entity_seat_position
+[27èþë.2024 23:40:19.512] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_drive_train
+[27èþë.2024 23:40:19.512] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_press_lift_button
+[27èþë.2024 23:40:19.519] [modloading-worker-0/INFO] [mixin/]: Mixing self.SerfOpenableContainerMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.tiles.OpeneableContainerBlockEntity
+[27èþë.2024 23:40:19.530] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfPlanterMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.PlanterBlock
+[27èþë.2024 23:40:19.567] [modloading-worker-0/INFO] [mixin/]: Mixing self.SelfFrameMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.blocks.FrameBlock
+[27èþë.2024 23:40:19.578] [modloading-worker-0/INFO] [mtr.libraries.org.eclipse.jetty.util.log/]: Logging initialized @17558ms to mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
+[27èþë.2024 23:40:19.648] [modloading-worker-0/INFO] [mixin/]: Mixing SelfEntitySpawnDataMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.entity.IExtraClientSpawnData
+[27èþë.2024 23:40:19.701] [modloading-worker-0/INFO] [mixin/]: Mixing MapDataMixin from moonlight-common.mixins.json into net.minecraft.world.level.saveddata.maps.MapItemSavedData
+[27èþë.2024 23:40:19.702] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$save$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/resources/ResourceLocation;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdc5199e$lambda$save$3$0 in moonlight-common.mixins.json:MapDataMixin
+[27èþë.2024 23:40:19.702] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$load$2(Lnet/minecraft/nbt/CompoundTag;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData;)V to mdc5199e$lambda$load$2$1 in moonlight-common.mixins.json:MapDataMixin
+[27èþë.2024 23:40:19.702] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$setCustomDataDirty$1(Lnet/mehvahdjukaar/moonlight/api/map/CustomMapData$Type;Ljava/util/function/Consumer;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer;)V to mdc5199e$lambda$setCustomDataDirty$1$2 in moonlight-common.mixins.json:MapDataMixin
+[27èþë.2024 23:40:19.702] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$setCustomDecorationsDirty$0(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer;)V to mdc5199e$lambda$setCustomDecorationsDirty$0$3 in moonlight-common.mixins.json:MapDataMixin
+[27èþë.2024 23:40:19.849] [modloading-worker-0/INFO] [mixin/]: Mixing copyEntity.cull.EntityRendererMixin from mixins.oculus.compat.sodium.json into net.minecraft.client.renderer.entity.EntityRenderer
+[27èþë.2024 23:40:19.893] [modloading-worker-0/INFO] [mixin/]: Mixing accessor.BrainAccessor from moonlight-common.mixins.json into net.minecraft.world.entity.ai.Brain
+[27èþë.2024 23:40:19.905] [modloading-worker-0/INFO] [mixin/]: Mixing sky.MixinDimensionSpecialEffects from mixins.oculus.json into net.minecraft.client.renderer.DimensionSpecialEffects
+[27èþë.2024 23:40:19.915] [modloading-worker-0/INFO] [mixin/]: Mixing SelfCustomModelLoaderMixin from moonlight.mixins.json into net.mehvahdjukaar.moonlight.api.client.model.CustomModelLoader
+[27èþë.2024 23:40:20.058] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from moonlight-common.mixins.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.059] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from mtr.mixins.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.062] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererMixin from supplementaries-common.mixins.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.064] [modloading-worker-0/INFO] [mixin/]: Mixing GameRendererAccessor from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.081] [modloading-worker-0/INFO] [mixin/]: Mixing MixinGameRenderer from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.089] [modloading-worker-0/INFO] [mixin/]: Mixing MixinModelViewBobbing from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.089] [modloading-worker-0/INFO] [mixin/]: Mixing features.gui.hooks.console.GameRendererMixin from embeddium.mixins.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.090] [modloading-worker-0/INFO] [mixin/]: Mixing MixinGameRenderer_NightVisionCompat from mixins.oculus.json into net.minecraft.client.renderer.GameRenderer
+[27èþë.2024 23:40:20.375] [modloading-worker-0/INFO] [mixin/]: Mixing rendertype.RenderTypeAccessor from mixins.oculus.json into net.minecraft.client.renderer.RenderType
+[27èþë.2024 23:40:20.379] [modloading-worker-0/INFO] [mixin/]: Mixing MixinRenderType from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderType
+[27èþë.2024 23:40:20.379] [modloading-worker-0/INFO] [mixin/]: Mixing RenderTypeAccessor from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderType
+[27èþë.2024 23:40:20.388] [modloading-worker-0/INFO] [mixin/]: Mixing rendertype.RenderStateShardAccessor from mixins.oculus.json into net.minecraft.client.renderer.RenderStateShard
+[27èþë.2024 23:40:20.388] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getTranslucentTransparency()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getTranslucentTransparency_$md$c5199e$0 in mixins.oculus.json:rendertype.RenderStateShardAccessor
+[27èþë.2024 23:40:20.395] [modloading-worker-0/INFO] [mixin/]: Mixing RenderStateShardAccessor from oculus-batched-entity-rendering.mixins.json into net.minecraft.client.renderer.RenderStateShard
+[27èþë.2024 23:40:20.396] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getNO_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getNO_TRANSPARENCY_$md$c5199e$1 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
+[27èþë.2024 23:40:20.399] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getGLINT_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getGLINT_TRANSPARENCY_$md$c5199e$2 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
+[27èþë.2024 23:40:20.403] [modloading-worker-0/INFO] [mixin/]: Renaming @Accessor method getCRUMBLING_TRANSPARENCY()Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard; to getCRUMBLING_TRANSPARENCY_$md$c5199e$3 in oculus-batched-entity-rendering.mixins.json:RenderStateShardAccessor
+[27èþë.2024 23:40:20.416] [modloading-worker-0/INFO] [mixin/]: Mixing PlayerRendererOffsetMixin from mtr.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[27èþë.2024 23:40:21.142] [main/INFO] [mixin/]: Mixing self.SelfSpeakerBlockTileMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.block.tiles.SpeakerBlockTile
+[27èþë.2024 23:40:21.364] [main/INFO] [Moonlight/]: Initialized block sets in 11ms
+[27èþë.2024 23:40:21.405] [main/INFO] [mixin/]: Mixing self.SelfDispenserMinecraftMixin from supplementaries.mixins.json into net.mehvahdjukaar.supplementaries.common.entities.dispenser_minecart.DispenserMinecartEntity
+[27èþë.2024 23:40:21.407] [main/INFO] [mixin/]: Renaming synthetic method lambda$reviveCaps$1()Lnet/minecraftforge/items/wrapper/InvWrapper; to mdc5199e$lambda$reviveCaps$1$0 in supplementaries.mixins.json:self.SelfDispenserMinecraftMixin
+[27èþë.2024 23:40:21.408] [main/INFO] [mixin/]: Renaming synthetic method lambda$new$0()Lnet/minecraftforge/items/wrapper/InvWrapper; to mdc5199e$lambda$new$0$1 in supplementaries.mixins.json:self.SelfDispenserMinecraftMixin
+[27èþë.2024 23:40:21.811] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[27èþë.2024 23:40:21.821] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[27èþë.2024 23:40:21.824] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[27èþë.2024 23:40:21.827] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[27èþë.2024 23:40:22.113] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ivan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[27èþë.2024 23:40:22.114] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Ivan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[27èþë.2024 23:40:22.132] [main/INFO] [mixin/]: Mixing MultiPackResourceManagerMixin from moonlight-common.mixins.json into net.minecraft.server.packs.resources.MultiPackResourceManager
+[27èþë.2024 23:40:22.267] [main/INFO] [mixin/]: Mixing texture.pbr.MixinDirectoryLister from mixins.oculus.json into net.minecraft.client.renderer.texture.atlas.sources.DirectoryLister
+[27èþë.2024 23:40:22.267] [main/INFO] [mixin/]: Renaming synthetic method lambda$run$0(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/FileToIdConverter;Lnet/minecraft/client/renderer/texture/atlas/SpriteSource$Output;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/server/packs/resources/Resource;)V to mdc5199e$lambda$run$0$0 in mixins.oculus.json:texture.pbr.MixinDirectoryLister
+[27èþë.2024 23:40:22.320] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[27èþë.2024 23:40:22.382] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 58 ms
+[27èþë.2024 23:40:22.382] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[27èþë.2024 23:40:22.415] [main/INFO] [mixin/]: Mixing MixinLootDataManager from architectury.mixins.json into net.minecraft.world.level.storage.loot.LootDataManager
+[27èþë.2024 23:40:22.462] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 79 ms
+[27èþë.2024 23:40:22.462] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: liminalcraft
+[27èþë.2024 23:40:22.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: liminalcraft finished after 72 ms
+[27èþë.2024 23:40:22.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: liminalcraft
+[27èþë.2024 23:40:22.535] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:holder_set_type]
+[27èþë.2024 23:40:22.535] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:structure_modifier]
+[27èþë.2024 23:40:22.535] [Worker-Main-2/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Generating ResourceKey[minecraft:root / forge:structure_modifier_serializers]
+[27èþë.2024 23:40:22.540] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: liminalcraft finished after 4 ms
+[27èþë.2024 23:40:22.540] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id liminalcraft
+[27èþë.2024 23:40:22.557] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id liminalcraft finished after 17 ms
+[27èþë.2024 23:40:22.558] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id liminalcraft
+[27èþë.2024 23:40:22.561] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id liminalcraft finished after 3 ms
+[27èþë.2024 23:40:22.561] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : liminalcraft
+[27èþë.2024 23:40:22.566] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : liminalcraft finished after 4 ms
+[27èþë.2024 23:40:22.566] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id liminalcraft
+[27èþë.2024 23:40:22.569] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id liminalcraft finished after 3 ms
+[27èþë.2024 23:40:22.569] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[27èþë.2024 23:40:22.588] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 18 ms
+[27èþë.2024 23:40:22.588] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 268 ms
+[27èþë.2024 23:40:22.597] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 93, old count: 93, new count: 94, removed stale: 0, written: 0
